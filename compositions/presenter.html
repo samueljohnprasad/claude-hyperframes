@@ -31,64 +31,91 @@
   <body>
     <div id="presenter" data-composition-id="presenter" data-width="1080" data-height="1920">
       <div id="presenter-rig" data-layout-allow-overflow>
+        <!-- CHARACTER:START — canonical avatar art. See CHARACTER.md before editing. Keep these ids:
+             head-anchor, glasses, eyelids, mouths, m-0 … m-9, hand-point, hand-palm. -->
         <svg width="650" height="750" viewBox="0 0 650 750" xmlns="http://www.w3.org/2000/svg">
-          <!-- Hoodie body -->
-          <path class="outline" d="M 120 750 Q 200 480 325 460 Q 450 480 530 750 Z" fill="#2E2B28" />
-          <path class="outline" d="M 230 470 Q 325 540 420 470" fill="none" />
-          <path class="outline" d="M 325 500 L 325 750" fill="none" stroke-dasharray="16 8" />
-          <line x1="280" y1="500" x2="280" y2="600" class="outline" stroke="#FBFAF8" stroke-width="4" />
-          <line x1="370" y1="500" x2="370" y2="600" class="outline" stroke="#FBFAF8" stroke-width="4" />
+          <!-- ============ BODY ============ -->
+          <g id="body-breath">
+            <!-- Hoodie torso (shoulders + chest, clipped at the bottom edge) -->
+            <path class="outline" d="M 82 820 C 88 690 118 606 194 558 C 236 532 276 512 302 504 L 348 504 C 374 512 414 532 456 558 C 532 606 562 690 568 820 Z" fill="#2E2B28" />
+            <!-- Left-side shade -->
+            <path d="M 82 820 C 88 690 118 606 194 558 C 172 620 156 700 154 820 Z" fill="#201D1B" opacity="0.5" />
+            <!-- Arm seams -->
+            <path d="M 194 558 C 176 622 166 700 164 800" fill="none" stroke="#201D1B" stroke-width="6" stroke-linecap="round" />
+            <path d="M 456 558 C 474 622 484 700 486 800" fill="none" stroke="#201D1B" stroke-width="6" stroke-linecap="round" />
+            <!-- Hood -->
+            <path class="outline" d="M 230 524 C 232 476 272 450 325 450 C 378 450 418 476 420 524 C 402 552 366 564 325 564 C 284 564 248 552 230 524 Z" fill="#262320" />
+            <path d="M 258 512 C 276 486 300 476 325 476 C 350 476 374 486 392 512 C 372 526 278 526 258 512 Z" fill="#151312" opacity="0.55" />
+            <!-- Drawstrings with red aglets -->
+            <path d="M 298 544 C 292 580 290 612 289 642" fill="none" stroke="#FBFAF8" stroke-width="7" stroke-linecap="round" />
+            <path d="M 352 544 C 358 580 360 612 361 642" fill="none" stroke="#FBFAF8" stroke-width="7" stroke-linecap="round" />
+            <rect x="283" y="634" width="12" height="24" rx="6" fill="#A31C14" />
+            <rect x="355" y="634" width="12" height="24" rx="6" fill="#A31C14" />
+            <!-- Kangaroo pocket -->
+            <path d="M 244 656 L 260 734 L 390 734 L 406 656" fill="none" stroke="#201D1B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+            <!-- Signature enamel pin -->
+            <circle cx="242" cy="604" r="10" fill="#A31C14" />
+            <circle cx="239" cy="601" r="3" fill="#FBFAF8" opacity="0.8" />
+          </g>
 
-          <!-- Head Anchor for swaying and nodding -->
+          <!-- ============ HEAD ============ -->
           <g id="head-anchor" transform="translate(0, 0)">
             <!-- Neck -->
-            <rect x="290" y="400" width="70" height="80" fill="#E8B896" class="outline" />
+            <path class="outline" d="M 286 398 L 286 500 C 286 522 364 522 364 500 L 364 398 Z" fill="#E8B896" />
+            <path d="M 286 398 L 364 398 L 364 432 C 340 446 310 446 286 432 Z" fill="#D69C79" opacity="0.65" />
 
             <!-- Ears -->
-            <circle cx="210" cy="340" r="28" fill="#E8B896" class="outline" />
-            <circle cx="440" cy="340" r="28" fill="#E8B896" class="outline" />
+            <ellipse cx="208" cy="332" rx="24" ry="32" fill="#E8B896" class="outline" />
+            <path d="M 204 318 C 196 328 196 342 204 350" fill="none" stroke="#C9825F" stroke-width="4" stroke-linecap="round" />
+            <ellipse cx="442" cy="332" rx="24" ry="32" fill="#E8B896" class="outline" />
+            <path d="M 446 318 C 454 328 454 342 446 350" fill="none" stroke="#C9825F" stroke-width="4" stroke-linecap="round" />
 
-            <!-- Head Base -->
-            <path class="outline" d="M 215 320 C 215 200 435 200 435 320 C 435 440 215 440 215 320 Z" fill="#F4CDB2" />
+            <!-- Face -->
+            <path class="outline" d="M 212 318 C 212 212 438 212 438 318 C 438 368 424 408 394 434 C 368 456 282 456 256 434 C 226 408 212 368 212 318 Z" fill="#F2C6A6" />
 
-            <!-- Hair -->
-            <path class="outline" d="M 205 290 C 200 180 450 170 445 290 C 420 230 380 230 325 240 C 270 230 230 240 205 290 Z" fill="#1E1C1A" />
+            <!-- Hair: side part -->
+            <path class="outline" d="M 206 298 C 198 210 264 176 330 180 C 400 168 452 212 444 298 L 442 330 C 428 304 414 274 394 258 C 368 244 336 248 304 248 C 266 246 234 262 218 298 Z" fill="#1B1815" />
 
             <!-- Eyebrows -->
-            <path id="brow-left" class="outline" d="M 240 290 Q 275 275 305 290" fill="none" stroke-width="7" />
-            <path id="brow-right" class="outline" d="M 345 290 Q 375 275 410 290" fill="none" stroke-width="7" />
+            <path id="brow-left" class="outline" d="M 244 284 Q 274 270 304 282" fill="none" stroke-width="8" />
+            <path id="brow-right" class="outline" d="M 348 282 Q 378 270 406 284" fill="none" stroke-width="8" />
+
+            <!-- Cheeks -->
+            <ellipse cx="252" cy="372" rx="20" ry="11" fill="#E08A6A" opacity="0.32" />
+            <ellipse cx="398" cy="372" rx="20" ry="11" fill="#E08A6A" opacity="0.32" />
 
             <!-- Eyes & Glasses -->
             <g id="glasses">
-              <rect x="235" y="300" width="75" height="58" rx="20" fill="#FBFAF8" class="outline" />
-              <rect x="340" y="300" width="75" height="58" rx="20" fill="#FBFAF8" class="outline" />
+              <rect x="234" y="298" width="76" height="60" rx="22" fill="#FBFAF8" class="outline" />
+              <rect x="340" y="298" width="76" height="60" rx="22" fill="#FBFAF8" class="outline" />
               <line x1="310" y1="326" x2="340" y2="326" class="outline" />
-              <line x1="210" y1="326" x2="235" y2="326" class="outline" />
-              <line x1="415" y1="326" x2="440" y2="326" class="outline" />
+              <line x1="210" y1="322" x2="234" y2="322" class="outline" />
+              <line x1="416" y1="322" x2="442" y2="322" class="outline" />
 
-              <!-- Pupils -->
-              <circle cx="272" cy="326" r="9" fill="#1E1C1A" />
-              <circle cx="377" cy="326" r="9" fill="#1E1C1A" />
-              <!-- Specular reflection -->
-              <circle cx="275" cy="323" r="3" fill="#FBFAF8" />
-              <circle cx="380" cy="323" r="3" fill="#FBFAF8" />
+              <!-- Irises + pupils -->
+              <circle cx="272" cy="328" r="10" fill="#4A3427" />
+              <circle cx="378" cy="328" r="10" fill="#4A3427" />
+              <circle cx="272" cy="328" r="5.5" fill="#1B1815" />
+              <circle cx="378" cy="328" r="5.5" fill="#1B1815" />
+              <circle cx="276" cy="324" r="2.6" fill="#FBFAF8" />
+              <circle cx="382" cy="324" r="2.6" fill="#FBFAF8" />
 
-              <!-- Eyelids (Blinking) -->
+              <!-- Eyelids (blinking) -->
               <g id="eyelids" style="opacity: 0;">
-                <rect x="233" y="298" width="79" height="62" rx="20" fill="#F4CDB2" class="outline" />
-                <rect x="338" y="298" width="79" height="62" rx="20" fill="#F4CDB2" class="outline" />
-                <line x1="240" y1="330" x2="305" y2="330" class="outline" />
-                <line x1="345" y1="330" x2="410" y2="330" class="outline" />
+                <rect x="232" y="296" width="80" height="64" rx="22" fill="#F2C6A6" class="outline" />
+                <rect x="338" y="296" width="80" height="64" rx="22" fill="#F2C6A6" class="outline" />
+                <line x1="240" y1="330" x2="306" y2="330" class="outline" />
+                <line x1="346" y1="330" x2="412" y2="330" class="outline" />
               </g>
             </g>
 
             <!-- Nose -->
-            <path class="outline" d="M 325 328 L 320 350 L 332 350" fill="none" stroke-width="5" />
+            <path d="M 326 332 L 319 358 Q 325 364 333 357" fill="none" stroke="#302018" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
 
             <!-- 10 Mouth Shapes (m-0 to m-9) -->
-            <g id="mouths" transform="translate(325, 390)">
-              <!-- 0: Closed / Rest -->
-              <path id="m-0" class="outline" d="M -26 0 Q 0 4 26 0" fill="none" />
+            <g id="mouths" transform="translate(325, 392)">
+              <!-- 0: Closed / rest (warm half-smile) -->
+              <path id="m-0" class="outline" d="M -28 -4 Q 0 12 28 -4" fill="none" />
               <!-- 1: Slight part -->
               <ellipse id="m-1" class="outline" cx="0" cy="2" rx="16" ry="5" fill="#1E1C1A" style="display: none;" />
               <!-- 2: Small round (oo) -->
@@ -96,7 +123,7 @@
               <!-- 3: Medium open (eh) -->
               <ellipse id="m-3" class="outline" cx="0" cy="4" rx="24" ry="10" fill="#1E1C1A" style="display: none;" />
               <!-- 4: Wide grin/smile -->
-              <path id="m-4" class="outline" d="M -30 -4 Q 0 16 30 -4 Z" fill="#FBFAF8" style="display: none;" />
+              <path id="m-4" class="outline" d="M -30 -4 Q 0 18 30 -4 Z" fill="#FBFAF8" style="display: none;" />
               <!-- 5: Open talking 1 -->
               <path id="m-5" class="outline" d="M -26 -4 Q 0 22 26 -4 Z" fill="#1E1C1A" style="display: none;" />
               <!-- 6: Open talking 2 (with tongue) -->
@@ -121,24 +148,36 @@
             </g>
           </g>
 
-          <!-- Pointing Hand (Raises from below for 1.7s on new points) -->
+          <!-- ============ HANDS ============ -->
+          <!-- Gesture rig: art is authored in local space so that at y=0 the hand sits beside the chest,
+               and slides fully below the frame when the timeline parks it at y=430. -->
           <g id="hand-point" transform="translate(180, 520)" opacity="0">
-            <!-- Sleeve -->
-            <path d="M -10 260 L 50 160 L 110 200 L 50 300 Z" fill="#2E2B28" stroke="#302018" stroke-width="6" />
-            <!-- Hand & pointing finger -->
-            <path d="M 40 160 L 40 40 C 40 20, 65 20, 65 40 L 65 130 C 75 125, 95 130, 90 145 C 95 145, 105 155, 100 170 C 105 170, 110 185, 95 200 L 50 200 Z" fill="#F4CDB2" stroke="#302018" stroke-width="6" stroke-linejoin="round" />
-            <line x1="65" y1="90" x2="65" y2="130" stroke="#302018" stroke-width="4" />
+            <!-- Forearm / hoodie sleeve -->
+            <path class="outline" d="M -90 950 L -84 620 C -83 602 -70 594 -54 594 L 46 594 C 63 594 76 604 76 620 L 70 950 Z" fill="#2E2B28" />
+            <!-- Cuff -->
+            <path d="M -84 596 C -62 610 52 610 76 596 L 74 632 C 48 648 -62 648 -82 632 Z" fill="#3B3733" stroke="#302018" stroke-width="4" stroke-linejoin="round" />
+            <!-- Pointing hand (right hand, palm out, index up) -->
+            <path class="outline" d="M -75 598 L -75 314 C -75 290 -39 290 -39 314 L -39 456 C -31 446 -13 448 -11 462 C -1 456 13 464 11 478 C 21 480 25 492 17 504 C 25 518 13 536 -3 538 L -3 598 Z" fill="#F2C6A6" />
+            <!-- Finger creases + thumb -->
+            <path d="M -17 466 Q -23 486 -21 502" fill="none" stroke="#C9825F" stroke-width="4" stroke-linecap="round" />
+            <path d="M 7 486 Q 1 500 1 512" fill="none" stroke="#C9825F" stroke-width="4" stroke-linecap="round" />
+            <path d="M -75 506 C -91 512 -95 530 -81 540" fill="none" stroke="#C9825F" stroke-width="4" stroke-linecap="round" />
           </g>
 
-          <!-- Open Palm Hand (Raises on alternate explanations) -->
           <g id="hand-palm" transform="translate(140, 530)" opacity="0">
-            <!-- Sleeve -->
-            <path d="M 0 250 L 60 160 L 120 190 L 60 280 Z" fill="#2E2B28" stroke="#302018" stroke-width="6" />
-            <!-- Open Palm facing upward -->
-            <path d="M 50 170 Q 30 110 60 90 Q 90 70 120 100 Q 150 110 140 160 L 90 195 Z" fill="#F4CDB2" stroke="#302018" stroke-width="6" stroke-linejoin="round" />
-            <path d="M 60 130 L 60 90 M 85 125 L 85 85 M 110 130 L 110 95" stroke="#302018" stroke-width="4" stroke-linecap="round" />
+            <!-- Forearm / hoodie sleeve -->
+            <path class="outline" d="M -62 950 L -54 656 C -52 636 -38 626 -20 626 L 62 626 C 82 626 94 638 96 656 L 90 950 Z" fill="#2E2B28" />
+            <!-- Cuff -->
+            <path d="M -56 636 C -32 652 74 652 98 636 L 96 674 C 68 690 -28 690 -48 674 Z" fill="#3B3733" stroke="#302018" stroke-width="4" stroke-linejoin="round" />
+            <!-- Open palm (fingers fanned, thumb low-left) -->
+            <path class="outline" d="M -48 644 L -58 502 C -62 478 -38 470 -30 492 L -10 544 L -20 458 C -24 434 2 424 12 446 L 32 534 L 30 442 C 30 416 58 414 62 440 L 68 534 L 78 464 C 82 440 108 446 104 470 L 94 554 C 96 584 76 606 48 610 Z" fill="#F2C6A6" />
+            <!-- Finger creases -->
+            <path d="M -6 500 L 0 526" fill="none" stroke="#C9825F" stroke-width="4" stroke-linecap="round" />
+            <path d="M 26 496 L 30 524" fill="none" stroke="#C9825F" stroke-width="4" stroke-linecap="round" />
+            <path d="M 56 500 L 56 526" fill="none" stroke="#C9825F" stroke-width="4" stroke-linecap="round" />
           </g>
         </svg>
+        <!-- CHARACTER:END -->
       </div>
     </div>
     <script>
@@ -151,6 +190,15 @@
         duration: 1.4,
         yoyo: true,
         repeat: 31,
+        ease: "sine.inOut"
+      }, 0);
+
+      // Idle breathing under the head (hood + shoulders rise a few pixels)
+      tl.to("#body-breath", {
+        y: -6,
+        duration: 2.1,
+        yoyo: true,
+        repeat: 20,
         ease: "sine.inOut"
       }, 0);
 
@@ -196,24 +244,24 @@
       tl.set("#eyelids", { opacity: 0 }, 37.14);
       tl.set("#eyelids", { opacity: 1 }, 41.145);
       tl.set("#eyelids", { opacity: 0 }, 41.285);
-      tl.fromTo("#hand-point", { y: 280, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out" }, 8.0);
-      tl.to("#hand-point", { y: 280, opacity: 0, duration: 0.24, ease: "power2.in" }, 9.46);
-      tl.fromTo("#hand-point", { y: 280, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out", immediateRender: false }, 14.0);
-      tl.to("#hand-point", { y: 280, opacity: 0, duration: 0.24, ease: "power2.in" }, 15.46);
-      tl.fromTo("#hand-point", { y: 280, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out", immediateRender: false }, 19.5);
-      tl.to("#hand-point", { y: 280, opacity: 0, duration: 0.24, ease: "power2.in" }, 20.96);
-      tl.fromTo("#hand-point", { y: 280, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out", immediateRender: false }, 26.5);
-      tl.to("#hand-point", { y: 280, opacity: 0, duration: 0.24, ease: "power2.in" }, 27.96);
-      tl.fromTo("#hand-point", { y: 280, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out", immediateRender: false }, 32.1);
-      tl.to("#hand-point", { y: 280, opacity: 0, duration: 0.24, ease: "power2.in" }, 33.56);
-      tl.fromTo("#hand-palm", { y: 280, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out" }, 3.5);
-      tl.to("#hand-palm", { y: 280, opacity: 0, duration: 0.24, ease: "power2.in" }, 4.96);
-      tl.fromTo("#hand-palm", { y: 280, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out", immediateRender: false }, 16.5);
-      tl.to("#hand-palm", { y: 280, opacity: 0, duration: 0.24, ease: "power2.in" }, 17.96);
-      tl.fromTo("#hand-palm", { y: 280, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out", immediateRender: false }, 29.0);
-      tl.to("#hand-palm", { y: 280, opacity: 0, duration: 0.24, ease: "power2.in" }, 30.46);
-      tl.fromTo("#hand-palm", { y: 280, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out", immediateRender: false }, 40.0);
-      tl.to("#hand-palm", { y: 280, opacity: 0, duration: 0.24, ease: "power2.in" }, 41.46);
+      tl.fromTo("#hand-point", { y: 500, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out" }, 8.0);
+      tl.to("#hand-point", { y: 500, opacity: 0, duration: 0.24, ease: "power2.in" }, 9.46);
+      tl.fromTo("#hand-point", { y: 500, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out", immediateRender: false }, 14.0);
+      tl.to("#hand-point", { y: 500, opacity: 0, duration: 0.24, ease: "power2.in" }, 15.46);
+      tl.fromTo("#hand-point", { y: 500, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out", immediateRender: false }, 19.5);
+      tl.to("#hand-point", { y: 500, opacity: 0, duration: 0.24, ease: "power2.in" }, 20.96);
+      tl.fromTo("#hand-point", { y: 500, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out", immediateRender: false }, 26.5);
+      tl.to("#hand-point", { y: 500, opacity: 0, duration: 0.24, ease: "power2.in" }, 27.96);
+      tl.fromTo("#hand-point", { y: 500, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out", immediateRender: false }, 32.1);
+      tl.to("#hand-point", { y: 500, opacity: 0, duration: 0.24, ease: "power2.in" }, 33.56);
+      tl.fromTo("#hand-palm", { y: 500, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out" }, 3.5);
+      tl.to("#hand-palm", { y: 500, opacity: 0, duration: 0.24, ease: "power2.in" }, 4.96);
+      tl.fromTo("#hand-palm", { y: 500, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out", immediateRender: false }, 16.5);
+      tl.to("#hand-palm", { y: 500, opacity: 0, duration: 0.24, ease: "power2.in" }, 17.96);
+      tl.fromTo("#hand-palm", { y: 500, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out", immediateRender: false }, 29.0);
+      tl.to("#hand-palm", { y: 500, opacity: 0, duration: 0.24, ease: "power2.in" }, 30.46);
+      tl.fromTo("#hand-palm", { y: 500, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out", immediateRender: false }, 40.0);
+      tl.to("#hand-palm", { y: 500, opacity: 0, duration: 0.24, ease: "power2.in" }, 41.46);
       tl.set("#m-0", { display: "block" }, 0.0);
       tl.set("#m-0", { display: "none" }, 0.233);
       tl.set("#m-5", { display: "block" }, 0.233);

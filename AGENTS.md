@@ -110,3 +110,19 @@ Then look at what you changed: `npx hyperframes snapshot --at <seconds>` (or `--
 4. A video with sound keeps it on the `<video>` (`data-has-audio="true"`, no `muted`). Use a separate `<audio>` for music, voiceover, replacement audio, J/L cuts, or audio detached in Studio. Silent footage and b-roll: `muted`.
 5. Sub-compositions use `data-composition-src="compositions/file.html"` to reference other HTML files
 6. Only deterministic logic — no `Date.now()`, no `Math.random()`, no network fetches
+
+## Character continuity — read before drawing a presenter
+
+This project has a **recurring character**: Dev, the developer-narrator. He must look the same in
+this video and in every future project — same face, hair, glasses, hoodie, and red enamel pin.
+
+- **Read `CHARACTER.md` first.** It holds the identity, palette, rig landmarks, required IDs, and
+  the reuse contract.
+- The canonical art is the block between `<!-- CHARACTER:START -->` and `<!-- CHARACTER:END -->`
+  in `compositions/presenter.html`. Copy it; do not redesign him per project.
+- Keep the IDs `head-anchor`, `glasses`, `eyelids`, `mouths`, `m-0…m-9`, `hand-point`, `hand-palm`.
+  The lip-sync and gesture timeline depends on them.
+- Re-time performance only (mouth shapes, blinks, nods, gestures). Never restyle the character to
+  match a brand palette — put the brand in the scene, not on his face.
+- `compositions/character-sheet.html` is the live visual reference card (it mounts the real
+  presenter). Snapshot it when you need a sanity check.

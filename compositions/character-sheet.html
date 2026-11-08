@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Dev — Character File</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Sans:wght@500;700&family=JetBrains+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body, #sheet-root {
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: #EBE7E1;
+        color: #2A1D16;
+      }
+      .clip {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 1080px;
+        height: 1920px;
+      }
+      #sheet-copy {
+        font-family: "Instrument Sans", sans-serif;
+      }
+      .mono {
+        font-family: "JetBrains Mono", monospace;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+      .head-row {
+        position: absolute;
+        top: 92px;
+        left: 96px;
+        right: 96px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 24px;
+        color: #6E655C;
+      }
+      .name {
+        position: absolute;
+        top: 128px;
+        left: 84px;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-size: 268px;
+        line-height: 0.9;
+        letter-spacing: -0.01em;
+        color: #1E1C1A;
+      }
+      .role {
+        position: absolute;
+        top: 430px;
+        left: 96px;
+        font-family: "JetBrains Mono", monospace;
+        font-weight: 700;
+        font-size: 27px;
+        letter-spacing: 0.2em;
+        color: #A31C14;
+      }
+      .rule {
+        position: absolute;
+        top: 500px;
+        left: 96px;
+        width: 888px;
+        height: 4px;
+        background: #302018;
+      }
+      .bio {
+        position: absolute;
+        top: 548px;
+        left: 96px;
+        width: 700px;
+        font-size: 42px;
+        line-height: 1.34;
+        font-weight: 500;
+        color: #2A1D16;
+      }
+      .bio em {
+        font-style: normal;
+        color: #A31C14;
+        font-weight: 700;
+      }
+      .chips {
+        position: absolute;
+        top: 882px;
+        left: 96px;
+        width: 820px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+      }
+      .chip {
+        border: 3px solid #302018;
+        border-radius: 999px;
+        padding: 12px 22px;
+        font-family: "JetBrains Mono", monospace;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #2A1D16;
+        background: #F6F2EC;
+      }
+      .swatches {
+        position: absolute;
+        top: 1048px;
+        left: 96px;
+        display: flex;
+        gap: 18px;
+      }
+      .swatch-wrap {
+        width: 118px;
+      }
+      .swatch {
+        width: 118px;
+        height: 104px;
+        border: 3px solid #302018;
+        border-radius: 6px;
+      }
+      .hex {
+        margin-top: 10px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 13px;
+        letter-spacing: 0.02em;
+        color: #6E655C;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+      .footer {
+        position: absolute;
+        top: 1216px;
+        left: 96px;
+        font-size: 25px;
+        letter-spacing: 0.18em;
+        color: #A31C14;
+      }
+      .footer span {
+        color: #6E655C;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="sheet-root" data-composition-id="character-sheet" data-width="1080" data-height="1920">
+      <!-- Opaque sheet background so the card is self-contained when mounted -->
+      <div id="sheet-bg" class="clip" data-start="0" data-duration="30" style="background:#EBE7E1"></div>
+
+      <!-- Live presenter mount: the card can never drift from the actual character -->
+      <div
+        id="character-sheet-presenter"
+        class="clip"
+        data-start="0"
+        data-duration="30"
+        data-composition-src="compositions/presenter.html"
+        data-composition-id="character-sheet-presenter"
+      ></div>
+
+      <div id="sheet-copy" class="clip" data-start="0" data-duration="30">
+        <div class="head-row mono">
+          <span>// Character file</span>
+          <span>V2 · 2026.11</span>
+        </div>
+
+        <h1 class="name">DEV</h1>
+        <div class="role">The HyperFrames presenter</div>
+        <div class="rule"></div>
+
+        <p class="bio">
+          Mid-20s developer. Black side-part, round glasses, charcoal hoodie,
+          <em>one red enamel pin</em>. Same face in every film.
+        </p>
+
+        <div class="chips">
+          <span class="chip">Black side-part</span>
+          <span class="chip">Round glasses</span>
+          <span class="chip">Charcoal hoodie</span>
+          <span class="chip">Red enamel pin</span>
+        </div>
+
+        <div class="swatches">
+          <div class="swatch-wrap">
+            <div class="swatch" style="background:#302018"></div>
+            <div class="hex">#302018 ink</div>
+          </div>
+          <div class="swatch-wrap">
+            <div class="swatch" style="background:#F2C6A6"></div>
+            <div class="hex">#F2C6A6 skin</div>
+          </div>
+          <div class="swatch-wrap">
+            <div class="swatch" style="background:#1B1815"></div>
+            <div class="hex">#1B1815 hair</div>
+          </div>
+          <div class="swatch-wrap">
+            <div class="swatch" style="background:#2E2B28"></div>
+            <div class="hex">#2E2B28 hoodie</div>
+          </div>
+          <div class="swatch-wrap">
+            <div class="swatch" style="background:#A31C14"></div>
+            <div class="hex">#A31C14 pin</div>
+          </div>
+          <div class="swatch-wrap">
+            <div class="swatch" style="background:#FBFAF8"></div>
+            <div class="hex">#FBFAF8 paper</div>
+          </div>
+        </div>
+
+        <div class="footer mono">Same face. Every film. <span>— read CHARACTER.md</span></div>
+      </div>
+    </main>
+
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      window.__timelines = window.__timelines || {};
+      window.__timelines["character-sheet"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>
