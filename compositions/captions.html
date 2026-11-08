@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,500;0,600;1,500&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      :root {
+        --ink: #1E1C1A;
+        --red: #A31C14;
+        --light-grey: #726D66;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body, #captions {
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: transparent;
+      }
+      #captions-box {
+        position: absolute;
+        top: 196px;
+        left: 120px;
+        width: 850px;
+        display: block;
+      }
+      .caption-block {
+        display: block;
+        font-family: 'Instrument Sans', sans-serif;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 1.25;
+        color: var(--ink);
+      }
+      .caption-word {
+        opacity: 0;
+        color: var(--light-grey);
+      }
+      .caption-word.key-word {
+        font-family: 'Instrument Serif', serif;
+        font-style: italic;
+        font-size: 1.16em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="captions" data-composition-id="captions" data-width="1080" data-height="1920">
+      <div id="captions-box">
+        <div id="caption-block-0" class="caption-block" style="display: none;">
+        <span id="w-0" class="caption-word">Building</span> 
+        <span id="w-1" class="caption-word">everything</span> 
+        <span id="w-2" class="caption-word">from</span> 
+        <span id="w-3" class="caption-word">scratch</span> 
+        <span id="w-4" class="caption-word key-word">hurts</span> 
+        </div>
+        <div id="caption-block-1" class="caption-block" style="display: none;">
+        <span id="w-5" class="caption-word">These</span> 
+        <span id="w-6" class="caption-word">five</span> 
+        <span id="w-7" class="caption-word">open</span> 
+        <span id="w-8" class="caption-word">source</span> 
+        <span id="w-9" class="caption-word">titans</span> 
+        <span id="w-10" class="caption-word">will</span> 
+        <span id="w-11" class="caption-word key-word">supercharge</span> 
+        <span id="w-12" class="caption-word">your</span> 
+        <span id="w-13" class="caption-word">developer</span> 
+        <span id="w-14" class="caption-word">workflow</span> 
+        <span id="w-15" class="caption-word">forever</span> 
+        </div>
+        <div id="caption-block-2" class="caption-block" style="display: none;">
+        <span id="w-16" class="caption-word">React</span> 
+        <span id="w-17" class="caption-word">powers</span> 
+        <span id="w-18" class="caption-word">interactive</span> 
+        <span id="w-19" class="caption-word">user</span> 
+        <span id="w-20" class="caption-word key-word">interfaces</span> 
+        <span id="w-21" class="caption-word">across</span> 
+        <span id="w-22" class="caption-word">millions</span> 
+        <span id="w-23" class="caption-word">of</span> 
+        <span id="w-24" class="caption-word">modern</span> 
+        <span id="w-25" class="caption-word">web</span> 
+        <span id="w-26" class="caption-word">applications</span> 
+        </div>
+        <div id="caption-block-3" class="caption-block" style="display: none;">
+        <span id="w-27" class="caption-word">Transformers</span> 
+        <span id="w-28" class="caption-word">lets</span> 
+        <span id="w-29" class="caption-word">you</span> 
+        <span id="w-30" class="caption-word">run</span> 
+        <span id="w-31" class="caption-word">cutting</span> 
+        <span id="w-32" class="caption-word">edge</span> 
+        <span id="w-33" class="caption-word">artificial</span> 
+        <span id="w-34" class="caption-word key-word">intelligence</span> 
+        <span id="w-35" class="caption-word">in</span> 
+        <span id="w-36" class="caption-word">three</span> 
+        <span id="w-37" class="caption-word">lines</span> 
+        </div>
+        <div id="caption-block-4" class="caption-block" style="display: none;">
+        <span id="w-38" class="caption-word">FastAPI</span> 
+        <span id="w-39" style="display:none;"></span>
+        <span id="w-40" class="caption-word">delivers</span> 
+        <span id="w-41" class="caption-word">production</span> 
+        <span id="w-42" class="caption-word">ready</span> 
+        <span id="w-43" class="caption-word">asynchronous</span> 
+        <span id="w-44" class="caption-word">backend</span> 
+        <span id="w-45" style="display:none;"></span>
+        <span id="w-46" class="caption-word">microservices</span> 
+        <span id="w-47" class="caption-word">with</span> 
+        <span id="w-48" class="caption-word">automatic</span> 
+        <span id="w-49" class="caption-word key-word">documentation</span> 
+        </div>
+        <div id="caption-block-5" class="caption-block" style="display: none;">
+        <span id="w-50" class="caption-word">Tauri</span> 
+        <span id="w-51" class="caption-word">builds</span> 
+        <span id="w-52" class="caption-word">blazingly</span> 
+        <span id="w-53" class="caption-word">fast</span> 
+        <span id="w-54" class="caption-word">desktop</span> 
+        <span id="w-55" class="caption-word key-word">software</span> 
+        <span id="w-56" class="caption-word">using</span> 
+        <span id="w-57" class="caption-word">tiny</span> 
+        <span id="w-58" class="caption-word">web</span> 
+        <span id="w-59" class="caption-word">frontends</span> 
+        <span id="w-60" style="display:none;"></span>
+        </div>
+        <div id="caption-block-6" class="caption-block" style="display: none;">
+        <span id="w-61" class="caption-word">Supabase</span> 
+        <span id="w-62" class="caption-word">gives</span> 
+        <span id="w-63" class="caption-word">you</span> 
+        <span id="w-64" class="caption-word">scalable</span> 
+        <span id="w-65" class="caption-word">Postgres</span> 
+        <span id="w-66" class="caption-word">databases</span> 
+        <span id="w-67" class="caption-word">authentication</span> 
+        <span id="w-68" class="caption-word">and</span> 
+        <span id="w-69" class="caption-word">realtime</span> 
+        <span id="w-70" style="display:none;"></span>
+        <span id="w-71" class="caption-word">storage</span> 
+        <span id="w-72" class="caption-word key-word">instantly</span> 
+        </div>
+        <div id="caption-block-7" class="caption-block" style="display: none;">
+        <span id="w-73" class="caption-word">Star</span> 
+        <span id="w-74" class="caption-word">these</span> 
+        <span id="w-75" class="caption-word">five</span> 
+        <span id="w-76" class="caption-word">repositories</span> 
+        <span id="w-77" class="caption-word">now</span> 
+        <span id="w-78" class="caption-word">before</span> 
+        <span id="w-79" class="caption-word">building</span> 
+        <span id="w-80" class="caption-word">everything</span> 
+        <span id="w-81" class="caption-word">from</span> 
+        <span id="w-82" class="caption-word key-word">scratch</span> 
+        </div>
+      </div>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      tl.set("#caption-block-0", { display: "block" }, 0.0);
+      tl.set("#caption-block-0", { display: "none" }, 2.6);
+      tl.set("#w-0", { opacity: 1, color: "#726D66" }, 0.0);
+      tl.to("#w-0", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 0.0);
+      tl.set("#w-1", { opacity: 1, color: "#726D66" }, 0.52);
+      tl.to("#w-1", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 0.52);
+      tl.set("#w-2", { opacity: 1, color: "#726D66" }, 1.14);
+      tl.to("#w-2", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 1.14);
+      tl.set("#w-3", { opacity: 1, color: "#726D66" }, 1.6);
+      tl.to("#w-3", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 1.6);
+      tl.set("#w-4", { opacity: 1, color: "#726D66" }, 1.9);
+      tl.to("#w-4", { color: "#A31C14", duration: 0.20, ease: "power1.out" }, 1.9);
+      tl.set("#caption-block-1", { display: "block" }, 2.6);
+      tl.set("#caption-block-1", { display: "none" }, 7.8);
+      tl.set("#w-5", { opacity: 1, color: "#726D66" }, 2.84);
+      tl.to("#w-5", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 2.84);
+      tl.set("#w-6", { opacity: 1, color: "#726D66" }, 3.02);
+      tl.to("#w-6", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 3.02);
+      tl.set("#w-7", { opacity: 1, color: "#726D66" }, 3.38);
+      tl.to("#w-7", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 3.38);
+      tl.set("#w-8", { opacity: 1, color: "#726D66" }, 3.84);
+      tl.to("#w-8", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 3.84);
+      tl.set("#w-9", { opacity: 1, color: "#726D66" }, 4.16);
+      tl.to("#w-9", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 4.16);
+      tl.set("#w-10", { opacity: 1, color: "#726D66" }, 4.74);
+      tl.to("#w-10", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 4.74);
+      tl.set("#w-11", { opacity: 1, color: "#726D66" }, 5.16);
+      tl.to("#w-11", { color: "#A31C14", duration: 0.20, ease: "power1.out" }, 5.16);
+      tl.set("#w-12", { opacity: 1, color: "#726D66" }, 5.92);
+      tl.to("#w-12", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 5.92);
+      tl.set("#w-13", { opacity: 1, color: "#726D66" }, 6.3);
+      tl.to("#w-13", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 6.3);
+      tl.set("#w-14", { opacity: 1, color: "#726D66" }, 6.72);
+      tl.to("#w-14", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 6.72);
+      tl.set("#w-15", { opacity: 1, color: "#726D66" }, 7.24);
+      tl.to("#w-15", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 7.24);
+      tl.set("#caption-block-2", { display: "block" }, 7.8);
+      tl.set("#caption-block-2", { display: "none" }, 13.8);
+      tl.set("#w-16", { opacity: 1, color: "#726D66" }, 8.2);
+      tl.to("#w-16", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 8.2);
+      tl.set("#w-17", { opacity: 1, color: "#726D66" }, 8.38);
+      tl.to("#w-17", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 8.38);
+      tl.set("#w-18", { opacity: 1, color: "#726D66" }, 8.96);
+      tl.to("#w-18", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 8.96);
+      tl.set("#w-19", { opacity: 1, color: "#726D66" }, 9.46);
+      tl.to("#w-19", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 9.46);
+      tl.set("#w-20", { opacity: 1, color: "#726D66" }, 10.0);
+      tl.to("#w-20", { color: "#A31C14", duration: 0.20, ease: "power1.out" }, 10.0);
+      tl.set("#w-21", { opacity: 1, color: "#726D66" }, 10.68);
+      tl.to("#w-21", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 10.68);
+      tl.set("#w-22", { opacity: 1, color: "#726D66" }, 11.32);
+      tl.to("#w-22", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 11.32);
+      tl.set("#w-23", { opacity: 1, color: "#726D66" }, 11.88);
+      tl.to("#w-23", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 11.88);
+      tl.set("#w-24", { opacity: 1, color: "#726D66" }, 12.48);
+      tl.to("#w-24", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 12.48);
+      tl.set("#w-25", { opacity: 1, color: "#726D66" }, 12.8);
+      tl.to("#w-25", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 12.8);
+      tl.set("#w-26", { opacity: 1, color: "#726D66" }, 13.06);
+      tl.to("#w-26", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 13.06);
+      tl.set("#caption-block-3", { display: "block" }, 13.8);
+      tl.set("#caption-block-3", { display: "none" }, 19.3);
+      tl.set("#w-27", { opacity: 1, color: "#726D66" }, 14.26);
+      tl.to("#w-27", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 14.26);
+      tl.set("#w-28", { opacity: 1, color: "#726D66" }, 15.0);
+      tl.to("#w-28", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 15.0);
+      tl.set("#w-29", { opacity: 1, color: "#726D66" }, 15.46);
+      tl.to("#w-29", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 15.46);
+      tl.set("#w-30", { opacity: 1, color: "#726D66" }, 15.66);
+      tl.to("#w-30", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 15.66);
+      tl.set("#w-31", { opacity: 1, color: "#726D66" }, 15.92);
+      tl.to("#w-31", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 15.92);
+      tl.set("#w-32", { opacity: 1, color: "#726D66" }, 16.3);
+      tl.to("#w-32", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 16.3);
+      tl.set("#w-33", { opacity: 1, color: "#726D66" }, 16.66);
+      tl.to("#w-33", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 16.66);
+      tl.set("#w-34", { opacity: 1, color: "#726D66" }, 17.18);
+      tl.to("#w-34", { color: "#A31C14", duration: 0.20, ease: "power1.out" }, 17.18);
+      tl.set("#w-35", { opacity: 1, color: "#726D66" }, 17.96);
+      tl.to("#w-35", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 17.96);
+      tl.set("#w-36", { opacity: 1, color: "#726D66" }, 18.5);
+      tl.to("#w-36", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 18.5);
+      tl.set("#w-37", { opacity: 1, color: "#726D66" }, 18.76);
+      tl.to("#w-37", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 18.76);
+      tl.set("#caption-block-4", { display: "block" }, 19.3);
+      tl.set("#caption-block-4", { display: "none" }, 26.3);
+      tl.set("#w-38", { opacity: 1, color: "#726D66" }, 19.68);
+      tl.to("#w-38", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 19.68);
+      tl.set("#w-39", { opacity: 1, color: "#726D66" }, 19.82);
+      tl.to("#w-39", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 19.82);
+      tl.set("#w-40", { opacity: 1, color: "#726D66" }, 20.32);
+      tl.to("#w-40", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 20.32);
+      tl.set("#w-41", { opacity: 1, color: "#726D66" }, 21.02);
+      tl.to("#w-41", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 21.02);
+      tl.set("#w-42", { opacity: 1, color: "#726D66" }, 21.68);
+      tl.to("#w-42", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 21.68);
+      tl.set("#w-43", { opacity: 1, color: "#726D66" }, 22.26);
+      tl.to("#w-43", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 22.26);
+      tl.set("#w-44", { opacity: 1, color: "#726D66" }, 22.88);
+      tl.to("#w-44", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 22.88);
+      tl.set("#w-45", { opacity: 1, color: "#726D66" }, 23.36);
+      tl.to("#w-45", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 23.36);
+      tl.set("#w-46", { opacity: 1, color: "#726D66" }, 23.58);
+      tl.to("#w-46", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 23.58);
+      tl.set("#w-47", { opacity: 1, color: "#726D66" }, 24.5);
+      tl.to("#w-47", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 24.5);
+      tl.set("#w-48", { opacity: 1, color: "#726D66" }, 25.06);
+      tl.to("#w-48", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 25.06);
+      tl.set("#w-49", { opacity: 1, color: "#726D66" }, 25.64);
+      tl.to("#w-49", { color: "#A31C14", duration: 0.20, ease: "power1.out" }, 25.64);
+      tl.set("#caption-block-5", { display: "block" }, 26.3);
+      tl.set("#caption-block-5", { display: "none" }, 31.9);
+      tl.set("#w-50", { opacity: 1, color: "#726D66" }, 26.58);
+      tl.to("#w-50", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 26.58);
+      tl.set("#w-51", { opacity: 1, color: "#726D66" }, 27.36);
+      tl.to("#w-51", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 27.36);
+      tl.set("#w-52", { opacity: 1, color: "#726D66" }, 27.7);
+      tl.to("#w-52", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 27.7);
+      tl.set("#w-53", { opacity: 1, color: "#726D66" }, 28.38);
+      tl.to("#w-53", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 28.38);
+      tl.set("#w-54", { opacity: 1, color: "#726D66" }, 28.72);
+      tl.to("#w-54", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 28.72);
+      tl.set("#w-55", { opacity: 1, color: "#726D66" }, 29.3);
+      tl.to("#w-55", { color: "#A31C14", duration: 0.20, ease: "power1.out" }, 29.3);
+      tl.set("#w-56", { opacity: 1, color: "#726D66" }, 30.02);
+      tl.to("#w-56", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 30.02);
+      tl.set("#w-57", { opacity: 1, color: "#726D66" }, 30.56);
+      tl.to("#w-57", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 30.56);
+      tl.set("#w-58", { opacity: 1, color: "#726D66" }, 31.0);
+      tl.to("#w-58", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 31.0);
+      tl.set("#w-59", { opacity: 1, color: "#726D66" }, 31.28);
+      tl.to("#w-59", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 31.28);
+      tl.set("#w-60", { opacity: 1, color: "#726D66" }, 31.58);
+      tl.to("#w-60", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 31.58);
+      tl.set("#caption-block-6", { display: "block" }, 31.9);
+      tl.set("#caption-block-6", { display: "none" }, 38.8);
+      tl.set("#w-61", { opacity: 1, color: "#726D66" }, 32.26);
+      tl.to("#w-61", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 32.26);
+      tl.set("#w-62", { opacity: 1, color: "#726D66" }, 32.92);
+      tl.to("#w-62", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 32.92);
+      tl.set("#w-63", { opacity: 1, color: "#726D66" }, 33.16);
+      tl.to("#w-63", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 33.16);
+      tl.set("#w-64", { opacity: 1, color: "#726D66" }, 33.34);
+      tl.to("#w-64", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 33.34);
+      tl.set("#w-65", { opacity: 1, color: "#726D66" }, 33.78);
+      tl.to("#w-65", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 33.78);
+      tl.set("#w-66", { opacity: 1, color: "#726D66" }, 34.72);
+      tl.to("#w-66", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 34.72);
+      tl.set("#w-67", { opacity: 1, color: "#726D66" }, 35.78);
+      tl.to("#w-67", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 35.78);
+      tl.set("#w-68", { opacity: 1, color: "#726D66" }, 37.04);
+      tl.to("#w-68", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 37.04);
+      tl.set("#w-69", { opacity: 1, color: "#726D66" }, 37.14);
+      tl.to("#w-69", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 37.14);
+      tl.set("#w-70", { opacity: 1, color: "#726D66" }, 37.36);
+      tl.to("#w-70", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 37.36);
+      tl.set("#w-71", { opacity: 1, color: "#726D66" }, 37.6);
+      tl.to("#w-71", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 37.6);
+      tl.set("#w-72", { opacity: 1, color: "#726D66" }, 38.14);
+      tl.to("#w-72", { color: "#A31C14", duration: 0.20, ease: "power1.out" }, 38.14);
+      tl.set("#caption-block-7", { display: "block" }, 38.8);
+      tl.set("#w-73", { opacity: 1, color: "#726D66" }, 39.3);
+      tl.to("#w-73", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 39.3);
+      tl.set("#w-74", { opacity: 1, color: "#726D66" }, 39.52);
+      tl.to("#w-74", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 39.52);
+      tl.set("#w-75", { opacity: 1, color: "#726D66" }, 39.78);
+      tl.to("#w-75", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 39.78);
+      tl.set("#w-76", { opacity: 1, color: "#726D66" }, 40.18);
+      tl.to("#w-76", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 40.18);
+      tl.set("#w-77", { opacity: 1, color: "#726D66" }, 40.98);
+      tl.to("#w-77", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 40.98);
+      tl.set("#w-78", { opacity: 1, color: "#726D66" }, 41.28);
+      tl.to("#w-78", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 41.28);
+      tl.set("#w-79", { opacity: 1, color: "#726D66" }, 41.84);
+      tl.to("#w-79", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 41.84);
+      tl.set("#w-80", { opacity: 1, color: "#726D66" }, 42.26);
+      tl.to("#w-80", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 42.26);
+      tl.set("#w-81", { opacity: 1, color: "#726D66" }, 42.8);
+      tl.to("#w-81", { color: "#1E1C1A", duration: 0.20, ease: "power1.out" }, 42.8);
+      tl.set("#w-82", { opacity: 1, color: "#726D66" }, 43.08);
+      tl.to("#w-82", { color: "#A31C14", duration: 0.20, ease: "power1.out" }, 43.08);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["captions"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

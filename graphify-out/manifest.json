@@ -1,0 +1,337 @@
+{
+  ".hyperframes/artifacts/checks/8952144b-313a-4f1d-9a2e-112de09a4c47.json": {
+    "mtime": 1794080984.1708987,
+    "ast_hash": "3c8de7d103e930c7e83e12237ca7cf7e",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/checks/d49d9e41-9040-401e-8c3d-2640b7175876.json": {
+    "mtime": 1794082314.5911307,
+    "ast_hash": "d3dc12fff5f13bed3ded26a517a04c4e",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/7103c698-3ace-49c4-a8c8-ab001bb12dc2/.capture-owner.json": {
+    "mtime": 1794082151.6886199,
+    "ast_hash": "263aa64680a1b37a40e0d31604b93a9e",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/91c08ff3-ddd4-418a-a5aa-720c0915fe68/.capture-owner.json": {
+    "mtime": 1794082363.730953,
+    "ast_hash": "2348294c993b571ccf1f92bcff7ab6d8",
+    "semantic_hash": ""
+  },
+  ".hyperframes/render-outputs.json": {
+    "mtime": 1794084643.990566,
+    "ast_hash": "affa31fcf0f913ddb7a80c71ff2fd28f",
+    "semantic_hash": ""
+  },
+  ".hyperframes/video-state.json": {
+    "mtime": 1794084763.942832,
+    "ast_hash": "d4fb233a1eb826caf909df3f8219845a",
+    "semantic_hash": ""
+  },
+  "hyperframes.json": {
+    "mtime": 1794080184.4657185,
+    "ast_hash": "9aba7af72c9a867a940b5ea847eb18da",
+    "semantic_hash": ""
+  },
+  "meta.json": {
+    "mtime": 1794080184.46201,
+    "ast_hash": "b98b772bfe15f805de7f3a28d2580091",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1794080184.466519,
+    "ast_hash": "fba7b06a972f06d1e7bbdc37f9803622",
+    "semantic_hash": ""
+  },
+  "src/build_project.py": {
+    "mtime": 1794081260.1904142,
+    "ast_hash": "783a3f9afb67395a6b99938bf6aa9c98",
+    "semantic_hash": ""
+  },
+  "src/dots.json": {
+    "mtime": 1794081265.2687519,
+    "ast_hash": "ea1cccf8002eb3708ccc762b244b414e",
+    "semantic_hash": ""
+  },
+  "src/gen_voice_samples.py": {
+    "mtime": 1794083268.1577256,
+    "ast_hash": "262e1fd49dd5905b3c7984edd133f242",
+    "semantic_hash": ""
+  },
+  "src/generate_all_compositions.py": {
+    "mtime": 1794084569.3002517,
+    "ast_hash": "809f6f6cbda72bf0d3de8c5722efca6e",
+    "semantic_hash": ""
+  },
+  "src/generate_index_html.py": {
+    "mtime": 1794081359.0577197,
+    "ast_hash": "d2802dabe1fb9ed5c2150995db53c81c",
+    "semantic_hash": ""
+  },
+  "src/generate_sfx.py": {
+    "mtime": 1794080826.513802,
+    "ast_hash": "81ff901a675d709e3078b22c000b415f",
+    "semantic_hash": ""
+  },
+  "src/process_audio.py": {
+    "mtime": 1794083399.3316836,
+    "ast_hash": "d08b72144a10aaec8ef4bfac83da9889",
+    "semantic_hash": ""
+  },
+  "transcript.json": {
+    "mtime": 1794083453.6039371,
+    "ast_hash": "66c59db8d40bf5c204dcf35c1df0c7c7",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1794080184.467532,
+    "ast_hash": "66b6588741f362a75ce79435a7714d49",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1794080184.4680116,
+    "ast_hash": "66b6588741f362a75ce79435a7714d49",
+    "semantic_hash": ""
+  },
+  "compositions/captions.html": {
+    "mtime": 1794084578.0036497,
+    "ast_hash": "f1a34ae9a53647d47b948e9ba42f7043",
+    "semantic_hash": ""
+  },
+  "compositions/closing.html": {
+    "mtime": 1794084577.979646,
+    "ast_hash": "fcb6f8cb1cecf80b93e1694384cabc7d",
+    "semantic_hash": ""
+  },
+  "compositions/hook1.html": {
+    "mtime": 1794084577.9782395,
+    "ast_hash": "2f1f4cab41c347bb84f48bdc6547a375",
+    "semantic_hash": ""
+  },
+  "compositions/hook2.html": {
+    "mtime": 1794084577.9783537,
+    "ast_hash": "eaed5fdcb5b43689ec25d424901982db",
+    "semantic_hash": ""
+  },
+  "compositions/paper.html": {
+    "mtime": 1794084577.9780898,
+    "ast_hash": "9dae781e7892c934f49d2bb4160294b3",
+    "semantic_hash": ""
+  },
+  "compositions/point1.html": {
+    "mtime": 1794084577.9786756,
+    "ast_hash": "352ca421b8e8990b812d251ae64d59c8",
+    "semantic_hash": ""
+  },
+  "compositions/point2.html": {
+    "mtime": 1794084577.9788904,
+    "ast_hash": "c55c3280b6ca4aa32612ce6e5ee843ee",
+    "semantic_hash": ""
+  },
+  "compositions/point3.html": {
+    "mtime": 1794084577.979081,
+    "ast_hash": "45509a3c1198660f1b23bfabfb0615d9",
+    "semantic_hash": ""
+  },
+  "compositions/point4.html": {
+    "mtime": 1794084577.9792595,
+    "ast_hash": "4dfe0a0b1239789b8ce50173d69356b9",
+    "semantic_hash": ""
+  },
+  "compositions/point5.html": {
+    "mtime": 1794084577.9794607,
+    "ast_hash": "fca3bcba7485e0ea32694e6934b46abe",
+    "semantic_hash": ""
+  },
+  "compositions/presenter.html": {
+    "mtime": 1794084578.0032113,
+    "ast_hash": "295536f6e541255e4398779601d55015",
+    "semantic_hash": ""
+  },
+  "compositions/wipe.html": {
+    "mtime": 1794084577.9814694,
+    "ast_hash": "ba5285b6ac82423e24add3d2388d0771",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1794084578.003797,
+    "ast_hash": "e7ad642f3eb043f1f58ac2d0bc6d373f",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/7103c698-3ace-49c4-a8c8-ab001bb12dc2/contact-sheet.jpg": {
+    "mtime": 1794082151.6861284,
+    "ast_hash": "ee55ac581329fcd7d885e6156678546f",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/91c08ff3-ddd4-418a-a5aa-720c0915fe68/contact-sheet.jpg": {
+    "mtime": 1794082363.7296522,
+    "ast_hash": "be2078537798ac9bd8aef998a8b02b58",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/91c08ff3-ddd4-418a-a5aa-720c0915fe68/frame-00-at-7s.png": {
+    "mtime": 1794082352.4961555,
+    "ast_hash": "8137f4179ad7a08539bb713d25a625c9",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/91c08ff3-ddd4-418a-a5aa-720c0915fe68/frame-01-at-14s.png": {
+    "mtime": 1794082352.9568646,
+    "ast_hash": "7bc6f99e58f7ce473775ac5a042e8651",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/91c08ff3-ddd4-418a-a5aa-720c0915fe68/frame-02-at-19s.png": {
+    "mtime": 1794082353.4148285,
+    "ast_hash": "966e256a44a2cd6df1606a55c1dc6e6a",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/91c08ff3-ddd4-418a-a5aa-720c0915fe68/frame-03-at-25s.png": {
+    "mtime": 1794082353.8748262,
+    "ast_hash": "f9b4bc0b77fe17a1ce23a6db76753f43",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/91c08ff3-ddd4-418a-a5aa-720c0915fe68/frame-04-at-30s.png": {
+    "mtime": 1794082354.337186,
+    "ast_hash": "eb0a1edee06c1e26e8f44f87c8c2a83d",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/91c08ff3-ddd4-418a-a5aa-720c0915fe68/frame-05-at-35.25s.png": {
+    "mtime": 1794082354.7968638,
+    "ast_hash": "9d05b5d692e96acd58206b2d7fc81ae3",
+    "semantic_hash": ""
+  },
+  "audio/music.wav": {
+    "mtime": 1794083545.1729848,
+    "ast_hash": "08cdb031adb28b6420549bd5cd60d8fb",
+    "semantic_hash": ""
+  },
+  "audio/pop.wav": {
+    "mtime": 1794080844.7182806,
+    "ast_hash": "5910d0a8d245a0491449575a0ce84b40",
+    "semantic_hash": ""
+  },
+  "audio/thud.wav": {
+    "mtime": 1794080844.7240458,
+    "ast_hash": "115921486a3a95cb5e58c8054fae9723",
+    "semantic_hash": ""
+  },
+  "audio/tick.wav": {
+    "mtime": 1794080844.722365,
+    "ast_hash": "27cb7d1e846b7c24fd3a4c81b8e27ee6",
+    "semantic_hash": ""
+  },
+  "audio/typing.wav": {
+    "mtime": 1794080844.7227936,
+    "ast_hash": "43c8b06ab3ce301f1ba2e88ee0e22080",
+    "semantic_hash": ""
+  },
+  "audio/voice.wav": {
+    "mtime": 1794083443.5525062,
+    "ast_hash": "470286074de2a50b5a3d6946ba8b31a9",
+    "semantic_hash": ""
+  },
+  "audio/whoosh.wav": {
+    "mtime": 1794080844.7218947,
+    "ast_hash": "1664c667aec58ae377baa1e961ca8ec7",
+    "semantic_hash": ""
+  },
+  "audio_samples/adam_test.wav": {
+    "mtime": 1794080492.0680215,
+    "ast_hash": "e78f599b0c467945b591871413545765",
+    "semantic_hash": ""
+  },
+  "audio_samples/line1_voice1_adam.wav": {
+    "mtime": 1794083289.3807068,
+    "ast_hash": "630edf2385d3610e9a8986aae11ccb77",
+    "semantic_hash": ""
+  },
+  "audio_samples/line1_voice2_michael.wav": {
+    "mtime": 1794083290.3696716,
+    "ast_hash": "3b8783ff4998b82cf55ca3d228c9f893",
+    "semantic_hash": ""
+  },
+  "audio_samples/line1_voice3_george.wav": {
+    "mtime": 1794083294.49278,
+    "ast_hash": "fcb5973f79a5fb44fc8baea8f3080941",
+    "semantic_hash": ""
+  },
+  "renders/untitled folder 2_2026-11-08_01-42-57.mp4": {
+    "mtime": 1794082452.8102562,
+    "ast_hash": "29e16ca61278ec7956cdfbe42fc6684f",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/8320fa33-7e2f-4877-8485-96e91920b9e0/.capture-owner.json": {
+    "mtime": 1794084382.3268294,
+    "ast_hash": "dea9b5d45adfba1f8dd84f8ba126b549",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/ec169159-a0ee-44b5-80cd-40935219dec8/.capture-owner.json": {
+    "mtime": 1794084620.2664921,
+    "ast_hash": "ebd2a19035f3d4bd7d81b33f3b4d60a8",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/8320fa33-7e2f-4877-8485-96e91920b9e0/contact-sheet-1.jpg": {
+    "mtime": 1794084382.299775,
+    "ast_hash": "9eab3e58af1dfe96b4faf37b888a932e",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/8320fa33-7e2f-4877-8485-96e91920b9e0/contact-sheet-2.jpg": {
+    "mtime": 1794084382.3256109,
+    "ast_hash": "fa20dd9960689192c85828daadb304b9",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/ec169159-a0ee-44b5-80cd-40935219dec8/contact-sheet.jpg": {
+    "mtime": 1794084620.265054,
+    "ast_hash": "3dab8359ef77508bd56aa56018ca1537",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/ec169159-a0ee-44b5-80cd-40935219dec8/frame-00-at-1s.png": {
+    "mtime": 1794084606.1788163,
+    "ast_hash": "4c639e1362f86c5058880b8cc8693dcb",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/ec169159-a0ee-44b5-80cd-40935219dec8/frame-01-at-4s.png": {
+    "mtime": 1794084606.8513236,
+    "ast_hash": "dac170c6c2f9f44af51ad8ae3c21c2f4",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/ec169159-a0ee-44b5-80cd-40935219dec8/frame-02-at-11s.png": {
+    "mtime": 1794084607.5202405,
+    "ast_hash": "e17af74e8ae4e12e6c5faf24b7f7288e",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/ec169159-a0ee-44b5-80cd-40935219dec8/frame-03-at-17s.png": {
+    "mtime": 1794084608.1414523,
+    "ast_hash": "48dfdbd53f53d6ea018ba63be0f500ea",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/ec169159-a0ee-44b5-80cd-40935219dec8/frame-04-at-23s.png": {
+    "mtime": 1794084608.7637067,
+    "ast_hash": "d88ebaa0ff6ad37c488a449e5834fdf4",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/ec169159-a0ee-44b5-80cd-40935219dec8/frame-05-at-29s.png": {
+    "mtime": 1794084609.3985538,
+    "ast_hash": "6d5b9505f614f61be8d5b1838943b3d2",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/ec169159-a0ee-44b5-80cd-40935219dec8/frame-06-at-36s.png": {
+    "mtime": 1794084610.0293016,
+    "ast_hash": "9aa4849cf70b7ca761beb32ec0d4f2cd",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/ec169159-a0ee-44b5-80cd-40935219dec8/frame-07-at-43.8s.png": {
+    "mtime": 1794084610.6778462,
+    "ast_hash": "9a067de1427bfb25dd2ce9e7277698b9",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/ec169159-a0ee-44b5-80cd-40935219dec8/frame-08-at-44.55s.png": {
+    "mtime": 1794084610.7931752,
+    "ast_hash": "657a116643c2fc791bff5c0a2c2a1382",
+    "semantic_hash": ""
+  },
+  "renders/untitled folder 2_2026-11-08_02-20-42.mp4": {
+    "mtime": 1794084754.284672,
+    "ast_hash": "7d2283ed27609c434fc3c6a10bcf9d68",
+    "semantic_hash": ""
+  }
+}

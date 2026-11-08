@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      :root {
+        --ink: #1E1C1A;
+        --red: #A31C14;
+        --grey: #726D66;
+        --card-bg: #FBFAF8;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body, #hook2 {
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: transparent;
+      }
+      .hook2-container {
+        position: absolute;
+        top: 660px;
+        left: 120px;
+        width: 840px;
+        height: 460px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .mini-card-wrap {
+        position: relative;
+        width: 840px;
+        height: 76px;
+        transform: scale(0.55);
+        opacity: 0;
+      }
+      .mini-shadow {
+        position: absolute;
+        top: 8px;
+        left: -8px;
+        width: 840px;
+        height: 76px;
+        border-radius: 14px;
+        background-image: radial-gradient(var(--ink) 1.5px, transparent 1.5px);
+        background-size: 7px 7px;
+        z-index: 1;
+      }
+      .mini-card {
+        position: relative;
+        z-index: 2;
+        width: 840px;
+        height: 76px;
+        background: var(--card-bg);
+        border: 3px solid var(--ink);
+        border-radius: 14px;
+        padding: 0 28px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Anton', sans-serif;
+        font-size: 34px;
+        color: var(--ink);
+      }
+      .ring-svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 840px;
+        height: 460px;
+        pointer-events: none;
+        z-index: 10;
+      }
+      .ring-path {
+        fill: none;
+        stroke: var(--red);
+        stroke-width: 7;
+        stroke-linecap: round;
+        stroke-dasharray: 2300;
+        stroke-dashoffset: 2300;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="hook2" data-composition-id="hook2" data-width="1080" data-height="1920">
+      <div class="hook2-container">
+        <div id="mc-0" class="mini-card-wrap">
+          <div class="mini-shadow"></div>
+          <div class="mini-card">
+            <span>01 · REACT</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 24px; color: var(--red);" data-layout-ignore>225k ★</span>
+          </div>
+        </div>
+        <div id="mc-1" class="mini-card-wrap">
+          <div class="mini-shadow"></div>
+          <div class="mini-card">
+            <span>02 · TRANSFORMERS</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 24px; color: var(--red);" data-layout-ignore>135k ★</span>
+          </div>
+        </div>
+        <div id="mc-2" class="mini-card-wrap">
+          <div class="mini-shadow"></div>
+          <div class="mini-card">
+            <span>03 · FASTAPI</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 24px; color: var(--red);" data-layout-ignore>80k ★</span>
+          </div>
+        </div>
+        <div id="mc-3" class="mini-card-wrap">
+          <div class="mini-shadow"></div>
+          <div class="mini-card">
+            <span>04 · TAURI</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 24px; color: var(--red);" data-layout-ignore>85k ★</span>
+          </div>
+        </div>
+        <div id="mc-4" class="mini-card-wrap">
+          <div class="mini-shadow"></div>
+          <div class="mini-card">
+            <span>05 · SUPABASE</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 24px; color: var(--red);" data-layout-ignore>75k ★</span>
+          </div>
+        </div>
+
+        <svg class="ring-svg" data-layout-allow-overflow>
+          <ellipse id="payoff-ring" class="ring-path" cx="420" cy="230" rx="400" ry="210" transform="rotate(-2 420 230)" />
+        </svg>
+      </div>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      
+      // Pop mini cards in 0.16s apart starting at 0.4s relative to hook2 (which is ~3.0s real time)
+      const cards = ["#mc-0", "#mc-1", "#mc-2", "#mc-3", "#mc-4"];
+      cards.forEach((c, idx) => {
+        tl.to(c, {
+          scale: 1,
+          opacity: 1,
+          duration: 0.34,
+          ease: "back.out(2.2)"
+        }, 0.35 + idx * 0.16);
+      });
+
+      // Red ring draws around payoff on word 'supercharge' at 5.16s (relative 2.56s)
+      tl.to("#payoff-ring", {
+        strokeDashoffset: 0,
+        duration: 0.55,
+        ease: "power2.out"
+      }, 2.56);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines["hook2"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

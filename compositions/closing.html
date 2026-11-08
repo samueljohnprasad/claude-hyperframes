@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      :root {
+        --ink: #1E1C1A;
+        --red: #A31C14;
+        --grey: #726D66;
+        --card-bg: #FBFAF8;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body, #closing {
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: transparent;
+      }
+      .closing-card-wrap {
+        position: absolute;
+        top: 660px;
+        left: 120px;
+        width: 840px;
+        height: 460px;
+      }
+      .closing-card-shadow {
+        position: absolute;
+        top: 12px;
+        left: -13px;
+        width: 840px;
+        height: 460px;
+        border-radius: 20px;
+        background-image: radial-gradient(var(--ink) 1.7px, transparent 1.7px);
+        background-size: 8px 8px;
+        z-index: 1;
+      }
+      .closing-card {
+        position: relative;
+        z-index: 2;
+        width: 840px;
+        height: 460px;
+        background: var(--card-bg);
+        border: 3px solid var(--ink);
+        border-radius: 20px;
+        padding: 44px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .closing-tag {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 28px;
+        color: var(--grey);
+        text-transform: uppercase;
+      }
+      .closing-statement {
+        font-family: 'Anton', sans-serif;
+        font-size: 72px;
+        line-height: 1.05;
+        color: var(--ink);
+        text-transform: uppercase;
+      }
+      .strike-line {
+        stroke: var(--red);
+        stroke-width: 9;
+        stroke-linecap: round;
+        stroke-dasharray: 780;
+        stroke-dashoffset: 780;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="closing" data-composition-id="closing" data-width="1080" data-height="1920">
+      <div class="closing-card-wrap">
+        <div class="closing-card-shadow"></div>
+        <div class="closing-card">
+          <div class="closing-tag" data-layout-ignore>// FINAL VERDICT</div>
+          <div class="closing-statement">BUILDING EVERYTHING FROM SCRATCH</div>
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 28px; color: var(--red);" data-layout-ignore>
+            STATUS: USE OPEN SOURCE
+          </div>
+          <svg style="position: absolute; top: 0; left: 0; width: 840px; height: 460px; pointer-events: none;">
+            <line id="strike-close" class="strike-line" x1="60" y1="230" x2="780" y2="230" />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      // Strikethrough matches frame 1 on word 'scratch' at 4.08s relative to closing (real time ~43.08s)
+      tl.to("#strike-close", {
+        strokeDashoffset: 0,
+        duration: 0.35,
+        ease: "power2.out"
+      }, 4.08);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines["closing"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

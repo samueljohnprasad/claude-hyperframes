@@ -1,0 +1,513 @@
+{
+  "duration": 43.98,
+  "words": [
+    {
+      "word": "building",
+      "start": 0.0,
+      "end": 0.52,
+      "prob": 0.633
+    },
+    {
+      "word": "everything",
+      "start": 0.52,
+      "end": 1.14,
+      "prob": 0.993
+    },
+    {
+      "word": "from",
+      "start": 1.14,
+      "end": 1.6,
+      "prob": 0.997
+    },
+    {
+      "word": "scratch",
+      "start": 1.6,
+      "end": 1.9,
+      "prob": 0.995
+    },
+    {
+      "word": "hurts.",
+      "start": 1.9,
+      "end": 2.44,
+      "prob": 0.604
+    },
+    {
+      "word": "These",
+      "start": 2.84,
+      "end": 3.02,
+      "prob": 0.981
+    },
+    {
+      "word": "five",
+      "start": 3.02,
+      "end": 3.38,
+      "prob": 0.831
+    },
+    {
+      "word": "open",
+      "start": 3.38,
+      "end": 3.84,
+      "prob": 0.944
+    },
+    {
+      "word": "-source",
+      "start": 3.84,
+      "end": 4.16,
+      "prob": 0.708
+    },
+    {
+      "word": "titans",
+      "start": 4.16,
+      "end": 4.74,
+      "prob": 0.805
+    },
+    {
+      "word": "will",
+      "start": 4.74,
+      "end": 5.16,
+      "prob": 0.99
+    },
+    {
+      "word": "supercharge",
+      "start": 5.16,
+      "end": 5.92,
+      "prob": 0.956
+    },
+    {
+      "word": "your",
+      "start": 5.92,
+      "end": 6.3,
+      "prob": 0.995
+    },
+    {
+      "word": "developer",
+      "start": 6.3,
+      "end": 6.72,
+      "prob": 0.948
+    },
+    {
+      "word": "workflow",
+      "start": 6.72,
+      "end": 7.24,
+      "prob": 0.99
+    },
+    {
+      "word": "forever.",
+      "start": 7.24,
+      "end": 7.76,
+      "prob": 0.981
+    },
+    {
+      "word": "React",
+      "start": 8.2,
+      "end": 8.38,
+      "prob": 0.927
+    },
+    {
+      "word": "powers",
+      "start": 8.38,
+      "end": 8.96,
+      "prob": 0.801
+    },
+    {
+      "word": "interactive",
+      "start": 8.96,
+      "end": 9.46,
+      "prob": 0.931
+    },
+    {
+      "word": "user",
+      "start": 9.46,
+      "end": 10.0,
+      "prob": 0.992
+    },
+    {
+      "word": "interfaces",
+      "start": 10.0,
+      "end": 10.68,
+      "prob": 0.995
+    },
+    {
+      "word": "across",
+      "start": 10.68,
+      "end": 11.32,
+      "prob": 0.943
+    },
+    {
+      "word": "millions",
+      "start": 11.32,
+      "end": 11.88,
+      "prob": 0.997
+    },
+    {
+      "word": "of",
+      "start": 11.88,
+      "end": 12.48,
+      "prob": 0.999
+    },
+    {
+      "word": "modern",
+      "start": 12.48,
+      "end": 12.8,
+      "prob": 0.992
+    },
+    {
+      "word": "web",
+      "start": 12.8,
+      "end": 13.06,
+      "prob": 0.974
+    },
+    {
+      "word": "applications.",
+      "start": 13.06,
+      "end": 13.68,
+      "prob": 0.998
+    },
+    {
+      "word": "Transformers",
+      "start": 14.26,
+      "end": 15.0,
+      "prob": 0.986
+    },
+    {
+      "word": "lets",
+      "start": 15.0,
+      "end": 15.46,
+      "prob": 0.942
+    },
+    {
+      "word": "you",
+      "start": 15.46,
+      "end": 15.66,
+      "prob": 0.997
+    },
+    {
+      "word": "run",
+      "start": 15.66,
+      "end": 15.92,
+      "prob": 0.997
+    },
+    {
+      "word": "cutting",
+      "start": 15.92,
+      "end": 16.3,
+      "prob": 0.962
+    },
+    {
+      "word": "-edge",
+      "start": 16.3,
+      "end": 16.66,
+      "prob": 0.751
+    },
+    {
+      "word": "artificial",
+      "start": 16.66,
+      "end": 17.18,
+      "prob": 0.982
+    },
+    {
+      "word": "intelligence",
+      "start": 17.18,
+      "end": 17.96,
+      "prob": 0.995
+    },
+    {
+      "word": "in",
+      "start": 17.96,
+      "end": 18.5,
+      "prob": 0.995
+    },
+    {
+      "word": "three",
+      "start": 18.5,
+      "end": 18.76,
+      "prob": 0.958
+    },
+    {
+      "word": "lines.",
+      "start": 18.76,
+      "end": 19.28,
+      "prob": 0.997
+    },
+    {
+      "word": "Fast",
+      "start": 19.68,
+      "end": 19.82,
+      "prob": 0.923
+    },
+    {
+      "word": "API",
+      "start": 19.82,
+      "end": 20.32,
+      "prob": 0.521
+    },
+    {
+      "word": "delivers",
+      "start": 20.32,
+      "end": 21.02,
+      "prob": 0.997
+    },
+    {
+      "word": "production",
+      "start": 21.02,
+      "end": 21.68,
+      "prob": 0.991
+    },
+    {
+      "word": "ready",
+      "start": 21.68,
+      "end": 22.26,
+      "prob": 0.928
+    },
+    {
+      "word": "asynchronous",
+      "start": 22.26,
+      "end": 22.88,
+      "prob": 0.836
+    },
+    {
+      "word": "back",
+      "start": 22.88,
+      "end": 23.36,
+      "prob": 0.532
+    },
+    {
+      "word": "-end",
+      "start": 23.36,
+      "end": 23.58,
+      "prob": 0.799
+    },
+    {
+      "word": "microservices",
+      "start": 23.58,
+      "end": 24.5,
+      "prob": 0.897
+    },
+    {
+      "word": "with",
+      "start": 24.5,
+      "end": 25.06,
+      "prob": 0.973
+    },
+    {
+      "word": "automatic",
+      "start": 25.06,
+      "end": 25.64,
+      "prob": 0.99
+    },
+    {
+      "word": "documentation.",
+      "start": 25.64,
+      "end": 26.58,
+      "prob": 0.999
+    },
+    {
+      "word": "Tori",
+      "start": 26.58,
+      "end": 27.36,
+      "prob": 0.776
+    },
+    {
+      "word": "builds",
+      "start": 27.36,
+      "end": 27.7,
+      "prob": 0.987
+    },
+    {
+      "word": "blazingly",
+      "start": 27.7,
+      "end": 28.38,
+      "prob": 0.963
+    },
+    {
+      "word": "fast",
+      "start": 28.38,
+      "end": 28.72,
+      "prob": 0.966
+    },
+    {
+      "word": "desktop",
+      "start": 28.72,
+      "end": 29.3,
+      "prob": 0.987
+    },
+    {
+      "word": "software",
+      "start": 29.3,
+      "end": 30.02,
+      "prob": 0.996
+    },
+    {
+      "word": "using",
+      "start": 30.02,
+      "end": 30.56,
+      "prob": 0.914
+    },
+    {
+      "word": "tiny",
+      "start": 30.56,
+      "end": 31.0,
+      "prob": 0.936
+    },
+    {
+      "word": "web",
+      "start": 31.0,
+      "end": 31.28,
+      "prob": 0.923
+    },
+    {
+      "word": "front",
+      "start": 31.28,
+      "end": 31.58,
+      "prob": 0.988
+    },
+    {
+      "word": "-ends.",
+      "start": 31.58,
+      "end": 31.98,
+      "prob": 0.73
+    },
+    {
+      "word": "SuperBase",
+      "start": 32.26,
+      "end": 32.92,
+      "prob": 0.817
+    },
+    {
+      "word": "gives",
+      "start": 32.92,
+      "end": 33.16,
+      "prob": 0.989
+    },
+    {
+      "word": "you",
+      "start": 33.16,
+      "end": 33.34,
+      "prob": 0.998
+    },
+    {
+      "word": "scalable",
+      "start": 33.34,
+      "end": 33.78,
+      "prob": 0.979
+    },
+    {
+      "word": "posters,",
+      "start": 33.78,
+      "end": 34.28,
+      "prob": 0.087
+    },
+    {
+      "word": "databases,",
+      "start": 34.72,
+      "end": 35.18,
+      "prob": 0.992
+    },
+    {
+      "word": "authentication,",
+      "start": 35.78,
+      "end": 36.3,
+      "prob": 0.975
+    },
+    {
+      "word": "and",
+      "start": 37.04,
+      "end": 37.14,
+      "prob": 0.996
+    },
+    {
+      "word": "real",
+      "start": 37.14,
+      "end": 37.36,
+      "prob": 0.983
+    },
+    {
+      "word": "-time",
+      "start": 37.36,
+      "end": 37.6,
+      "prob": 0.917
+    },
+    {
+      "word": "storage",
+      "start": 37.6,
+      "end": 38.14,
+      "prob": 0.998
+    },
+    {
+      "word": "instantly.",
+      "start": 38.14,
+      "end": 38.76,
+      "prob": 0.981
+    },
+    {
+      "word": "Star",
+      "start": 39.3,
+      "end": 39.52,
+      "prob": 0.866
+    },
+    {
+      "word": "these",
+      "start": 39.52,
+      "end": 39.78,
+      "prob": 0.999
+    },
+    {
+      "word": "five",
+      "start": 39.78,
+      "end": 40.18,
+      "prob": 0.748
+    },
+    {
+      "word": "repositories",
+      "start": 40.18,
+      "end": 40.98,
+      "prob": 0.989
+    },
+    {
+      "word": "now",
+      "start": 40.98,
+      "end": 41.28,
+      "prob": 0.982
+    },
+    {
+      "word": "before",
+      "start": 41.28,
+      "end": 41.84,
+      "prob": 0.633
+    },
+    {
+      "word": "building",
+      "start": 41.84,
+      "end": 42.26,
+      "prob": 0.998
+    },
+    {
+      "word": "everything",
+      "start": 42.26,
+      "end": 42.8,
+      "prob": 0.998
+    },
+    {
+      "word": "from",
+      "start": 42.8,
+      "end": 43.08,
+      "prob": 0.999
+    },
+    {
+      "word": "scratch.",
+      "start": 43.08,
+      "end": 43.4,
+      "prob": 0.991
+    }
+  ],
+  "sentences": [
+    "Building everything from scratch hurts.",
+    "These five open source titans will supercharge your developer workflow forever.",
+    "React powers interactive user interfaces across millions of modern web applications.",
+    "Transformers lets you run cutting edge artificial intelligence in three lines.",
+    "FastAPI delivers production ready asynchronous backend microservices with automatic documentation.",
+    "Tauri builds blazingly fast desktop software using tiny web frontends.",
+    "Supabase gives you scalable Postgres databases, authentication, and realtime storage instantly.",
+    "Star these five repositories now before building everything from scratch."
+  ]
+}

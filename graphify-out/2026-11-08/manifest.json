@@ -1,0 +1,262 @@
+{
+  ".hyperframes/artifacts/checks/8952144b-313a-4f1d-9a2e-112de09a4c47.json": {
+    "mtime": 1794080984.1708987,
+    "ast_hash": "3c8de7d103e930c7e83e12237ca7cf7e",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/checks/d49d9e41-9040-401e-8c3d-2640b7175876.json": {
+    "mtime": 1794082314.5911307,
+    "ast_hash": "d3dc12fff5f13bed3ded26a517a04c4e",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/7103c698-3ace-49c4-a8c8-ab001bb12dc2/.capture-owner.json": {
+    "mtime": 1794082151.6886199,
+    "ast_hash": "263aa64680a1b37a40e0d31604b93a9e",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/91c08ff3-ddd4-418a-a5aa-720c0915fe68/.capture-owner.json": {
+    "mtime": 1794082363.730953,
+    "ast_hash": "2348294c993b571ccf1f92bcff7ab6d8",
+    "semantic_hash": ""
+  },
+  ".hyperframes/render-outputs.json": {
+    "mtime": 1794082391.9899826,
+    "ast_hash": "1d7063201d5bce3c472007a73568818c",
+    "semantic_hash": ""
+  },
+  ".hyperframes/video-state.json": {
+    "mtime": 1794082462.4483862,
+    "ast_hash": "f112b2c92b1841d3152e0ec80d96f0ae",
+    "semantic_hash": ""
+  },
+  "hyperframes.json": {
+    "mtime": 1794080184.4657185,
+    "ast_hash": "9aba7af72c9a867a940b5ea847eb18da",
+    "semantic_hash": ""
+  },
+  "meta.json": {
+    "mtime": 1794080184.46201,
+    "ast_hash": "b98b772bfe15f805de7f3a28d2580091",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1794080184.466519,
+    "ast_hash": "fba7b06a972f06d1e7bbdc37f9803622",
+    "semantic_hash": ""
+  },
+  "src/build_project.py": {
+    "mtime": 1794081260.1904142,
+    "ast_hash": "783a3f9afb67395a6b99938bf6aa9c98",
+    "semantic_hash": ""
+  },
+  "src/dots.json": {
+    "mtime": 1794081265.2687519,
+    "ast_hash": "ea1cccf8002eb3708ccc762b244b414e",
+    "semantic_hash": ""
+  },
+  "src/gen_voice_samples.py": {
+    "mtime": 1794080505.7014053,
+    "ast_hash": "d5d3446289c036e8f61001fd7cd61d17",
+    "semantic_hash": ""
+  },
+  "src/generate_all_compositions.py": {
+    "mtime": 1794082284.269774,
+    "ast_hash": "d85a13e1c7c7cc38d8c4296670974446",
+    "semantic_hash": ""
+  },
+  "src/generate_index_html.py": {
+    "mtime": 1794081359.0577197,
+    "ast_hash": "d2802dabe1fb9ed5c2150995db53c81c",
+    "semantic_hash": ""
+  },
+  "src/generate_sfx.py": {
+    "mtime": 1794080826.513802,
+    "ast_hash": "81ff901a675d709e3078b22c000b415f",
+    "semantic_hash": ""
+  },
+  "src/process_audio.py": {
+    "mtime": 1794080679.0007007,
+    "ast_hash": "eb63417d8af54172ace9edd259ff443c",
+    "semantic_hash": ""
+  },
+  "transcript.json": {
+    "mtime": 1794080747.6696165,
+    "ast_hash": "789950d2cdce23f8947ef633a2849075",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1794080184.467532,
+    "ast_hash": "66b6588741f362a75ce79435a7714d49",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1794080184.4680116,
+    "ast_hash": "66b6588741f362a75ce79435a7714d49",
+    "semantic_hash": ""
+  },
+  "compositions/captions.html": {
+    "mtime": 1794082291.8873765,
+    "ast_hash": "24368145688c5008a38222962c00e866",
+    "semantic_hash": ""
+  },
+  "compositions/closing.html": {
+    "mtime": 1794082291.869987,
+    "ast_hash": "d128c02f6074f9b1601e4dc0c4dc59c9",
+    "semantic_hash": ""
+  },
+  "compositions/hook1.html": {
+    "mtime": 1794082291.867605,
+    "ast_hash": "ffdec0bcdb3d17162c5d2b95bb7caab5",
+    "semantic_hash": ""
+  },
+  "compositions/hook2.html": {
+    "mtime": 1794082291.8679235,
+    "ast_hash": "fa9cb8d5d294af4d7220fba5f2edd985",
+    "semantic_hash": ""
+  },
+  "compositions/paper.html": {
+    "mtime": 1794082291.8674629,
+    "ast_hash": "500dbde67910805ded51589f5c42befb",
+    "semantic_hash": ""
+  },
+  "compositions/point1.html": {
+    "mtime": 1794082291.868568,
+    "ast_hash": "0198651085eab0e4b31113f772876cdc",
+    "semantic_hash": ""
+  },
+  "compositions/point2.html": {
+    "mtime": 1794082291.868884,
+    "ast_hash": "4a68311842f022318770e1b9064fbb41",
+    "semantic_hash": ""
+  },
+  "compositions/point3.html": {
+    "mtime": 1794082291.8691587,
+    "ast_hash": "e46d33c2cfa1c5492082e65960fa0a20",
+    "semantic_hash": ""
+  },
+  "compositions/point4.html": {
+    "mtime": 1794082291.8694525,
+    "ast_hash": "4dcda7fb944ad51899330720ddc8f568",
+    "semantic_hash": ""
+  },
+  "compositions/point5.html": {
+    "mtime": 1794082291.8697965,
+    "ast_hash": "ea27e752780242937c705cfd059098ec",
+    "semantic_hash": ""
+  },
+  "compositions/presenter.html": {
+    "mtime": 1794082291.8859499,
+    "ast_hash": "effbf0cb25e6591232e8df6612a30f87",
+    "semantic_hash": ""
+  },
+  "compositions/wipe.html": {
+    "mtime": 1794081510.3115728,
+    "ast_hash": "4cac18f54b19b94779e160e65a8fb68d",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1794081510.3269484,
+    "ast_hash": "41c4eded15f46f71a4f467cfdcfe2b26",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/7103c698-3ace-49c4-a8c8-ab001bb12dc2/contact-sheet.jpg": {
+    "mtime": 1794082151.6861284,
+    "ast_hash": "ee55ac581329fcd7d885e6156678546f",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/91c08ff3-ddd4-418a-a5aa-720c0915fe68/contact-sheet.jpg": {
+    "mtime": 1794082363.7296522,
+    "ast_hash": "be2078537798ac9bd8aef998a8b02b58",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/91c08ff3-ddd4-418a-a5aa-720c0915fe68/frame-00-at-7s.png": {
+    "mtime": 1794082352.4961555,
+    "ast_hash": "8137f4179ad7a08539bb713d25a625c9",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/91c08ff3-ddd4-418a-a5aa-720c0915fe68/frame-01-at-14s.png": {
+    "mtime": 1794082352.9568646,
+    "ast_hash": "7bc6f99e58f7ce473775ac5a042e8651",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/91c08ff3-ddd4-418a-a5aa-720c0915fe68/frame-02-at-19s.png": {
+    "mtime": 1794082353.4148285,
+    "ast_hash": "966e256a44a2cd6df1606a55c1dc6e6a",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/91c08ff3-ddd4-418a-a5aa-720c0915fe68/frame-03-at-25s.png": {
+    "mtime": 1794082353.8748262,
+    "ast_hash": "f9b4bc0b77fe17a1ce23a6db76753f43",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/91c08ff3-ddd4-418a-a5aa-720c0915fe68/frame-04-at-30s.png": {
+    "mtime": 1794082354.337186,
+    "ast_hash": "eb0a1edee06c1e26e8f44f87c8c2a83d",
+    "semantic_hash": ""
+  },
+  ".hyperframes/artifacts/snapshots/91c08ff3-ddd4-418a-a5aa-720c0915fe68/frame-05-at-35.25s.png": {
+    "mtime": 1794082354.7968638,
+    "ast_hash": "9d05b5d692e96acd58206b2d7fc81ae3",
+    "semantic_hash": ""
+  },
+  "audio/music.wav": {
+    "mtime": 1794080844.892235,
+    "ast_hash": "ab066f63f65773833f1e752341dd9f60",
+    "semantic_hash": ""
+  },
+  "audio/pop.wav": {
+    "mtime": 1794080844.7182806,
+    "ast_hash": "5910d0a8d245a0491449575a0ce84b40",
+    "semantic_hash": ""
+  },
+  "audio/thud.wav": {
+    "mtime": 1794080844.7240458,
+    "ast_hash": "115921486a3a95cb5e58c8054fae9723",
+    "semantic_hash": ""
+  },
+  "audio/tick.wav": {
+    "mtime": 1794080844.722365,
+    "ast_hash": "27cb7d1e846b7c24fd3a4c81b8e27ee6",
+    "semantic_hash": ""
+  },
+  "audio/typing.wav": {
+    "mtime": 1794080844.7227936,
+    "ast_hash": "43c8b06ab3ce301f1ba2e88ee0e22080",
+    "semantic_hash": ""
+  },
+  "audio/voice.wav": {
+    "mtime": 1794080737.337031,
+    "ast_hash": "7024ad9b4cb2455151d935b31714c76c",
+    "semantic_hash": ""
+  },
+  "audio/whoosh.wav": {
+    "mtime": 1794080844.7218947,
+    "ast_hash": "1664c667aec58ae377baa1e961ca8ec7",
+    "semantic_hash": ""
+  },
+  "audio_samples/adam_test.wav": {
+    "mtime": 1794080492.0680215,
+    "ast_hash": "e78f599b0c467945b591871413545765",
+    "semantic_hash": ""
+  },
+  "audio_samples/line1_voice1_adam.wav": {
+    "mtime": 1794080523.144976,
+    "ast_hash": "6ac7a6ed5d9e2039905b34da6400d3cc",
+    "semantic_hash": ""
+  },
+  "audio_samples/line1_voice2_michael.wav": {
+    "mtime": 1794080525.9477508,
+    "ast_hash": "19440c9fc99019b4a9cec8cf54d10bd0",
+    "semantic_hash": ""
+  },
+  "audio_samples/line1_voice3_george.wav": {
+    "mtime": 1794080532.4627657,
+    "ast_hash": "b83570b2b0c2f89c05a80d09c4248f4d",
+    "semantic_hash": ""
+  },
+  "renders/untitled folder 2_2026-11-08_01-42-57.mp4": {
+    "mtime": 1794082452.8102562,
+    "ast_hash": "29e16ca61278ec7956cdfbe42fc6684f",
+    "semantic_hash": ""
+  }
+}

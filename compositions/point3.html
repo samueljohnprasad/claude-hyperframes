@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      :root {
+        --ink: #1E1C1A;
+        --red: #A31C14;
+        --grey: #726D66;
+        --card-bg: #FBFAF8;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body, #point3 {
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: transparent;
+      }
+      .header-label {
+        position: absolute;
+        top: 132px;
+        left: 120px;
+        width: 840px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 28px;
+        color: var(--grey);
+        text-transform: uppercase;
+      }
+      .stat-num {
+        color: var(--red);
+        font-weight: 700;
+      }
+      .title-box {
+        position: absolute;
+        top: 520px;
+        left: 120px;
+        width: 840px;
+        height: 120px;
+      }
+      .main-title {
+        font-family: 'Anton', sans-serif;
+        font-size: 110px;
+        line-height: 1.0;
+        text-transform: uppercase;
+        transform-origin: left bottom;
+        opacity: 0;
+      }
+      .title-ink { color: var(--ink); }
+      .title-red { color: var(--red); }
+      .swash-line {
+        stroke: var(--red);
+        stroke-width: 8;
+        stroke-linecap: round;
+        stroke-dasharray: 600;
+        stroke-dashoffset: 600;
+      }
+      .main-card-wrap {
+        position: absolute;
+        top: 660px;
+        left: 120px;
+        width: 840px;
+        height: 460px;
+        transform: translateY(70px);
+        opacity: 0;
+      }
+      .card-shadow {
+        position: absolute;
+        top: 12px;
+        left: -13px;
+        width: 840px;
+        height: 460px;
+        border-radius: 20px;
+        background-image: radial-gradient(var(--ink) 1.7px, transparent 1.7px);
+        background-size: 8px 8px;
+        z-index: 1;
+      }
+      .card-face {
+        position: relative;
+        z-index: 2;
+        width: 840px;
+        height: 460px;
+        background: var(--card-bg);
+        border: 3px solid var(--ink);
+        border-radius: 20px;
+        padding: 36px 44px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .badge-wrap {
+        position: absolute;
+        top: 36px;
+        right: 44px;
+        width: 58px;
+        height: 58px;
+        background: var(--red);
+        color: #FBFAF8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 32px;
+        border-radius: 8px;
+        transform: scale(0) rotate(-180deg);
+      }
+      .counter-label {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 22px;
+        color: var(--grey);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      .counter-val {
+        font-family: 'Anton', sans-serif;
+        font-size: 115px;
+        color: var(--ink);
+        line-height: 1.0;
+        margin-top: 6px;
+      }
+      .terminal-bar {
+        background: var(--ink);
+        border-radius: 12px;
+        padding: 16px 22px;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 24px;
+        color: #FBFAF8;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .terminal-prompt {
+        color: var(--red);
+        font-weight: 700;
+      }
+      .demo-wrap {
+        position: absolute;
+        top: 660px;
+        left: 120px;
+        width: 840px;
+        height: 460px;
+        transform: translateY(70px);
+        opacity: 0;
+      }
+      .demo-card {
+        top: 0;
+        left: 0;
+        width: 840px;
+        height: 460px;
+        padding: 0;
+        overflow: hidden;
+      }
+      .stamp-box {
+        position: absolute;
+        bottom: 36px;
+        right: 36px;
+        border: 5px solid var(--red);
+        padding: 10px 24px;
+        transform: scale(1.75) rotate(-18deg);
+        opacity: 0;
+        z-index: 30;
+        background: #FBFAF8;
+      }
+      .stamp-text {
+        font-family: 'Anton', sans-serif;
+        font-size: 52px;
+        color: var(--red);
+        text-transform: uppercase;
+        line-height: 1.0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="point3" data-composition-id="point3" data-width="1080" data-height="1920">
+      <div class="header-label" data-layout-ignore>
+        <span>// 03 · FASTAPI</span>
+        <span>SPEED <span class='stat-num'>300x</span></span>
+      </div>
+
+      <div class="title-box">
+        <div id="title-text" class="main-title">
+          <span class="title-ink">FASTAPI</span> <span class="title-red">API</span>
+        </div>
+        <svg style="width: 840px; height: 20px; margin-top: 4px;">
+          <path id="title-swash" class="swash-line" d="M 0 10 Q 220 2 480 12 T 760 8" />
+        </svg>
+      </div>
+
+      <div id="main-card-wrap" class="main-card-wrap">
+        <div class="card-shadow"></div>
+        <div class="card-face">
+          <div class="badge-wrap" id="badge" data-layout-ignore>#3</div>
+          <div>
+            <div class="counter-label" data-layout-ignore>OFFICIAL METRIC</div>
+            <div style="font-family: 'JetBrains Mono', monospace; font-size: 20px; color: var(--grey); margin-top: 4px;" data-layout-ignore>GITHUB STARS</div>
+            <div id="counter-display" class="counter-val">0</div>
+          </div>
+          <div class="terminal-bar">
+            <span class="terminal-prompt" data-layout-ignore>></span>
+            <span id="terminal-typed" style="white-space: nowrap; overflow: hidden;" data-layout-ignore></span>
+            <span style="color: var(--red); font-weight: bold; animation: blink 0.8s infinite;" data-layout-ignore>_</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="demo-wrap" class="demo-wrap" data-layout-ignore>
+        <div class="card-shadow"></div>
+        <div class="card-face demo-card">
+          <svg width="100%" height="100%" viewBox="0 0 840 460" xmlns="http://www.w3.org/2000/svg">
+            
+<rect width="840" height="460" fill="#181716" />
+<!-- Swagger Header -->
+<rect x="50" y="40" width="740" height="64" rx="10" fill="#24211E" stroke="#1E1C1A" stroke-width="3" />
+<text x="80" y="78" font-family="'Anton', sans-serif" font-size="34" fill="#FBFAF8">FASTAPI OPENAPI 3.1</text>
+<rect x="650" y="52" width="110" height="38" rx="6" fill="#A31C14" />
+<text x="705" y="77" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700" fill="#FBFAF8" text-anchor="middle">ASYNC</text>
+
+<!-- Endpoint Row 1: GET /models -->
+<rect x="50" y="125" width="740" height="74" rx="10" fill="#FBFAF8" stroke="#1E1C1A" stroke-width="3" />
+<rect x="70" y="142" width="80" height="40" rx="6" fill="#1E1C1A" />
+<text x="110" y="167" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="700" fill="#FBFAF8" text-anchor="middle">GET</text>
+<text x="175" y="169" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="700" fill="#1E1C1A">/api/v1/models</text>
+<text x="720" y="168" font-family="'JetBrains Mono', monospace" font-size="18" fill="#726D66" text-anchor="end">200 OK</text>
+
+<!-- Endpoint Row 2: POST /predict -->
+<rect x="50" y="215" width="740" height="74" rx="10" fill="#FBFAF8" stroke="#A31C14" stroke-width="3" />
+<rect x="70" y="232" width="90" height="40" rx="6" fill="#A31C14" />
+<text x="115" y="257" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="700" fill="#FBFAF8" text-anchor="middle">POST</text>
+<text x="185" y="259" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="700" fill="#1E1C1A">/api/v1/predict</text>
+<text x="720" y="258" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="700" fill="#A31C14" text-anchor="end">0.4ms</text>
+
+<!-- Performance Metric Box -->
+<g transform="translate(50, 315)">
+  <rect x="0" y="0" width="460" height="90" rx="12" fill="#24211E" stroke="#1E1C1A" stroke-width="2" />
+  <text x="24" y="38" font-family="'JetBrains Mono', monospace" font-size="18" fill="#726D66">BENCHMARK THROUGHPUT</text>
+  <text x="24" y="72" font-family="'Anton', sans-serif" font-size="34" fill="#FBFAF8">300x FASTER THAN WSGI</text>
+</g>
+
+          </svg>
+          <div id="stamp" class="stamp-box" data-layout-ignore>
+            <div class="stamp-text">ASYNC</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+
+      // 1. Title slams in on spoken word
+      tl.to("#title-text", {
+        scale: 1,
+        opacity: 1,
+        duration: 0.24,
+        ease: "power4.out"
+      }, 0.18);
+
+      // 2. Underline draws 0.12s later
+      tl.to("#title-swash", {
+        strokeDashoffset: 0,
+        duration: 0.38,
+        ease: "power2.out"
+      }, 0.3);
+
+      // 3. Main card rises 0.18s later (70px up in 0.4s)
+      tl.to("#main-card-wrap", {
+        y: 0,
+        opacity: 1,
+        duration: 0.40,
+        ease: "power3.out"
+      }, 0.36);
+
+      // 4. Counter counting up over 1.15s
+      const counterObj = { val: 0 };
+      tl.to(counterObj, {
+        val: 80,
+        duration: 1.15,
+        ease: "power2.out",
+        onUpdate: function() {
+          document.getElementById("counter-display").innerText = Math.round(counterObj.val) + "k+ ★";
+        }
+      }, 0.36);
+
+      // 5. Badge spins in at 0.6s
+      tl.to("#badge", {
+        scale: 1,
+        rotation: 0,
+        duration: 0.45,
+        ease: "back.out(2.0)"
+      }, 0.61);
+
+      // 6. Terminal types one line in under 0.9s
+      const termCode = "uvicorn main:app --reload";
+      const termObj = { len: 0 };
+      tl.to(termObj, {
+        len: termCode.length,
+        duration: 0.82,
+        ease: "steps(" + termCode.length + ")",
+        onUpdate: function() {
+          document.getElementById("terminal-typed").innerText = termCode.slice(0, Math.round(termObj.len));
+        }
+      }, 0.71);
+
+      // 7. 0.3s before explanation, everything exits upward (50px up, fade out in 0.22s)
+      tl.to("#main-card-wrap", {
+        y: -50,
+        opacity: 0,
+        duration: 0.22,
+        ease: "power2.in"
+      }, 5.44);
+
+      // Demo rises into place
+      tl.to("#demo-wrap", {
+        y: 0,
+        opacity: 1,
+        duration: 0.38,
+        ease: "power3.out"
+      }, 5.62);
+
+      // 8. Stamp lands on key word (scale 1.75 to 1, -18deg to -6deg in 0.2s)
+      tl.to("#stamp", {
+        scale: 1,
+        rotation: -6,
+        opacity: 1,
+        duration: 0.20,
+        ease: "power3.out"
+      }, 6.14);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines["point3"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

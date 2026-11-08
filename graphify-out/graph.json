@@ -1,0 +1,850 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "hyperframes.json",
+      "file_type": "code",
+      "source_file": "hyperframes.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "hyperframes",
+      "community": 0,
+      "norm_label": "hyperframes.json"
+    },
+    {
+      "label": "$schema",
+      "file_type": "code",
+      "source_file": "hyperframes.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "hyperframes_schema",
+      "community": 0,
+      "norm_label": "$schema"
+    },
+    {
+      "label": "registry",
+      "file_type": "code",
+      "source_file": "hyperframes.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "hyperframes_registry",
+      "community": 0,
+      "norm_label": "registry"
+    },
+    {
+      "label": "paths",
+      "file_type": "code",
+      "source_file": "hyperframes.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "hyperframes_paths",
+      "community": 0,
+      "norm_label": "paths"
+    },
+    {
+      "label": "blocks",
+      "file_type": "code",
+      "source_file": "hyperframes.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "hyperframes_paths_blocks",
+      "community": 0,
+      "norm_label": "blocks"
+    },
+    {
+      "label": "components",
+      "file_type": "code",
+      "source_file": "hyperframes.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "hyperframes_paths_components",
+      "community": 0,
+      "norm_label": "components"
+    },
+    {
+      "label": "assets",
+      "file_type": "code",
+      "source_file": "hyperframes.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "hyperframes_paths_assets",
+      "community": 0,
+      "norm_label": "assets"
+    },
+    {
+      "label": "media",
+      "file_type": "code",
+      "source_file": "hyperframes.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "hyperframes_media",
+      "community": 0,
+      "norm_label": "media"
+    },
+    {
+      "label": "autoProxy",
+      "file_type": "code",
+      "source_file": "hyperframes.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "hyperframes_media_autoproxy",
+      "community": 0,
+      "norm_label": "autoproxy"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "package",
+      "community": 1,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "package_name",
+      "community": 1,
+      "norm_label": "name"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "package_private",
+      "community": 1,
+      "norm_label": "private"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "package_type",
+      "community": 1,
+      "norm_label": "type"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "package_scripts",
+      "community": 1,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "package_scripts_dev",
+      "community": 1,
+      "norm_label": "dev"
+    },
+    {
+      "label": "check",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "package_scripts_check",
+      "community": 1,
+      "norm_label": "check"
+    },
+    {
+      "label": "render",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "package_scripts_render",
+      "community": 1,
+      "norm_label": "render"
+    },
+    {
+      "label": "publish",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "package_scripts_publish",
+      "community": 1,
+      "norm_label": "publish"
+    },
+    {
+      "label": "build_project.py",
+      "file_type": "code",
+      "source_file": "src/build_project.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_build_project",
+      "community": 6,
+      "norm_label": "build_project.py"
+    },
+    {
+      "label": "gen_voice_samples.py",
+      "file_type": "code",
+      "source_file": "src/gen_voice_samples.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_gen_voice_samples",
+      "community": 7,
+      "norm_label": "gen_voice_samples.py"
+    },
+    {
+      "label": "generate_all_compositions.py",
+      "file_type": "code",
+      "source_file": "src/generate_all_compositions.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_generate_all_compositions",
+      "community": 5,
+      "norm_label": "generate_all_compositions.py"
+    },
+    {
+      "label": "generate_point_subcomp()",
+      "file_type": "code",
+      "source_file": "src/generate_all_compositions.py",
+      "source_location": "L345",
+      "_origin": "ast",
+      "id": "src_generate_all_compositions_generate_point_subcomp",
+      "community": 5,
+      "norm_label": "generate_point_subcomp()"
+    },
+    {
+      "label": "generate_index_html.py",
+      "file_type": "code",
+      "source_file": "src/generate_index_html.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_generate_index_html",
+      "community": 8,
+      "norm_label": "generate_index_html.py"
+    },
+    {
+      "label": "generate_sfx.py",
+      "file_type": "code",
+      "source_file": "src/generate_sfx.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_generate_sfx",
+      "community": 4,
+      "norm_label": "generate_sfx.py"
+    },
+    {
+      "label": "create_pop()",
+      "file_type": "code",
+      "source_file": "src/generate_sfx.py",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_generate_sfx_create_pop",
+      "community": 4,
+      "norm_label": "create_pop()"
+    },
+    {
+      "label": "create_whoosh()",
+      "file_type": "code",
+      "source_file": "src/generate_sfx.py",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "src_generate_sfx_create_whoosh",
+      "community": 4,
+      "norm_label": "create_whoosh()"
+    },
+    {
+      "label": "create_tick()",
+      "file_type": "code",
+      "source_file": "src/generate_sfx.py",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "src_generate_sfx_create_tick",
+      "community": 4,
+      "norm_label": "create_tick()"
+    },
+    {
+      "label": "create_typing()",
+      "file_type": "code",
+      "source_file": "src/generate_sfx.py",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "src_generate_sfx_create_typing",
+      "community": 4,
+      "norm_label": "create_typing()"
+    },
+    {
+      "label": "create_thud()",
+      "file_type": "code",
+      "source_file": "src/generate_sfx.py",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "src_generate_sfx_create_thud",
+      "community": 4,
+      "norm_label": "create_thud()"
+    },
+    {
+      "label": "create_music()",
+      "file_type": "code",
+      "source_file": "src/generate_sfx.py",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "src_generate_sfx_create_music",
+      "community": 4,
+      "norm_label": "create_music()"
+    },
+    {
+      "label": "process_audio.py",
+      "file_type": "code",
+      "source_file": "src/process_audio.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_process_audio",
+      "community": 9,
+      "norm_label": "process_audio.py"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents",
+      "community": 2,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "HyperFrames Composition Project",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_hyperframes_composition_project",
+      "community": 2,
+      "norm_label": "hyperframes composition project"
+    },
+    {
+      "label": "Skills \u2014 read these first",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "agents_skills_read_these_first",
+      "community": 2,
+      "norm_label": "skills \u2014 read these first"
+    },
+    {
+      "label": "Commands",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "agents_commands",
+      "community": 2,
+      "norm_label": "commands"
+    },
+    {
+      "label": "Documentation",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "agents_documentation",
+      "community": 2,
+      "norm_label": "documentation"
+    },
+    {
+      "label": "Project Structure",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "agents_project_structure",
+      "community": 2,
+      "norm_label": "project structure"
+    },
+    {
+      "label": "Linting \u2014 ALWAYS RUN AFTER CHANGES",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "agents_linting_always_run_after_changes",
+      "community": 2,
+      "norm_label": "linting \u2014 always run after changes"
+    },
+    {
+      "label": "Key Rules",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "agents_key_rules",
+      "community": 2,
+      "norm_label": "key rules"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude",
+      "community": 3,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "HyperFrames Composition Project",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_hyperframes_composition_project",
+      "community": 3,
+      "norm_label": "hyperframes composition project"
+    },
+    {
+      "label": "Skills \u2014 read these first",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "claude_skills_read_these_first",
+      "community": 3,
+      "norm_label": "skills \u2014 read these first"
+    },
+    {
+      "label": "Commands",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "claude_commands",
+      "community": 3,
+      "norm_label": "commands"
+    },
+    {
+      "label": "Documentation",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "claude_documentation",
+      "community": 3,
+      "norm_label": "documentation"
+    },
+    {
+      "label": "Project Structure",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "claude_project_structure",
+      "community": 3,
+      "norm_label": "project structure"
+    },
+    {
+      "label": "Linting \u2014 ALWAYS RUN AFTER CHANGES",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "claude_linting_always_run_after_changes",
+      "community": 3,
+      "norm_label": "linting \u2014 always run after changes"
+    },
+    {
+      "label": "Key Rules",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "claude_key_rules",
+      "community": 3,
+      "norm_label": "key rules"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hyperframes.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "hyperframes",
+      "target": "hyperframes_media",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hyperframes.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "hyperframes",
+      "target": "hyperframes_paths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hyperframes.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "hyperframes",
+      "target": "hyperframes_registry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hyperframes.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "hyperframes",
+      "target": "hyperframes_schema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hyperframes.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "hyperframes_paths",
+      "target": "hyperframes_paths_assets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hyperframes.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "hyperframes_paths",
+      "target": "hyperframes_paths_blocks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hyperframes.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "hyperframes_paths",
+      "target": "hyperframes_paths_components",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hyperframes.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "hyperframes_media",
+      "target": "hyperframes_media_autoproxy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_publish",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_render",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generate_all_compositions.py",
+      "source_location": "L345",
+      "weight": 1.0,
+      "source": "src_generate_all_compositions",
+      "target": "src_generate_all_compositions_generate_point_subcomp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generate_sfx.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "src_generate_sfx",
+      "target": "src_generate_sfx_create_music",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generate_sfx.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_generate_sfx",
+      "target": "src_generate_sfx_create_pop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generate_sfx.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "src_generate_sfx",
+      "target": "src_generate_sfx_create_thud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generate_sfx.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "src_generate_sfx",
+      "target": "src_generate_sfx_create_tick",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generate_sfx.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "src_generate_sfx",
+      "target": "src_generate_sfx_create_typing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generate_sfx.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_generate_sfx",
+      "target": "src_generate_sfx_create_whoosh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents",
+      "target": "agents_hyperframes_composition_project",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "agents_hyperframes_composition_project",
+      "target": "agents_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "agents_hyperframes_composition_project",
+      "target": "agents_documentation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "agents_hyperframes_composition_project",
+      "target": "agents_key_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "agents_hyperframes_composition_project",
+      "target": "agents_linting_always_run_after_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "agents_hyperframes_composition_project",
+      "target": "agents_project_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "agents_hyperframes_composition_project",
+      "target": "agents_skills_read_these_first",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude",
+      "target": "claude_hyperframes_composition_project",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "claude_hyperframes_composition_project",
+      "target": "claude_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "claude_hyperframes_composition_project",
+      "target": "claude_documentation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "claude_hyperframes_composition_project",
+      "target": "claude_key_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "claude_hyperframes_composition_project",
+      "target": "claude_linting_always_run_after_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "claude_hyperframes_composition_project",
+      "target": "claude_project_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "claude_hyperframes_composition_project",
+      "target": "claude_skills_read_these_first",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
