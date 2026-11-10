@@ -1,0 +1,203 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.eggs/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+# Isolated per-engine venvs (Chatterbox, OmniVoice, …). The glob covers any
+# future `venv-<engine>/`; these hold bundled deps (e.g. Gradio's frontend =
+# thousands of JS chunks) and must never be tracked.
+venv-*/
+venv-chatterbox/
+venv-omnivoice/
+.venv/
+# uv's shared package cache (repo-local, on the venvs' volume so uv hardlinks
+# into each venv). Large runtime store — never tracked.
+.uv-cache/
+# Vendored engine source clones (ACE-Step) + their uv-sync'd .venv. Build
+# artifacts fetched by `studio.py install-acestep`, never tracked.
+backend/vendor/
+env/
+.env
+ENV/
+.nox/
+.pyenv/
+.python-version
+
+# Test / lint / type artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.pyright/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --- Node / frontend ---
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+.npm/
+.yarn/
+.pnp.*
+
+# --- Backend runtime data ---
+# Per-segment synthesis cache (regenerated on first run)
+backend/cache/
+backend/cache/*
+!backend/cache/.gitkeep
+
+# User-uploaded voices (PII / copyrighted material)
+backend/uploads/*
+!backend/uploads/.gitkeep
+!backend/uploads/voices.json
+
+# Built-in voice reference clips are private recordings; only
+# the metadata manifest is tracked. If you want to commit
+# actual built-in WAVs, drop `!backend/voices/*.wav` etc. below.
+backend/voices/*.wav
+backend/voices/*.mp3
+backend/voices/*.flac
+backend/voices/*.ogg
+!backend/voices/README.md
+!backend/voices/voices.json
+!backend/voices/.gitkeep
+
+# VibeVoice reference audio (1.5B model lives under HF cache)
+# Project-local HuggingFace model cache (VibeVoice 1.5B, Kokoro-82M, etc.)
+backend/models/
+checkpoints/
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# --- Environment / secrets ---
+.env
+.env.local
+.env.*.local
+*.pem
+secrets/
+
+# --- Logs / temp / scratch ---
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+debug.log
+smoke*.log
+*.bak
+
+# Captured process stdout/stderr from manual runs (backend.err/out, vite.err/out)
+*.err
+*.out
+
+# Ad-hoc /api/config dumps saved during manual testing
+/cfg*.json
+
+# Runtime state: last-selected engine / translator (written at runtime)
+backend/.last_engine
+backend/.last_translator
+
+# Test artifacts
+test_join.wav
+test_*.wav
+seg*.wav
+app.tmp
+
+# --- OS / editor ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Editor configs
+.vscode/
+.idea/
+*.code-workspace
+.history/
+
+# Local CommandCode data
+.commandcode/
+
+# Coverage reports
+*.lcov
+coverage/
+.nyc_output/
+
+# Build / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.dist-info/
+
+# Profiling
+*.prof
+*.lprof
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+*.cover
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyright
+.pyright/
+
+# ruff
+.ruff_cache/
+
+# Datasets / large files
+data/
+datasets/
+*.tar.gz
+*.zip
+*.7z
+*.rar
+*.gz
+
+# --- Project docs (internal working notes) ---
+# Brainstorming specs/plans and release notes are kept local-only; nothing under
+# docs/ is tracked. The release workflow uses auto-generated notes, so it does
+# not depend on any committed file here.
+docs/
+
+# --- Playwright UI-verification artifacts ---
+# Ad-hoc screenshots captured during manual UI checks live at the repo root
+# (banner-*.png, clean-*.png, step*-*.png, …) plus the Playwright MCP output
+# dir. They're throwaway test artifacts — never tracked. Scoped to the root so
+# real PNG assets under frontend/ etc. are unaffected.
+/.playwright-mcp/
+/*.png

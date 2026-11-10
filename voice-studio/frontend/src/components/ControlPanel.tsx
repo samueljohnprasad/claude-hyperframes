@@ -1,0 +1,389 @@
+import { useEffect, useState } from "react";
+import { PanelRightClose, PanelRightOpen, Github, Linkedin, Youtube, Globe } from "lucide-react";
+import { focusRing } from "@/lib/theme";
+import { defaultControlPanelOpen } from "@/lib/layout";
+import type { AsrStatus, EngineInfo, TranslateStatus } from "@/types/models";
+import { EngineSelector } from "./EngineSelector";
+import { TranslationCard } from "./TranslationCard";
+import { CfgScaleBody } from "./CfgScaleControl";
+import { getCfgHints } from "@/lib/engineHints";
+import { ExaggerationBody } from "./ExaggerationControl";
+import { CacheBody, useCacheData } from "./CachePanel";
+import { useUpdate } from "@/hooks/useUpdate";
+import { UpdateDialog } from "./UpdateDialog";
+
+const LS_KEY = "vs.controlPanel.open";
+
+/** X (formerly Twitter) logo — lucide ships only the legacy bird, so inline it. */
+function XIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden className={className}>
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+  );
+}
+
+const SOCIAL_LINKS = [
+  { label: "GitHub", href: "https://github.com/msrbuilds", Icon: Github },
+  { label: "X (Twitter)", href: "https://x.com/MSR_Builds", Icon: XIcon },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/mian-shahzad-raza/", Icon: Linkedin },
+  { label: "YouTube", href: "https://www.youtube.com/@WPAcademyPK", Icon: Youtube },
+  { label: "Website", href: "https://msrbuilds.com/", Icon: Globe },
+] as const;
+
+interface Props {
+  isDark: boolean;
+  engines: EngineInfo[];
+  /** Speech-to-text model, shown in the engine popup so its weights are
+   *  manageable. Null while /api/asr/status is loading. */
+  asr: AsrStatus | null;
+  activeEngine: string | null;
+  onSelectEngine: (name: string) => Promise<void>;
+  onLoadEngine: (name: string) => Promise<void>;
+  onInstallEngine: (name: string) => void;
+  onDownloadEngine: (name: string) => void;
+  onDeleteWeights: (name: string) => void;
+  onUninstallEngine: (name: string) => void;
+  /** Translation models (m2m100/madlad). Null while /api/translate/status loads. */
+  translate: TranslateStatus | null;
+  onActivateTranslator: (name: string) => void;
+  cfgScale: number;
+  onCfgScaleChange: (v: number) => void;
+  exaggeration: number;
+  onExaggerationChange: (v: number) => void;
+  quality?: "fast" | "balanced" | "high";
+  onQualityChange?: (q: "fast" | "balanced" | "high") => void;
+  qwenParams?: { temperature: number; topP: number; topK: number; repetitionPenalty: number; seed: number | null };
+  onQwenParamsChange?: (p: { temperature: number; topP: number; topK: number; repetitionPenalty: number; seed: number | null }) => void;
+  qwenDefaults?: { temperature: number; topP: number; topK: number; repetitionPenalty: number; seed: number | null };
+}
+
+export function ControlPanel({
+  isDark,
+  engines,
+  asr,
+  activeEngine,
+  onSelectEngine,
+  onLoadEngine,
+  onInstallEngine,
+  onDownloadEngine,
+  onDeleteWeights,
+  onUninstallEngine,
+  translate,
+  onActivateTranslator,
+  cfgScale,
+  onCfgScaleChange,
+  exaggeration,
+  onExaggerationChange,
+  quality,
+  onQualityChange,
+  qwenParams,
+  onQwenParamsChange,
+  qwenDefaults,
+}: Props) {
+  const [collapsed, setCollapsed] = useState<boolean>(() => {
+    const stored = localStorage.getItem(LS_KEY);
+    if (stored !== null) return stored === "false";
+    return typeof window !== "undefined"
+      ? !defaultControlPanelOpen(window.innerWidth)
+      : false;
+  });
+
+  const { data: cacheData, busy: cacheBusy, refresh: cacheRefresh, onClear: onCacheClear, onDelete: onCacheDelete } = useCacheData();
+  const { info: updateInfo, checking, check } = useUpdate();
+  const [updateOpen, setUpdateOpen] = useState(false);
+
+  useEffect(() => {
+    localStorage.setItem(LS_KEY, collapsed ? "false" : "true");
+  }, [collapsed]);
+
+  const surface = isDark ? "bg-zinc-950" : "bg-white";
+  const border = isDark ? "border-zinc-800" : "border-gray-200";
+  const heading = isDark ? "text-zinc-400" : "text-gray-600";
+  const iconBtn = isDark
+    ? "text-zinc-400 hover:text-orange-400"
+    : "text-gray-600 hover:text-orange-600";
+
+  const cfgHints = getCfgHints(activeEngine);
+  const isChatterbox = activeEngine === "chatterbox";
+
+  if (collapsed) {
+    return (
+      <aside
+        className={`w-12 shrink-0 border-l flex flex-col items-center pt-4 transition-colors ${surface} ${border}`}
+      >
+        <button
+          type="button"
+          onClick={() => setCollapsed(false)}
+          className={`p-2 rounded-lg transition-colors ${iconBtn} ${focusRing}`}
+          title="Open control panel"
+        >
+          <PanelRightOpen className="w-5 h-5" />
+        </button>
+      </aside>
+    );
+  }
+
+  return (
+    <aside
+      className={`w-80 shrink-0 border-l flex flex-col transition-colors ${surface} ${border}`}
+    >
+      {/* Header */}
+      <div className={`p-4 xxl:p-5 border-b flex items-center justify-between ${border}`}>
+        <h2 className={`text-xs font-semibold uppercase tracking-wide ${heading}`}>
+          Controls
+        </h2>
+        <button
+          type="button"
+          onClick={() => setCollapsed(true)}
+          className={`p-1 rounded transition-colors ${iconBtn} ${focusRing}`}
+          title="Collapse control panel"
+        >
+          <PanelRightClose className="w-4 h-4" />
+        </button>
+      </div>
+
+      <div className="flex-1 overflow-y-auto p-3 space-y-4">
+        {/* Engine section */}
+        <section className="p-3 dark:bg-zinc-900 dark:border-zinc-800 bg-gray-100/80 border border-gray-200 rounded-lg">
+          <h3 className={`text-xs font-semibold uppercase tracking-wide mb-2 ${heading}`}>
+            Engine
+          </h3>
+          <EngineSelector
+            isDark={isDark}
+            engines={engines}
+            asr={asr}
+            activeName={activeEngine}
+            onSelect={onSelectEngine}
+            onLoad={onLoadEngine}
+            onInstall={onInstallEngine}
+            onDownload={onDownloadEngine}
+            onDeleteWeights={onDeleteWeights}
+            onUninstall={onUninstallEngine}
+          />
+        </section>
+
+        {/* Translation section */}
+        <section className="p-3 dark:bg-zinc-900 dark:border-zinc-800 bg-gray-100/80 border border-gray-200 rounded-lg">
+          <h3 className={`text-xs font-semibold uppercase tracking-wide mb-2 ${heading}`}>
+            Translation
+          </h3>
+          <TranslationCard
+            isDark={isDark}
+            translate={translate}
+            onActivate={onActivateTranslator}
+            onDownload={onDownloadEngine}
+            onDelete={onDeleteWeights}
+          />
+        </section>
+
+        {/* Settings section */}
+        <section className="p-3 dark:bg-zinc-900 dark:border-zinc-800 bg-gray-100/80 border border-gray-200 rounded-lg">
+          <h3 className={`text-xs font-semibold uppercase tracking-wide mb-2 ${heading}`}>
+            {isChatterbox ? "CFG weight (voice fidelity)" : "Voice fidelity (CFG)"}
+          </h3>
+          <CfgScaleBody
+            isDark={isDark}
+            value={cfgScale}
+            onChange={onCfgScaleChange}
+            hints={cfgHints}
+          />
+
+          {isChatterbox && (
+            <>
+              <h3 className={`text-xs font-semibold uppercase tracking-wide mb-2 mt-4 ${heading}`}>
+                Voice expressiveness (Chatterbox)
+              </h3>
+              <ExaggerationBody
+                isDark={isDark}
+                value={exaggeration}
+                onChange={onExaggerationChange}
+              />
+            </>
+          )}
+
+          {activeEngine === "voxcpm" && onQualityChange && (
+            <div className="space-y-1.5 mt-4">
+              <div className={`text-xs font-medium ${isDark ? "text-zinc-300" : "text-gray-700"}`}>
+                Quality
+              </div>
+              <div className="flex gap-1">
+                {(["fast", "balanced", "high"] as const).map((q) => (
+                  <button
+                    key={q}
+                    type="button"
+                    onClick={() => onQualityChange(q)}
+                    className={`flex-1 px-2 py-1.5 text-xs font-medium rounded border transition-colors ${
+                      (quality ?? "balanced") === q
+                        ? "bg-orange-600 text-white border-orange-500 hover:bg-orange-500"
+                        : isDark
+                          ? "bg-zinc-800 text-zinc-300 hover:bg-zinc-700 border-zinc-700"
+                          : "bg-gray-100 text-gray-600 hover:bg-gray-200 border-gray-300"
+                    } ${focusRing}`}
+                  >
+                    {q[0].toUpperCase() + q.slice(1)}
+                  </button>
+                ))}
+              </div>
+              <p className={`text-[11px] ${isDark ? "text-zinc-400" : "text-gray-600"}`}>
+                Diffusion steps: Fast 5 · Balanced 10 · High 25. Higher = better quality, slower.
+              </p>
+            </div>
+          )}
+
+          {activeEngine === "qwen" && qwenParams && onQwenParamsChange && (
+            <div className="space-y-2 mt-4">
+              <div className={`text-xs font-medium ${isDark ? "text-zinc-300" : "text-gray-700"}`}>
+                Advanced generation
+              </div>
+              {([
+                { key: "temperature", label: "Temperature", min: 0.1, max: 2.0, step: 0.05 },
+                { key: "topP", label: "Top-p", min: 0.0, max: 1.0, step: 0.05 },
+                { key: "topK", label: "Top-k", min: 0, max: 200, step: 1 },
+                { key: "repetitionPenalty", label: "Repetition penalty", min: 1.0, max: 2.0, step: 0.05 },
+              ] as const).map((f) => (
+                <label key={f.key} className={`block text-[11px] ${isDark ? "text-zinc-400" : "text-gray-600"}`}>
+                  <span className="flex justify-between"><span>{f.label}</span><span>{qwenParams[f.key]}</span></span>
+                  <input
+                    type="range" min={f.min} max={f.max} step={f.step}
+                    value={qwenParams[f.key]}
+                    onChange={(e) => onQwenParamsChange({ ...qwenParams, [f.key]: Number(e.target.value) })}
+                    className="w-full accent-orange-600"
+                  />
+                </label>
+              ))}
+              <label className={`block text-[11px] ${isDark ? "text-zinc-400" : "text-gray-600"}`}>
+                Seed (optional)
+                <input
+                  type="number"
+                  value={qwenParams.seed ?? ""}
+                  onChange={(e) => onQwenParamsChange({ ...qwenParams, seed: e.target.value === "" ? null : Number(e.target.value) })}
+                  placeholder="random"
+                  className={`mt-1 w-full border rounded-md px-2 py-1 text-xs focus:outline-none focus:border-orange-500 ${
+                    isDark ? "bg-zinc-800 border-zinc-700 text-white" : "bg-white border-gray-300 text-gray-900"
+                  }`}
+                />
+              </label>
+              {qwenDefaults && (
+                <button
+                  type="button"
+                  onClick={() => onQwenParamsChange(qwenDefaults)}
+                  className={`text-[11px] underline ${isDark ? "text-zinc-400 hover:text-orange-400" : "text-gray-600 hover:text-orange-600"} ${focusRing}`}
+                >
+                  Reset to defaults
+                </button>
+              )}
+            </div>
+          )}
+        </section>
+
+        {/* Recent generations section (CacheBody renders its own heading + actions) */}
+        <section className="p-3 dark:bg-zinc-900 dark:border-zinc-800 bg-gray-100/80 border border-gray-200 rounded-lg">
+          <CacheBody
+            isDark={isDark}
+            data={cacheData}
+            busy={cacheBusy}
+            onClear={onCacheClear}
+            onDelete={onCacheDelete}
+          />
+          <button
+            type="button"
+            onClick={() => void cacheRefresh()}
+            disabled={cacheBusy}
+            className={`w-full text-xs font-medium py-1 rounded mt-1 ${
+              isDark
+                ? "text-zinc-400 hover:text-zinc-200"
+                : "text-gray-600 hover:text-gray-700"
+            } ${focusRing}`}
+          >
+            Refresh list
+          </button>
+        </section>
+
+        {/* About / version */}
+        <section className="p-3 dark:bg-zinc-900 dark:border-zinc-800 bg-gray-100/80 border border-gray-200 rounded-lg">
+          <h3 className={`text-xs font-semibold uppercase tracking-wide mb-2 ${heading}`}>
+            About
+          </h3>
+          <div className="flex items-center justify-between gap-2">
+            <span className={`text-sm font-medium ${isDark ? "text-zinc-100" : "text-gray-900"}`}>
+              Voice Studio{updateInfo ? ` v${updateInfo.current}` : ""}
+            </span>
+            <button
+              type="button"
+              onClick={() => void check()}
+              disabled={checking}
+              className={`text-xs ${
+                isDark ? "text-zinc-400 hover:text-orange-400" : "text-gray-500 hover:text-orange-600"
+              } ${focusRing} ${checking ? "opacity-50 cursor-wait" : ""}`}
+              title="Check for updates"
+            >
+              {checking ? "Checking…" : "Check for updates"}
+            </button>
+          </div>
+          <p className={`mt-1.5 text-[11px] leading-relaxed ${isDark ? "text-zinc-400" : "text-gray-600"}`}>
+            A fully-offline, local studio for multiple open-source TTS engines —
+            VibeVoice, Kokoro, Chatterbox, OmniVoice, VoxCPM &amp; Qwen3-TTS.
+          </p>
+          <p className={`mt-1 text-[11px] ${isDark ? "text-zinc-500" : "text-gray-500"}`}>
+            Built by{" "}
+            <a
+              href="https://msrbuilds.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+              className={`font-medium ${
+                isDark ? "text-zinc-300 hover:text-orange-400" : "text-gray-700 hover:text-orange-600"
+              } ${focusRing}`}
+            >
+              Mian Shahzad Raza (MSR)
+            </a>
+          </p>
+          <div className={`mt-2.5 pt-2.5 flex items-center gap-1 border-t ${
+            isDark ? "border-zinc-800" : "border-gray-200"
+          }`}>
+            {SOCIAL_LINKS.map(({ label, href, Icon }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noreferrer noopener"
+                title={label}
+                aria-label={label}
+                className={`p-1.5 rounded-md transition-colors ${
+                  isDark
+                    ? "text-zinc-400 hover:text-orange-400 hover:bg-zinc-800"
+                    : "text-gray-500 hover:text-orange-600 hover:bg-gray-200/70"
+                } ${focusRing}`}
+              >
+                <Icon className="w-4 h-4" />
+              </a>
+            ))}
+          </div>
+          {updateInfo?.update_available && (
+            <button
+              type="button"
+              onClick={() => setUpdateOpen(true)}
+              className={`mt-2 w-full text-xs px-3 py-1.5 rounded-md font-medium transition-colors ${
+                isDark
+                  ? "bg-orange-700/40 hover:bg-orange-700/60 text-orange-200"
+                  : "bg-orange-50 hover:bg-orange-100 text-orange-700"
+              } ${focusRing}`}
+            >
+              {`Update to v${updateInfo.latest} available`}
+            </button>
+          )}
+          {updateInfo && !updateInfo.update_available && !updateInfo.error && updateInfo.latest && (
+            <p className={`mt-1 text-[11px] ${isDark ? "text-zinc-500" : "text-gray-500"}`}>
+              You're on the latest version.
+            </p>
+          )}
+        </section>
+      </div>
+
+      {updateOpen && updateInfo && (
+        <UpdateDialog isDark={isDark} info={updateInfo} onClose={() => setUpdateOpen(false)} />
+      )}
+    </aside>
+  );
+}
+
