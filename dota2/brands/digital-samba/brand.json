@@ -1,0 +1,57 @@
+{
+  "name": "Digital Samba",
+  "description": "Digital Samba brand - European video conferencing platform. Colours from the wordmark (coral #F06859, navy #323E66) and the product blue (#3771e0); orange is not a DS colour.",
+  "version": "1.0.0",
+  "website": "https://www.digitalsamba.com",
+
+  "colors": {
+    "primary": "#F06859",
+    "primaryLight": "#F58A7E",
+    "primaryDark": "#D14F3F",
+    "accent": "#3771e0",
+    "navy": "#323E66",
+    "navyDark": "#232D49",
+    "textDark": "#1B202F",
+    "textMedium": "#323E66",
+    "textLight": "#5E667A",
+    "bgLight": "#ffffff",
+    "bgAlt": "#F7F6F3",
+    "bgDark": "#323E66",
+    "bgOverlay": "rgba(50, 62, 102, 0.92)",
+    "divider": "#E5E7EE",
+    "shadow": "rgba(27, 32, 47, 0.18)"
+  },
+
+  "fonts": {
+    "primary": "Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif",
+    "mono": "ui-monospace, SFMono-Regular, \"SF Mono\", Menlo, monospace"
+  },
+
+  "spacing": {
+    "xs": 8,
+    "sm": 16,
+    "md": 24,
+    "lg": 48,
+    "xl": 80,
+    "xxl": 120
+  },
+
+  "borderRadius": {
+    "sm": 6,
+    "md": 10,
+    "lg": 16
+  },
+
+  "typography": {
+    "h1": { "size": 88, "weight": 700 },
+    "h2": { "size": 72, "weight": 700 },
+    "h3": { "size": 48, "weight": 600 },
+    "body": { "size": 44, "weight": 400 },
+    "label": { "size": 34, "weight": 600, "letterSpacing": 2 }
+  },
+
+  "assets": {
+    "logo": "assets/ds-logo.png",
+    "logoLight": "assets/ds-logo.png"
+  }
+}
