@@ -1,513 +1,687 @@
 {
-  "duration": 43.98,
+  "duration": 47.46,
   "words": [
     {
-      "word": "building",
+      "word": "Five",
       "start": 0.0,
-      "end": 0.52,
-      "prob": 0.633
+      "end": 0.42,
+      "prob": 0.208
     },
     {
-      "word": "everything",
-      "start": 0.52,
-      "end": 1.14,
-      "prob": 0.993
+      "word": "Hollywood",
+      "start": 0.42,
+      "end": 0.96,
+      "prob": 0.959
     },
     {
-      "word": "from",
-      "start": 1.14,
-      "end": 1.6,
+      "word": "horror",
+      "start": 0.96,
+      "end": 1.32,
+      "prob": 0.977
+    },
+    {
+      "word": "movies",
+      "start": 1.32,
+      "end": 1.74,
       "prob": 0.997
     },
     {
-      "word": "scratch",
-      "start": 1.6,
-      "end": 1.9,
-      "prob": 0.995
+      "word": "that",
+      "start": 1.74,
+      "end": 2.22,
+      "prob": 0.967
     },
     {
-      "word": "hurts.",
-      "start": 1.9,
-      "end": 2.44,
-      "prob": 0.604
+      "word": "still",
+      "start": 2.22,
+      "end": 2.48,
+      "prob": 0.996
     },
     {
-      "word": "These",
-      "start": 2.84,
-      "end": 3.02,
-      "prob": 0.981
+      "word": "get",
+      "start": 2.48,
+      "end": 2.64,
+      "prob": 0.997
     },
     {
-      "word": "five",
-      "start": 3.02,
-      "end": 3.38,
-      "prob": 0.831
-    },
-    {
-      "word": "open",
-      "start": 3.38,
-      "end": 3.84,
-      "prob": 0.944
-    },
-    {
-      "word": "-source",
-      "start": 3.84,
-      "end": 4.16,
-      "prob": 0.708
-    },
-    {
-      "word": "titans",
-      "start": 4.16,
-      "end": 4.74,
-      "prob": 0.805
-    },
-    {
-      "word": "will",
-      "start": 4.74,
-      "end": 5.16,
-      "prob": 0.99
-    },
-    {
-      "word": "supercharge",
-      "start": 5.16,
-      "end": 5.92,
-      "prob": 0.956
+      "word": "under",
+      "start": 2.64,
+      "end": 2.92,
+      "prob": 0.998
     },
     {
       "word": "your",
-      "start": 5.92,
-      "end": 6.3,
-      "prob": 0.995
-    },
-    {
-      "word": "developer",
-      "start": 6.3,
-      "end": 6.72,
-      "prob": 0.948
-    },
-    {
-      "word": "workflow",
-      "start": 6.72,
-      "end": 7.24,
-      "prob": 0.99
-    },
-    {
-      "word": "forever.",
-      "start": 7.24,
-      "end": 7.76,
-      "prob": 0.981
-    },
-    {
-      "word": "React",
-      "start": 8.2,
-      "end": 8.38,
-      "prob": 0.927
-    },
-    {
-      "word": "powers",
-      "start": 8.38,
-      "end": 8.96,
-      "prob": 0.801
-    },
-    {
-      "word": "interactive",
-      "start": 8.96,
-      "end": 9.46,
-      "prob": 0.931
-    },
-    {
-      "word": "user",
-      "start": 9.46,
-      "end": 10.0,
-      "prob": 0.992
-    },
-    {
-      "word": "interfaces",
-      "start": 10.0,
-      "end": 10.68,
-      "prob": 0.995
-    },
-    {
-      "word": "across",
-      "start": 10.68,
-      "end": 11.32,
-      "prob": 0.943
-    },
-    {
-      "word": "millions",
-      "start": 11.32,
-      "end": 11.88,
+      "start": 2.92,
+      "end": 3.14,
       "prob": 0.997
     },
     {
-      "word": "of",
-      "start": 11.88,
-      "end": 12.48,
+      "word": "skin.",
+      "start": 3.14,
+      "end": 3.58,
       "prob": 0.999
     },
     {
-      "word": "modern",
-      "start": 12.48,
-      "end": 12.8,
-      "prob": 0.992
+      "word": "Number",
+      "start": 3.98,
+      "end": 4.12,
+      "prob": 0.786
     },
     {
-      "word": "web",
-      "start": 12.8,
-      "end": 13.06,
-      "prob": 0.974
+      "word": "five,",
+      "start": 4.12,
+      "end": 4.54,
+      "prob": 0.678
     },
     {
-      "word": "applications.",
-      "start": 13.06,
-      "end": 13.68,
-      "prob": 0.998
+      "word": "Scream",
+      "start": 4.88,
+      "end": 5.14,
+      "prob": 0.926
     },
     {
-      "word": "Transformers",
-      "start": 14.26,
-      "end": 15.0,
-      "prob": 0.986
+      "word": "1996.",
+      "start": 5.14,
+      "end": 6.06,
+      "prob": 0.814
     },
     {
-      "word": "lets",
-      "start": 15.0,
-      "end": 15.46,
-      "prob": 0.942
+      "word": "It",
+      "start": 6.94,
+      "end": 7.08,
+      "prob": 0.976
     },
     {
-      "word": "you",
-      "start": 15.46,
-      "end": 15.66,
-      "prob": 0.997
+      "word": "turned",
+      "start": 7.08,
+      "end": 7.34,
+      "prob": 0.843
     },
     {
-      "word": "run",
-      "start": 15.66,
-      "end": 15.92,
-      "prob": 0.997
+      "word": "slasher",
+      "start": 7.34,
+      "end": 7.86,
+      "prob": 0.887
     },
     {
-      "word": "cutting",
-      "start": 15.92,
-      "end": 16.3,
-      "prob": 0.962
-    },
-    {
-      "word": "-edge",
-      "start": 16.3,
-      "end": 16.66,
-      "prob": 0.751
-    },
-    {
-      "word": "artificial",
-      "start": 16.66,
-      "end": 17.18,
-      "prob": 0.982
-    },
-    {
-      "word": "intelligence",
-      "start": 17.18,
-      "end": 17.96,
-      "prob": 0.995
-    },
-    {
-      "word": "in",
-      "start": 17.96,
-      "end": 18.5,
-      "prob": 0.995
-    },
-    {
-      "word": "three",
-      "start": 18.5,
-      "end": 18.76,
-      "prob": 0.958
-    },
-    {
-      "word": "lines.",
-      "start": 18.76,
-      "end": 19.28,
-      "prob": 0.997
-    },
-    {
-      "word": "Fast",
-      "start": 19.68,
-      "end": 19.82,
-      "prob": 0.923
-    },
-    {
-      "word": "API",
-      "start": 19.82,
-      "end": 20.32,
-      "prob": 0.521
-    },
-    {
-      "word": "delivers",
-      "start": 20.32,
-      "end": 21.02,
-      "prob": 0.997
-    },
-    {
-      "word": "production",
-      "start": 21.02,
-      "end": 21.68,
+      "word": "rules",
+      "start": 7.86,
+      "end": 8.16,
       "prob": 0.991
     },
     {
-      "word": "ready",
-      "start": 21.68,
-      "end": 22.26,
-      "prob": 0.928
+      "word": "into",
+      "start": 8.16,
+      "end": 8.48,
+      "prob": 0.997
     },
     {
-      "word": "asynchronous",
-      "start": 22.26,
-      "end": 22.88,
-      "prob": 0.836
-    },
-    {
-      "word": "back",
-      "start": 22.88,
-      "end": 23.36,
-      "prob": 0.532
-    },
-    {
-      "word": "-end",
-      "start": 23.36,
-      "end": 23.58,
-      "prob": 0.799
-    },
-    {
-      "word": "microservices",
-      "start": 23.58,
-      "end": 24.5,
-      "prob": 0.897
-    },
-    {
-      "word": "with",
-      "start": 24.5,
-      "end": 25.06,
-      "prob": 0.973
-    },
-    {
-      "word": "automatic",
-      "start": 25.06,
-      "end": 25.64,
-      "prob": 0.99
-    },
-    {
-      "word": "documentation.",
-      "start": 25.64,
-      "end": 26.58,
+      "word": "a",
+      "start": 8.48,
+      "end": 8.66,
       "prob": 0.999
     },
     {
-      "word": "Tori",
-      "start": 26.58,
-      "end": 27.36,
-      "prob": 0.776
+      "word": "joke,",
+      "start": 8.66,
+      "end": 8.92,
+      "prob": 0.999
     },
     {
-      "word": "builds",
-      "start": 27.36,
-      "end": 27.7,
-      "prob": 0.987
-    },
-    {
-      "word": "blazingly",
-      "start": 27.7,
-      "end": 28.38,
-      "prob": 0.963
-    },
-    {
-      "word": "fast",
-      "start": 28.38,
-      "end": 28.72,
-      "prob": 0.966
-    },
-    {
-      "word": "desktop",
-      "start": 28.72,
-      "end": 29.3,
-      "prob": 0.987
-    },
-    {
-      "word": "software",
-      "start": 29.3,
-      "end": 30.02,
-      "prob": 0.996
-    },
-    {
-      "word": "using",
-      "start": 30.02,
-      "end": 30.56,
-      "prob": 0.914
-    },
-    {
-      "word": "tiny",
-      "start": 30.56,
-      "end": 31.0,
-      "prob": 0.936
-    },
-    {
-      "word": "web",
-      "start": 31.0,
-      "end": 31.28,
-      "prob": 0.923
-    },
-    {
-      "word": "front",
-      "start": 31.28,
-      "end": 31.58,
-      "prob": 0.988
-    },
-    {
-      "word": "-ends.",
-      "start": 31.58,
-      "end": 31.98,
-      "prob": 0.73
-    },
-    {
-      "word": "SuperBase",
-      "start": 32.26,
-      "end": 32.92,
-      "prob": 0.817
-    },
-    {
-      "word": "gives",
-      "start": 32.92,
-      "end": 33.16,
-      "prob": 0.989
-    },
-    {
-      "word": "you",
-      "start": 33.16,
-      "end": 33.34,
-      "prob": 0.998
-    },
-    {
-      "word": "scalable",
-      "start": 33.34,
-      "end": 33.78,
-      "prob": 0.979
-    },
-    {
-      "word": "posters,",
-      "start": 33.78,
-      "end": 34.28,
-      "prob": 0.087
-    },
-    {
-      "word": "databases,",
-      "start": 34.72,
-      "end": 35.18,
+      "word": "then",
+      "start": 9.14,
+      "end": 9.28,
       "prob": 0.992
     },
     {
-      "word": "authentication,",
-      "start": 35.78,
-      "end": 36.3,
-      "prob": 0.975
+      "word": "made",
+      "start": 9.28,
+      "end": 9.5,
+      "prob": 0.998
+    },
+    {
+      "word": "the",
+      "start": 9.5,
+      "end": 9.62,
+      "prob": 0.997
+    },
+    {
+      "word": "joke",
+      "start": 9.62,
+      "end": 9.88,
+      "prob": 0.996
+    },
+    {
+      "word": "terrifying.",
+      "start": 9.88,
+      "end": 10.26,
+      "prob": 0.994
+    },
+    {
+      "word": "Number",
+      "start": 10.86,
+      "end": 11.02,
+      "prob": 0.993
+    },
+    {
+      "word": "four,",
+      "start": 11.02,
+      "end": 11.4,
+      "prob": 0.978
+    },
+    {
+      "word": "Get",
+      "start": 11.68,
+      "end": 11.74,
+      "prob": 0.959
+    },
+    {
+      "word": "Out",
+      "start": 11.74,
+      "end": 11.96,
+      "prob": 0.827
+    },
+    {
+      "word": "2017.",
+      "start": 11.96,
+      "end": 12.66,
+      "prob": 0.949
+    },
+    {
+      "word": "A",
+      "start": 13.48,
+      "end": 13.58,
+      "prob": 0.993
+    },
+    {
+      "word": "sharp",
+      "start": 13.58,
+      "end": 13.84,
+      "prob": 0.992
+    },
+    {
+      "word": "nightmare",
+      "start": 13.84,
+      "end": 14.28,
+      "prob": 0.999
+    },
+    {
+      "word": "about",
+      "start": 14.28,
+      "end": 14.64,
+      "prob": 0.999
+    },
+    {
+      "word": "racism,",
+      "start": 14.64,
+      "end": 15.22,
+      "prob": 0.997
+    },
+    {
+      "word": "control,",
+      "start": 15.62,
+      "end": 16.04,
+      "prob": 0.998
     },
     {
       "word": "and",
-      "start": 37.04,
-      "end": 37.14,
+      "start": 16.4,
+      "end": 16.52,
+      "prob": 0.998
+    },
+    {
+      "word": "the",
+      "start": 16.52,
+      "end": 16.66,
+      "prob": 0.999
+    },
+    {
+      "word": "feeling",
+      "start": 16.66,
+      "end": 16.94,
+      "prob": 0.998
+    },
+    {
+      "word": "that",
+      "start": 16.94,
+      "end": 17.18,
       "prob": 0.996
     },
     {
-      "word": "real",
-      "start": 37.14,
-      "end": 37.36,
-      "prob": 0.983
+      "word": "something",
+      "start": 17.18,
+      "end": 17.5,
+      "prob": 0.996
     },
     {
-      "word": "-time",
-      "start": 37.36,
-      "end": 37.6,
-      "prob": 0.917
-    },
-    {
-      "word": "storage",
-      "start": 37.6,
-      "end": 38.14,
+      "word": "is",
+      "start": 17.5,
+      "end": 17.82,
       "prob": 0.998
     },
     {
-      "word": "instantly.",
-      "start": 38.14,
-      "end": 38.76,
+      "word": "wrong.",
+      "start": 17.82,
+      "end": 18.08,
+      "prob": 0.999
+    },
+    {
+      "word": "Number",
+      "start": 18.44,
+      "end": 18.64,
+      "prob": 0.996
+    },
+    {
+      "word": "three,",
+      "start": 18.64,
+      "end": 19.04,
+      "prob": 0.993
+    },
+    {
+      "word": "The",
+      "start": 19.32,
+      "end": 19.36,
       "prob": 0.981
     },
     {
-      "word": "Star",
-      "start": 39.3,
-      "end": 39.52,
-      "prob": 0.866
+      "word": "Thing",
+      "start": 19.36,
+      "end": 19.62,
+      "prob": 0.997
     },
     {
-      "word": "these",
-      "start": 39.52,
-      "end": 39.78,
+      "word": "1982.",
+      "start": 19.62,
+      "end": 20.46,
+      "prob": 0.889
+    },
+    {
+      "word": "Fear,",
+      "start": 21.14,
+      "end": 21.34,
+      "prob": 0.901
+    },
+    {
+      "word": "snow,",
+      "start": 21.56,
+      "end": 21.72,
+      "prob": 0.98
+    },
+    {
+      "word": "and",
+      "start": 22.1,
+      "end": 22.16,
       "prob": 0.999
     },
     {
-      "word": "five",
-      "start": 39.78,
-      "end": 40.18,
-      "prob": 0.748
+      "word": "strange,",
+      "start": 22.16,
+      "end": 22.56,
+      "prob": 0.998
     },
     {
-      "word": "repositories",
-      "start": 40.18,
-      "end": 40.98,
-      "prob": 0.989
+      "word": "practical",
+      "start": 22.78,
+      "end": 23.06,
+      "prob": 0.998
     },
     {
-      "word": "now",
-      "start": 40.98,
-      "end": 41.28,
+      "word": "effects",
+      "start": 23.06,
+      "end": 23.62,
+      "prob": 0.985
+    },
+    {
+      "word": "that",
+      "start": 23.62,
+      "end": 23.94,
+      "prob": 0.976
+    },
+    {
+      "word": "still",
+      "start": 23.94,
+      "end": 24.2,
+      "prob": 0.999
+    },
+    {
+      "word": "feel",
+      "start": 24.2,
+      "end": 24.44,
+      "prob": 0.998
+    },
+    {
+      "word": "disgusting.",
+      "start": 24.44,
+      "end": 24.88,
+      "prob": 0.995
+    },
+    {
+      "word": "Number",
+      "start": 24.88,
+      "end": 25.62,
+      "prob": 0.089
+    },
+    {
+      "word": "two,",
+      "start": 25.62,
+      "end": 26.02,
+      "prob": 0.548
+    },
+    {
+      "word": "The",
+      "start": 26.44,
+      "end": 26.46,
+      "prob": 0.471
+    },
+    {
+      "word": "Shining",
+      "start": 26.46,
+      "end": 26.88,
+      "prob": 0.973
+    },
+    {
+      "word": "1980.",
+      "start": 26.88,
+      "end": 27.88,
+      "prob": 0.196
+    },
+    {
+      "word": "An",
+      "start": 28.4,
+      "end": 28.44,
+      "prob": 0.975
+    },
+    {
+      "word": "empty",
+      "start": 28.44,
+      "end": 28.7,
+      "prob": 0.996
+    },
+    {
+      "word": "hotel",
+      "start": 28.7,
+      "end": 29.16,
+      "prob": 0.99
+    },
+    {
+      "word": "slowly",
+      "start": 29.16,
+      "end": 29.62,
+      "prob": 0.992
+    },
+    {
+      "word": "tears",
+      "start": 29.62,
+      "end": 29.98,
+      "prob": 0.984
+    },
+    {
+      "word": "a",
+      "start": 29.98,
+      "end": 30.18,
+      "prob": 0.988
+    },
+    {
+      "word": "family",
+      "start": 30.18,
+      "end": 30.52,
+      "prob": 0.999
+    },
+    {
+      "word": "apart.",
+      "start": 30.52,
+      "end": 30.94,
+      "prob": 0.997
+    },
+    {
+      "word": "And",
+      "start": 31.4,
+      "end": 31.44,
+      "prob": 0.956
+    },
+    {
+      "word": "number",
+      "start": 31.44,
+      "end": 31.7,
+      "prob": 0.932
+    },
+    {
+      "word": "one,",
+      "start": 31.7,
+      "end": 32.06,
+      "prob": 0.991
+    },
+    {
+      "word": "The",
+      "start": 32.42,
+      "end": 32.46,
+      "prob": 0.893
+    },
+    {
+      "word": "Exorcist",
+      "start": 32.46,
+      "end": 33.24,
+      "prob": 0.97
+    },
+    {
+      "word": "1973.",
+      "start": 33.24,
+      "end": 34.2,
+      "prob": 0.879
+    },
+    {
+      "word": "It",
+      "start": 34.92,
+      "end": 35.02,
       "prob": 0.982
     },
     {
-      "word": "before",
-      "start": 41.28,
-      "end": 41.84,
-      "prob": 0.633
-    },
-    {
-      "word": "building",
-      "start": 41.84,
-      "end": 42.26,
+      "word": "made",
+      "start": 35.02,
+      "end": 35.18,
       "prob": 0.998
     },
     {
-      "word": "everything",
-      "start": 42.26,
-      "end": 42.8,
+      "word": "possession",
+      "start": 35.18,
+      "end": 35.58,
+      "prob": 0.939
+    },
+    {
+      "word": "feel",
+      "start": 35.58,
+      "end": 35.94,
+      "prob": 0.994
+    },
+    {
+      "word": "close,",
+      "start": 35.94,
+      "end": 36.36,
+      "prob": 0.993
+    },
+    {
+      "word": "physical,",
+      "start": 36.7,
+      "end": 37.02,
       "prob": 0.998
     },
     {
-      "word": "from",
-      "start": 42.8,
-      "end": 43.08,
+      "word": "and",
+      "start": 37.52,
+      "end": 37.58,
+      "prob": 0.996
+    },
+    {
+      "word": "almost",
+      "start": 37.58,
+      "end": 37.88,
+      "prob": 0.998
+    },
+    {
+      "word": "impossible",
+      "start": 37.88,
+      "end": 38.4,
+      "prob": 0.998
+    },
+    {
+      "word": "to",
+      "start": 38.4,
+      "end": 38.72,
       "prob": 0.999
     },
     {
-      "word": "scratch.",
-      "start": 43.08,
-      "end": 43.4,
-      "prob": 0.991
+      "word": "shake.",
+      "start": 38.72,
+      "end": 39.0,
+      "prob": 0.998
+    },
+    {
+      "word": "Different",
+      "start": 39.24,
+      "end": 39.44,
+      "prob": 0.99
+    },
+    {
+      "word": "years,",
+      "start": 39.44,
+      "end": 39.88,
+      "prob": 0.996
+    },
+    {
+      "word": "different",
+      "start": 40.24,
+      "end": 40.42,
+      "prob": 0.998
+    },
+    {
+      "word": "fears,",
+      "start": 40.42,
+      "end": 40.84,
+      "prob": 0.997
+    },
+    {
+      "word": "same",
+      "start": 41.14,
+      "end": 41.36,
+      "prob": 0.995
+    },
+    {
+      "word": "result.",
+      "start": 41.36,
+      "end": 41.84,
+      "prob": 0.988
+    },
+    {
+      "word": "You",
+      "start": 42.14,
+      "end": 42.26,
+      "prob": 0.993
+    },
+    {
+      "word": "check",
+      "start": 42.26,
+      "end": 42.48,
+      "prob": 0.985
+    },
+    {
+      "word": "the",
+      "start": 42.48,
+      "end": 42.64,
+      "prob": 0.998
+    },
+    {
+      "word": "hall",
+      "start": 42.64,
+      "end": 42.86,
+      "prob": 0.788
+    },
+    {
+      "word": "before",
+      "start": 42.86,
+      "end": 43.18,
+      "prob": 0.997
+    },
+    {
+      "word": "turning",
+      "start": 43.18,
+      "end": 43.6,
+      "prob": 0.997
+    },
+    {
+      "word": "out",
+      "start": 43.6,
+      "end": 43.82,
+      "prob": 0.999
+    },
+    {
+      "word": "the",
+      "start": 43.82,
+      "end": 43.98,
+      "prob": 0.998
+    },
+    {
+      "word": "light.",
+      "start": 43.98,
+      "end": 44.24,
+      "prob": 0.997
+    },
+    {
+      "word": "Which",
+      "start": 44.56,
+      "end": 44.74,
+      "prob": 0.995
+    },
+    {
+      "word": "one",
+      "start": 44.74,
+      "end": 45.04,
+      "prob": 0.995
+    },
+    {
+      "word": "belongs",
+      "start": 45.04,
+      "end": 45.54,
+      "prob": 0.989
+    },
+    {
+      "word": "at",
+      "start": 45.54,
+      "end": 45.98,
+      "prob": 0.923
+    },
+    {
+      "word": "number",
+      "start": 45.98,
+      "end": 46.26,
+      "prob": 0.962
+    },
+    {
+      "word": "one",
+      "start": 46.26,
+      "end": 46.62,
+      "prob": 0.957
+    },
+    {
+      "word": "for",
+      "start": 46.62,
+      "end": 46.88,
+      "prob": 0.968
+    },
+    {
+      "word": "you?",
+      "start": 46.88,
+      "end": 47.12,
+      "prob": 0.999
     }
   ],
   "sentences": [
-    "Building everything from scratch hurts.",
-    "These five open source titans will supercharge your developer workflow forever.",
-    "React powers interactive user interfaces across millions of modern web applications.",
-    "Transformers lets you run cutting edge artificial intelligence in three lines.",
-    "FastAPI delivers production ready asynchronous backend microservices with automatic documentation.",
-    "Tauri builds blazingly fast desktop software using tiny web frontends.",
-    "Supabase gives you scalable Postgres databases, authentication, and realtime storage instantly.",
-    "Star these five repositories now before building everything from scratch."
+    "Five Hollywood horror movies that still get under your skin.",
+    "Number five: Scream, nineteen ninety-six. It turned slasher rules into a joke, then made the joke terrifying.",
+    "Number four: Get Out, twenty seventeen. A sharp nightmare about racism, control, and the feeling that something is wrong.",
+    "Number three: The Thing, nineteen eighty-two. Fear, snow, and strange practical effects that still feel disgusting.",
+    "Number two: The Shining, nineteen eighty. An empty hotel slowly tears a family apart.",
+    "And number one: The Exorcist, nineteen seventy-three. It made possession feel close, physical, and almost impossible to shake.",
+    "Different years, different fears, same result: you check the hall before turning out the light.",
+    "Which one belongs at number one for you?"
   ]
 }

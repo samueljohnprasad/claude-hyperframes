@@ -1,0 +1,776 @@
+{
+  "duration": 64.5,
+  "fps": 24,
+  "scenes": [
+    {
+      "id": "intro",
+      "text": "Five Hollywood thrillers that still know how to make your pulse race. Here's my countdown.",
+      "start": 0,
+      "voiceStart": 0.24,
+      "speechDuration": 5.9,
+      "words": [
+        {
+          "word": "Five",
+          "start": 0.0,
+          "end": 0.5
+        },
+        {
+          "word": "Hollywood",
+          "start": 0.5,
+          "end": 0.84
+        },
+        {
+          "word": "thrillers",
+          "start": 0.84,
+          "end": 1.52
+        },
+        {
+          "word": "that",
+          "start": 1.52,
+          "end": 1.86
+        },
+        {
+          "word": "still",
+          "start": 1.86,
+          "end": 2.1
+        },
+        {
+          "word": "know",
+          "start": 2.1,
+          "end": 2.3
+        },
+        {
+          "word": "how",
+          "start": 2.3,
+          "end": 2.48
+        },
+        {
+          "word": "to",
+          "start": 2.48,
+          "end": 2.6
+        },
+        {
+          "word": "make",
+          "start": 2.6,
+          "end": 2.76
+        },
+        {
+          "word": "your",
+          "start": 2.76,
+          "end": 3.0
+        },
+        {
+          "word": "pulse",
+          "start": 3.0,
+          "end": 3.32
+        },
+        {
+          "word": "race.",
+          "start": 3.32,
+          "end": 3.84
+        },
+        {
+          "word": "Here's",
+          "start": 4.14,
+          "end": 4.56
+        },
+        {
+          "word": "my",
+          "start": 4.56,
+          "end": 4.7
+        },
+        {
+          "word": "countdown.",
+          "start": 4.7,
+          "end": 5.14
+        },
+        {
+          "word": "own.",
+          "start": 5.14,
+          "end": 5.34
+        }
+      ],
+      "duration": 6.38
+    },
+    {
+      "id": "silence",
+      "text": "Number five: The Silence of the Lambs. A rookie investigator enters the mind of a dangerous killer. Chilling, intelligent, and unforgettable.",
+      "start": 6.38,
+      "voiceStart": 6.54,
+      "speechDuration": 9.45,
+      "words": [
+        {
+          "word": "Number",
+          "start": 0.0,
+          "end": 0.44
+        },
+        {
+          "word": "five,",
+          "start": 0.44,
+          "end": 0.94
+        },
+        {
+          "word": "The",
+          "start": 1.2,
+          "end": 1.26
+        },
+        {
+          "word": "Silence",
+          "start": 1.26,
+          "end": 1.6
+        },
+        {
+          "word": "of",
+          "start": 1.6,
+          "end": 1.86
+        },
+        {
+          "word": "the",
+          "start": 1.86,
+          "end": 1.98
+        },
+        {
+          "word": "Lambs.",
+          "start": 1.98,
+          "end": 2.5
+        },
+        {
+          "word": "A",
+          "start": 2.92,
+          "end": 2.98
+        },
+        {
+          "word": "rookie",
+          "start": 2.98,
+          "end": 3.16
+        },
+        {
+          "word": "investigator",
+          "start": 3.16,
+          "end": 3.96
+        },
+        {
+          "word": "enters",
+          "start": 3.96,
+          "end": 4.32
+        },
+        {
+          "word": "the",
+          "start": 4.32,
+          "end": 4.56
+        },
+        {
+          "word": "mind",
+          "start": 4.56,
+          "end": 4.86
+        },
+        {
+          "word": "of",
+          "start": 4.86,
+          "end": 5.02
+        },
+        {
+          "word": "a",
+          "start": 5.02,
+          "end": 5.08
+        },
+        {
+          "word": "dangerous",
+          "start": 5.08,
+          "end": 5.52
+        },
+        {
+          "word": "killer.",
+          "start": 5.52,
+          "end": 6.0
+        },
+        {
+          "word": "Chilling,",
+          "start": 6.54,
+          "end": 6.8
+        },
+        {
+          "word": "intelligent,",
+          "start": 7.1,
+          "end": 7.52
+        },
+        {
+          "word": "and",
+          "start": 8.02,
+          "end": 8.1
+        },
+        {
+          "word": "unforgettable.",
+          "start": 8.1,
+          "end": 8.64
+        },
+        {
+          "word": "available.",
+          "start": 8.64,
+          "end": 8.84
+        }
+      ],
+      "duration": 9.85
+    },
+    {
+      "id": "se7en",
+      "text": "Number four: Se7en. Two detectives hunt a murderer who turns the seven deadly sins into clues. Bleak, precise, and relentlessly tense.",
+      "start": 16.23,
+      "voiceStart": 16.39,
+      "speechDuration": 10.2,
+      "words": [
+        {
+          "word": "Number",
+          "start": 0.0,
+          "end": 0.42
+        },
+        {
+          "word": "four,",
+          "start": 0.42,
+          "end": 0.86
+        },
+        {
+          "word": "Se7en.",
+          "start": 1.02,
+          "end": 1.8
+        },
+        {
+          "word": "Two",
+          "start": 2.34,
+          "end": 2.5
+        },
+        {
+          "word": "detectives",
+          "start": 2.5,
+          "end": 3.1
+        },
+        {
+          "word": "hunt",
+          "start": 3.1,
+          "end": 3.3
+        },
+        {
+          "word": "a",
+          "start": 3.3,
+          "end": 3.46
+        },
+        {
+          "word": "murderer",
+          "start": 3.46,
+          "end": 3.78
+        },
+        {
+          "word": "who",
+          "start": 3.78,
+          "end": 4.04
+        },
+        {
+          "word": "turns",
+          "start": 4.04,
+          "end": 4.5
+        },
+        {
+          "word": "the",
+          "start": 4.5,
+          "end": 4.6
+        },
+        {
+          "word": "seven",
+          "start": 4.6,
+          "end": 4.92
+        },
+        {
+          "word": "deadly",
+          "start": 4.92,
+          "end": 5.26
+        },
+        {
+          "word": "sins",
+          "start": 5.26,
+          "end": 5.56
+        },
+        {
+          "word": "into",
+          "start": 5.56,
+          "end": 5.96
+        },
+        {
+          "word": "clues.",
+          "start": 5.96,
+          "end": 6.38
+        },
+        {
+          "word": "Bleak,",
+          "start": 6.92,
+          "end": 7.3
+        },
+        {
+          "word": "precise,",
+          "start": 7.48,
+          "end": 7.84
+        },
+        {
+          "word": "and",
+          "start": 8.4,
+          "end": 8.48
+        },
+        {
+          "word": "relentlessly",
+          "start": 8.48,
+          "end": 9.1
+        },
+        {
+          "word": "tense.",
+          "start": 9.1,
+          "end": 9.5
+        },
+        {
+          "word": "Thanks",
+          "start": 9.5,
+          "end": 10.18
+        },
+        {
+          "word": "for",
+          "start": 10.18,
+          "end": 10.18
+        },
+        {
+          "word": "watching.",
+          "start": 10.18,
+          "end": 10.18
+        }
+      ],
+      "duration": 10.6
+    },
+    {
+      "id": "psycho",
+      "text": "Number three: Psycho. One motel check-in changes movie history. Hitchcock turns ordinary spaces into traps, then rewrites the rules.",
+      "start": 26.83,
+      "voiceStart": 26.99,
+      "speechDuration": 9.6,
+      "words": [
+        {
+          "word": "Number",
+          "start": 0.0,
+          "end": 0.42
+        },
+        {
+          "word": "three,",
+          "start": 0.42,
+          "end": 0.76
+        },
+        {
+          "word": "Psycho.",
+          "start": 1.06,
+          "end": 1.46
+        },
+        {
+          "word": "One",
+          "start": 1.9,
+          "end": 2.02
+        },
+        {
+          "word": "motel",
+          "start": 2.02,
+          "end": 2.48
+        },
+        {
+          "word": "check",
+          "start": 2.48,
+          "end": 2.72
+        },
+        {
+          "word": "-in",
+          "start": 2.72,
+          "end": 2.92
+        },
+        {
+          "word": "changes",
+          "start": 2.92,
+          "end": 3.36
+        },
+        {
+          "word": "movie",
+          "start": 3.36,
+          "end": 3.7
+        },
+        {
+          "word": "history.",
+          "start": 3.7,
+          "end": 4.24
+        },
+        {
+          "word": "Hitchcock",
+          "start": 4.78,
+          "end": 5.12
+        },
+        {
+          "word": "turns",
+          "start": 5.12,
+          "end": 5.66
+        },
+        {
+          "word": "ordinary",
+          "start": 5.66,
+          "end": 5.98
+        },
+        {
+          "word": "spaces",
+          "start": 5.98,
+          "end": 6.48
+        },
+        {
+          "word": "into",
+          "start": 6.48,
+          "end": 6.78
+        },
+        {
+          "word": "traps,",
+          "start": 6.78,
+          "end": 7.26
+        },
+        {
+          "word": "then",
+          "start": 7.52,
+          "end": 7.76
+        },
+        {
+          "word": "rewrites",
+          "start": 7.76,
+          "end": 8.26
+        },
+        {
+          "word": "the",
+          "start": 8.26,
+          "end": 8.52
+        },
+        {
+          "word": "rules.",
+          "start": 8.52,
+          "end": 8.8
+        }
+      ],
+      "duration": 10.0
+    },
+    {
+      "id": "prestige",
+      "text": "Number two: The Prestige. Two rival magicians sacrifice everything for the perfect trick. Watch closely: every detail is part of the illusion.",
+      "start": 36.83,
+      "voiceStart": 36.99,
+      "speechDuration": 9.7,
+      "words": [
+        {
+          "word": "Number",
+          "start": 0.0,
+          "end": 0.44
+        },
+        {
+          "word": "two,",
+          "start": 0.44,
+          "end": 0.8
+        },
+        {
+          "word": "The",
+          "start": 1.02,
+          "end": 1.08
+        },
+        {
+          "word": "Prestige.",
+          "start": 1.08,
+          "end": 1.74
+        },
+        {
+          "word": "Two",
+          "start": 2.18,
+          "end": 2.3
+        },
+        {
+          "word": "rival",
+          "start": 2.3,
+          "end": 2.64
+        },
+        {
+          "word": "magicians",
+          "start": 2.64,
+          "end": 3.32
+        },
+        {
+          "word": "sacrifice",
+          "start": 3.32,
+          "end": 3.78
+        },
+        {
+          "word": "everything",
+          "start": 3.78,
+          "end": 4.5
+        },
+        {
+          "word": "for",
+          "start": 4.5,
+          "end": 4.72
+        },
+        {
+          "word": "the",
+          "start": 4.72,
+          "end": 4.82
+        },
+        {
+          "word": "perfect",
+          "start": 4.82,
+          "end": 5.12
+        },
+        {
+          "word": "trick.",
+          "start": 5.12,
+          "end": 5.58
+        },
+        {
+          "word": "Watch",
+          "start": 6.04,
+          "end": 6.18
+        },
+        {
+          "word": "closely,",
+          "start": 6.18,
+          "end": 6.72
+        },
+        {
+          "word": "every",
+          "start": 7.1,
+          "end": 7.36
+        },
+        {
+          "word": "detail",
+          "start": 7.36,
+          "end": 7.74
+        },
+        {
+          "word": "is",
+          "start": 7.74,
+          "end": 7.98
+        },
+        {
+          "word": "part",
+          "start": 7.98,
+          "end": 8.26
+        },
+        {
+          "word": "of",
+          "start": 8.26,
+          "end": 8.46
+        },
+        {
+          "word": "the",
+          "start": 8.46,
+          "end": 8.58
+        },
+        {
+          "word": "illusion.",
+          "start": 8.58,
+          "end": 8.96
+        },
+        {
+          "word": "You",
+          "start": 8.96,
+          "end": 9.68
+        }
+      ],
+      "duration": 10.1
+    },
+    {
+      "id": "darkknight",
+      "text": "Number one: The Dark Knight. A city descends into chaos when Batman faces an enemy who turns fear into a weapon. Grand, grim, and endlessly rewatchable.",
+      "start": 46.93,
+      "voiceStart": 47.09,
+      "speechDuration": 11.15,
+      "words": [
+        {
+          "word": "Number",
+          "start": 0.0,
+          "end": 0.48
+        },
+        {
+          "word": "one,",
+          "start": 0.48,
+          "end": 0.86
+        },
+        {
+          "word": "The",
+          "start": 1.04,
+          "end": 1.1
+        },
+        {
+          "word": "Dark",
+          "start": 1.1,
+          "end": 1.38
+        },
+        {
+          "word": "Knight.",
+          "start": 1.38,
+          "end": 1.68
+        },
+        {
+          "word": "A",
+          "start": 2.22,
+          "end": 2.3
+        },
+        {
+          "word": "city",
+          "start": 2.3,
+          "end": 2.56
+        },
+        {
+          "word": "descends",
+          "start": 2.56,
+          "end": 3.06
+        },
+        {
+          "word": "into",
+          "start": 3.06,
+          "end": 3.32
+        },
+        {
+          "word": "chaos",
+          "start": 3.32,
+          "end": 3.68
+        },
+        {
+          "word": "when",
+          "start": 3.68,
+          "end": 4.14
+        },
+        {
+          "word": "Batman",
+          "start": 4.14,
+          "end": 4.5
+        },
+        {
+          "word": "faces",
+          "start": 4.5,
+          "end": 5.0
+        },
+        {
+          "word": "an",
+          "start": 5.0,
+          "end": 5.24
+        },
+        {
+          "word": "enemy",
+          "start": 5.24,
+          "end": 5.62
+        },
+        {
+          "word": "who",
+          "start": 5.62,
+          "end": 5.86
+        },
+        {
+          "word": "turns",
+          "start": 5.86,
+          "end": 6.26
+        },
+        {
+          "word": "fear",
+          "start": 6.26,
+          "end": 6.5
+        },
+        {
+          "word": "into",
+          "start": 6.5,
+          "end": 6.82
+        },
+        {
+          "word": "a",
+          "start": 6.82,
+          "end": 6.98
+        },
+        {
+          "word": "weapon.",
+          "start": 6.98,
+          "end": 7.34
+        },
+        {
+          "word": "Grand,",
+          "start": 8.0,
+          "end": 8.28
+        },
+        {
+          "word": "grim,",
+          "start": 8.66,
+          "end": 8.84
+        },
+        {
+          "word": "and",
+          "start": 9.2,
+          "end": 9.42
+        },
+        {
+          "word": "endlessly",
+          "start": 9.42,
+          "end": 9.8
+        },
+        {
+          "word": "rewatchable.",
+          "start": 9.8,
+          "end": 10.52
+        }
+      ],
+      "duration": 11.55
+    },
+    {
+      "id": "outro",
+      "text": "Save this thriller watchlist. Which one keeps you awake?",
+      "start": 58.48,
+      "voiceStart": 58.64,
+      "speechDuration": 4.05,
+      "words": [
+        {
+          "word": "Save",
+          "start": 0.0,
+          "end": 0.48
+        },
+        {
+          "word": "this",
+          "start": 0.48,
+          "end": 0.8
+        },
+        {
+          "word": "thriller",
+          "start": 0.8,
+          "end": 1.22
+        },
+        {
+          "word": "watchlist.",
+          "start": 1.22,
+          "end": 1.8
+        },
+        {
+          "word": "Which",
+          "start": 2.2,
+          "end": 2.36
+        },
+        {
+          "word": "one",
+          "start": 2.36,
+          "end": 2.54
+        },
+        {
+          "word": "keeps",
+          "start": 2.54,
+          "end": 2.8
+        },
+        {
+          "word": "you",
+          "start": 2.8,
+          "end": 3.06
+        },
+        {
+          "word": "awake?",
+          "start": 3.06,
+          "end": 3.34
+        }
+      ],
+      "duration": 6.02
+    }
+  ]
+}

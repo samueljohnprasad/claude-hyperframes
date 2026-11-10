@@ -2644,6 +2644,21 @@
       tl.set("#m-2", { display: "none" }, 43.767);
       tl.set("#m-1", { display: "block" }, 43.767);
 
+      // Replace the previous project's performance with a seek-safe performance
+      // matched to the eight narration sections in the current voice track.
+      tl.clear();
+      tl.set("#m-0", { display: "block" }, 0);
+      tl.set("#m-5", { display: "none" }, 0);
+      const speechSections = [[0,4.4],[4.4,9.3],[9.3,14.5],[14.5,20.0],[20.0,25.7],[25.7,32.2],[32.2,38.0],[38.0,47.46]];
+      speechSections.forEach(([start, end], i) => {
+        tl.set("#m-0", { display: "none" }, start);
+        tl.set("#m-5", { display: "block" }, start + 0.03);
+        tl.set("#m-5", { display: "none" }, Math.max(start + 0.04, end - 0.12));
+        tl.set("#m-0", { display: "block" }, Math.max(start + 0.05, end - 0.12));
+        tl.to("#head-anchor", { rotation: i % 2 ? 1.6 : -1.6, duration: 0.18, ease: "power1.out" }, start + 0.08);
+        tl.to("#head-anchor", { rotation: 0, duration: 0.28, ease: "power1.out" }, start + 0.55);
+      });
+
       window.__timelines = window.__timelines || {};
       window.__timelines["presenter"] = tl;
       tl.seek(0);

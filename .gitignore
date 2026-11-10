@@ -1,2 +1,13 @@
 .hyperframes/skills/
 graphify-out/
+
+# Generated media and check artifacts — kept local, not in git
+*.wav
+*.mp4
+*.mp3
+verify/
+verify-*/
+**/.hyperframes/artifacts/
+**/.hyperframes/preview/
+**/.hyperframes/render-outputs-lock/
+**/.hyperframes/video-state-lock/

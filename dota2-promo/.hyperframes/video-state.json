@@ -1,0 +1,386 @@
+{
+  "version": 1,
+  "historyId": "42edefec-9160-4b78-ae77-3fc505ebe07a",
+  "currentRevision": "61c333a8-d163-44b7-9812-60ac8aae87b7",
+  "pendingChanges": false,
+  "files": {
+    "index.html": {
+      "hash": "6a03a634fd9c06bd39d053ec370ba53dc4b6e1b9cf8c906086f318d997b6e933",
+      "content": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\6a\\6a03a634fd9c06bd39d053ec370ba53dc4b6e1b9cf8c906086f318d997b6e933"
+    },
+    "assets/music.wav": {
+      "hash": "53969aefc98505faa545468bd56502b5820eb0daa8987831be5252ca694db9ee",
+      "content": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\53\\53969aefc98505faa545468bd56502b5820eb0daa8987831be5252ca694db9ee"
+    },
+    "assets/announcer.wav": {
+      "hash": "c6fa090034461790b6a98d838f8724360b8c518c1c4be5b7333b35fbee7c892b",
+      "content": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\c6\\c6fa090034461790b6a98d838f8724360b8c518c1c4be5b7333b35fbee7c892b"
+    },
+    "assets/gsap.min.js": {
+      "hash": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "content": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\92\\92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    "compositions/dota2-promo.html": {
+      "hash": "d4b03e40ff79405c8ea11f9deee7224321921a0b1cf5789d21a9af76edad95ff",
+      "content": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\d4\\d4b03e40ff79405c8ea11f9deee7224321921a0b1cf5789d21a9af76edad95ff"
+    }
+  },
+  "revisions": {
+    "61c333a8-d163-44b7-9812-60ac8aae87b7": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794293458192,
+      "endedAt": 1794293458232,
+      "files": {
+        "ANNOUNCEMENT.md": {
+          "before": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\d5\\d536d65260815e1f73e4d7c7a1f7cfb34ca4b6cc19460eea3a08f90949e7bbf8",
+          "after": null
+        },
+        "assets/announcer.wav": {
+          "before": null,
+          "after": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\c6\\c6fa090034461790b6a98d838f8724360b8c518c1c4be5b7333b35fbee7c892b"
+        },
+        "assets/gsap.min.js": {
+          "before": null,
+          "after": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\92\\92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+        },
+        "compositions/dota2-promo.html": {
+          "before": null,
+          "after": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\d4\\d4b03e40ff79405c8ea11f9deee7224321921a0b1cf5789d21a9af76edad95ff"
+        },
+        "credits.txt": {
+          "before": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\90\\9018e83376938306df6c5d13b8325d474072dcf41219ed5c85d9f97317375641",
+          "after": null
+        },
+        "hyperframes.json": {
+          "before": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\77\\7760693dcdca6a31fffd9ed53b7fe9b4d7877089b1778edc5a5de0cb4bac517d",
+          "after": null
+        },
+        "index.html": {
+          "before": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\2d\\2d4c8d699293c33b8f48170da4d4b8cb0d310a2ec4e444c380e0310b8ea1d90b",
+          "after": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\6a\\6a03a634fd9c06bd39d053ec370ba53dc4b6e1b9cf8c906086f318d997b6e933"
+        },
+        "meta.json": {
+          "before": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\6f\\6fa47e5139c6c851ab32598f8b9f2f6c95cb5563a649aad197720f9d0f8fb2f6",
+          "after": null
+        },
+        "package.json": {
+          "before": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\d8\\d832f7f6aaad3caa0214db50778fa0c5e39d6d73c8a65320e337d94010b82d32",
+          "after": null
+        },
+        "REVIEW.md": {
+          "before": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\2e\\2e98d384de6b1843b158573f20725c971040f4d8c65d1c601ed87f13698389b7",
+          "after": null
+        },
+        "SPEC.md": {
+          "before": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\d9\\d999d50d2467f400f72f2531c4bf24353ebb48cf93192006127bab5587ab36b8",
+          "after": null
+        },
+        "STORYLINES.md": {
+          "before": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\eb\\ebcf6065bf7a6b745f4d56bce33884ddf6fc63d0a532d208b09e33340bec2ad3",
+          "after": null
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": "61c333a8-d163-44b7-9812-60ac8aae87b7",
+      "id": "ba428803-7615-490e-bfc8-96ff08a664f0"
+    },
+    "revisions": {
+      "61c333a8-d163-44b7-9812-60ac8aae87b7": [
+        {
+          "id": "0b8993df-0dea-4d4c-9edc-dd140a33f673",
+          "scope": "project",
+          "report": "C:\\Users\\NISHNATH\\Desktop\\calude code\\claude-hyperframes\\dota2-promo\\.hyperframes\\artifacts\\checks\\0b8993df-0dea-4d4c-9edc-dd140a33f673.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1794293463383,
+          "contentHash": "2fe15a68f81cc0ef1cbb986fc3678687ae309adaa9d27d3dd0e7fea9381854c5",
+          "revision": "61c333a8-d163-44b7-9812-60ac8aae87b7",
+          "inputFingerprint": "fb7af47190e04cea1a27b58407b04c95c100c3730bee0827d0b7b184f93b7bf8",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "ba428803-7615-490e-bfc8-96ff08a664f0",
+          "scope": "project",
+          "report": "C:\\Users\\NISHNATH\\Desktop\\calude code\\claude-hyperframes\\dota2-promo\\.hyperframes\\artifacts\\checks\\ba428803-7615-490e-bfc8-96ff08a664f0.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1794293798313,
+          "contentHash": "2fe15a68f81cc0ef1cbb986fc3678687ae309adaa9d27d3dd0e7fea9381854c5",
+          "revision": "61c333a8-d163-44b7-9812-60ac8aae87b7",
+          "inputFingerprint": "fb7af47190e04cea1a27b58407b04c95c100c3730bee0827d0b7b184f93b7bf8",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "a7e84fe0-c611-4b16-a96d-a6e173c7aa1b",
+        "scope": "project",
+        "report": "C:\\Users\\NISHNATH\\Desktop\\calude code\\claude-hyperframes\\dota2-promo\\.hyperframes\\artifacts\\checks\\a7e84fe0-c611-4b16-a96d-a6e173c7aa1b.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1794288600302,
+        "contentHash": "bbf4e9893ab806dce2e2efa5b7e42d1723248abecd53582cbf4590cacdcb299f",
+        "revision": null,
+        "inputFingerprint": "d0a1cc943d58fd0bac44ea2e763b24b9169dec19e5426c49628041de4c775b61",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "61c333a8-d163-44b7-9812-60ac8aae87b7",
+      "id": "ee5b4547-d585-4887-9f3d-827ea3e0d2c5-8"
+    },
+    "revisions": {
+      "61c333a8-d163-44b7-9812-60ac8aae87b7": [
+        {
+          "scope": "full",
+          "id": "ee5b4547-d585-4887-9f3d-827ea3e0d2c5-0",
+          "image": "C:\\Users\\NISHNATH\\Desktop\\calude code\\claude-hyperframes\\dota2-promo\\.hyperframes\\artifacts\\snapshots\\bcc5bb00-aa7a-4d18-bca6-6652ddb231f7\\frame-00-at-1s.png",
+          "time": 1,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794293544324,
+          "contentHash": "f596d77bec14d632b2b873a1d24aaee41759c226980e0b348b1895b3e8aca125",
+          "revision": "61c333a8-d163-44b7-9812-60ac8aae87b7",
+          "inputFingerprint": "fb7af47190e04cea1a27b58407b04c95c100c3730bee0827d0b7b184f93b7bf8",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "ee5b4547-d585-4887-9f3d-827ea3e0d2c5-1",
+          "image": "C:\\Users\\NISHNATH\\Desktop\\calude code\\claude-hyperframes\\dota2-promo\\.hyperframes\\artifacts\\snapshots\\bcc5bb00-aa7a-4d18-bca6-6652ddb231f7\\frame-01-at-7s.png",
+          "time": 7,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794293544324,
+          "contentHash": "93a5e2b16263850505ff189c58fb00ce28350c06d9081eec9e05267b75c30dad",
+          "revision": "61c333a8-d163-44b7-9812-60ac8aae87b7",
+          "inputFingerprint": "fb7af47190e04cea1a27b58407b04c95c100c3730bee0827d0b7b184f93b7bf8",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "ee5b4547-d585-4887-9f3d-827ea3e0d2c5-2",
+          "image": "C:\\Users\\NISHNATH\\Desktop\\calude code\\claude-hyperframes\\dota2-promo\\.hyperframes\\artifacts\\snapshots\\bcc5bb00-aa7a-4d18-bca6-6652ddb231f7\\frame-02-at-12s.png",
+          "time": 12,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794293544325,
+          "contentHash": "ee82a4345adc2b0370377c041dbb37e14a613e0620efeab3f83af39840596114",
+          "revision": "61c333a8-d163-44b7-9812-60ac8aae87b7",
+          "inputFingerprint": "fb7af47190e04cea1a27b58407b04c95c100c3730bee0827d0b7b184f93b7bf8",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "ee5b4547-d585-4887-9f3d-827ea3e0d2c5-3",
+          "image": "C:\\Users\\NISHNATH\\Desktop\\calude code\\claude-hyperframes\\dota2-promo\\.hyperframes\\artifacts\\snapshots\\bcc5bb00-aa7a-4d18-bca6-6652ddb231f7\\frame-03-at-18s.png",
+          "time": 18,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794293544325,
+          "contentHash": "2ebbd1121748459666b7a4eb1c8e1d78ca9156698d20b2aa3e5e649b9c3556c0",
+          "revision": "61c333a8-d163-44b7-9812-60ac8aae87b7",
+          "inputFingerprint": "fb7af47190e04cea1a27b58407b04c95c100c3730bee0827d0b7b184f93b7bf8",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "ee5b4547-d585-4887-9f3d-827ea3e0d2c5-4",
+          "image": "C:\\Users\\NISHNATH\\Desktop\\calude code\\claude-hyperframes\\dota2-promo\\.hyperframes\\artifacts\\snapshots\\bcc5bb00-aa7a-4d18-bca6-6652ddb231f7\\frame-04-at-25s.png",
+          "time": 25,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794293544325,
+          "contentHash": "ebb0c4d3f4c663e6a950df155561da728427ea40be0ed53625cda3fbcf776d7b",
+          "revision": "61c333a8-d163-44b7-9812-60ac8aae87b7",
+          "inputFingerprint": "fb7af47190e04cea1a27b58407b04c95c100c3730bee0827d0b7b184f93b7bf8",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "ee5b4547-d585-4887-9f3d-827ea3e0d2c5-5",
+          "image": "C:\\Users\\NISHNATH\\Desktop\\calude code\\claude-hyperframes\\dota2-promo\\.hyperframes\\artifacts\\snapshots\\bcc5bb00-aa7a-4d18-bca6-6652ddb231f7\\frame-05-at-32s.png",
+          "time": 32,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794293544325,
+          "contentHash": "b7ef889890564249f1d98480500e0125db138e90eca9141565beb619b8518a42",
+          "revision": "61c333a8-d163-44b7-9812-60ac8aae87b7",
+          "inputFingerprint": "fb7af47190e04cea1a27b58407b04c95c100c3730bee0827d0b7b184f93b7bf8",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "ee5b4547-d585-4887-9f3d-827ea3e0d2c5-6",
+          "image": "C:\\Users\\NISHNATH\\Desktop\\calude code\\claude-hyperframes\\dota2-promo\\.hyperframes\\artifacts\\snapshots\\bcc5bb00-aa7a-4d18-bca6-6652ddb231f7\\frame-06-at-40s.png",
+          "time": 40,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794293544325,
+          "contentHash": "54e1620b859d55bde371d55b9f4cd96979b1b9baf7a8ad674417d42f97f746a1",
+          "revision": "61c333a8-d163-44b7-9812-60ac8aae87b7",
+          "inputFingerprint": "fb7af47190e04cea1a27b58407b04c95c100c3730bee0827d0b7b184f93b7bf8",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "ee5b4547-d585-4887-9f3d-827ea3e0d2c5-7",
+          "image": "C:\\Users\\NISHNATH\\Desktop\\calude code\\claude-hyperframes\\dota2-promo\\.hyperframes\\artifacts\\snapshots\\bcc5bb00-aa7a-4d18-bca6-6652ddb231f7\\frame-07-at-44s.png",
+          "time": 44,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794293544325,
+          "contentHash": "54e1620b859d55bde371d55b9f4cd96979b1b9baf7a8ad674417d42f97f746a1",
+          "revision": "61c333a8-d163-44b7-9812-60ac8aae87b7",
+          "inputFingerprint": "fb7af47190e04cea1a27b58407b04c95c100c3730bee0827d0b7b184f93b7bf8",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "ee5b4547-d585-4887-9f3d-827ea3e0d2c5-8",
+          "image": "C:\\Users\\NISHNATH\\Desktop\\calude code\\claude-hyperframes\\dota2-promo\\.hyperframes\\artifacts\\snapshots\\bcc5bb00-aa7a-4d18-bca6-6652ddb231f7\\frame-08-at-44.75s.png",
+          "time": 44.75,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794293544326,
+          "contentHash": "54e1620b859d55bde371d55b9f4cd96979b1b9baf7a8ad674417d42f97f746a1",
+          "revision": "61c333a8-d163-44b7-9812-60ac8aae87b7",
+          "inputFingerprint": "fb7af47190e04cea1a27b58407b04c95c100c3730bee0827d0b7b184f93b7bf8",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "c8b3f97a-fb9e-4c48-8e5d-8a0232685e96",
+      "completedAt": 1794293661454,
+      "output": "C:\\Users\\NISHNATH\\Desktop\\calude code\\claude-hyperframes\\dota2-promo\\renders\\one-more-double-kill-45s.mp4",
+      "status": "completed",
+      "revision": "61c333a8-d163-44b7-9812-60ac8aae87b7"
+    },
+    "retainedRevisions": [
+      "61c333a8-d163-44b7-9812-60ac8aae87b7"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

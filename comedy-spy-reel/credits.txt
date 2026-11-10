@@ -1,0 +1,16 @@
+Music: "Spy Glass" by Kevin MacLeod (incompetech.com), ISRC USUAN1500058.
+Licensed under Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/pieces.json
+Excerpted, equalized, and ducked under narration.
+
+Paper Foley: "wipe2.wav" by Sclolex, CC0 1.0.
+https://creativecommons.org/publicdomain/zero/1.0/
+Reused from this project's existing Openverse audio library; trimmed and level adjusted.
+
+Style reference: LemoLab, "60s Spy Title Sequence".
+https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/spy-titles/STYLE.md
+Original illustrations and animation for this reel; no film footage or movie artwork used.
+
+Fonts: League Gothic and League Spartan, SIL Open Font License 1.1, license files in assets/fonts.
+Voice: locally generated with Kokoro-82M, bm_george.
+GSAP 3.15.0 and opentype.js retain their bundled license notices.

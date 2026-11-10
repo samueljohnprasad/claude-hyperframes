@@ -10,22 +10,14 @@ os.makedirs("audio", exist_ok=True)
 os.makedirs("src", exist_ok=True)
 
 sentences = [
-    # Hook Line 1 (under 6 words):
-    "Building everything from scratch hurts.",
-    # Hook Line 2:
-    "These five open source titans will supercharge your developer workflow forever.",
-    # Point 1 (React):
-    "React powers interactive user interfaces across millions of modern web applications.",
-    # Point 2 (Transformers):
-    "Transformers lets you run cutting edge artificial intelligence in three lines.",
-    # Point 3 (FastAPI):
-    "FastAPI delivers production ready asynchronous backend microservices with automatic documentation.",
-    # Point 4 (Tauri):
-    "Tauri builds blazingly fast desktop software using tiny web frontends.",
-    # Point 5 (Supabase):
-    "Supabase gives you scalable Postgres databases, authentication, and realtime storage instantly.",
-    # Closing:
-    "Star these five repositories now before building everything from scratch."
+    "Five Hollywood horror movies that still get under your skin.",
+    "Number five: Scream, nineteen ninety-six. It turned slasher rules into a joke, then made the joke terrifying.",
+    "Number four: Get Out, twenty seventeen. A sharp nightmare about racism, control, and the feeling that something is wrong.",
+    "Number three: The Thing, nineteen eighty-two. Fear, snow, and strange practical effects that still feel disgusting.",
+    "Number two: The Shining, nineteen eighty. An empty hotel slowly tears a family apart.",
+    "And number one: The Exorcist, nineteen seventy-three. It made possession feel close, physical, and almost impossible to shake.",
+    "Different years, different fears, same result: you check the hall before turning out the light.",
+    "Which one belongs at number one for you?"
 ]
 
 pipe = KPipeline(lang_code='b')

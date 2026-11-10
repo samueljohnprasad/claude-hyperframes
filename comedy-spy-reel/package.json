@@ -1,0 +1,10 @@
+{
+  "name": "drama-spy-reel",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --offline --yes hyperframes@0.9.20 preview",
+    "check": "npx --offline --yes hyperframes@0.9.20 check",
+    "render": "npx --offline --yes hyperframes@0.9.20 render --quality delivery -o renders/top-five-hollywood-dramas.mp4"
+  }
+}

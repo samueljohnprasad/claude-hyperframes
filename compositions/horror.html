@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Sans:wght@500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      * { margin:0; padding:0; box-sizing:border-box; }
+      html,body,#horror { width:1080px; height:1920px; overflow:hidden; background:#11100f; }
+      #horror { position:relative; color:#f5eee5; font-family:'Instrument Sans',sans-serif; }
+      .grain { position:absolute; inset:0; opacity:.07; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E"); pointer-events:none; }
+      .scene { position:absolute; inset:0; padding:170px 116px 0; opacity:0; }
+      .scene.intro { opacity:1; }
+      .eyebrow { color:#d45a4d; font:700 26px 'JetBrains Mono',monospace; letter-spacing:2px; text-transform:uppercase; }
+      .rule { width:220px; height:6px; background:#d45a4d; margin:22px 0 36px; }
+      h1 { font:76px/.95 Anton,sans-serif; letter-spacing:1px; text-transform:uppercase; max-width:800px; }
+      h2 { font:112px/.9 Anton,sans-serif; letter-spacing:1px; text-transform:uppercase; max-width:820px; }
+      .year { margin-top:30px; font:700 30px 'JetBrains Mono',monospace; color:#d45a4d; }
+      .blurb { position:absolute; left:116px; bottom:300px; max-width:540px; font-size:34px; line-height:1.18; color:#d9cfc4; }
+      .rank { position:absolute; right:120px; top:176px; font:160px/.8 Anton,sans-serif; color:#d45a4d; opacity:.9; }
+      .motif { position:absolute; right:80px; bottom:520px; width:410px; height:410px; border:3px solid #d45a4d; border-radius:50%; opacity:.55; }
+      .motif:before,.motif:after { content:''; position:absolute; background:#d45a4d; }
+      .motif:before { width:3px; height:100%; left:50%; top:0; transform:rotate(35deg); }
+      .motif:after { height:3px; width:100%; top:50%; left:0; transform:rotate(-35deg); }
+      .face { border-radius:46% 46% 42% 42%; }
+      .face:before { content:''; position:absolute; width:96px; height:96px; border:4px solid #d45a4d; border-radius:50%; top:88px; left:74px; box-shadow:140px 0 0 -4px #11100f, 140px 0 0 0 #d45a4d; }
+      .face:after { content:''; position:absolute; width:180px; height:70px; border-bottom:4px solid #d45a4d; border-radius:0 0 50% 50%; bottom:80px; left:110px; }
+      .hall { width:320px; height:450px; right:150px; bottom:390px; border:4px solid #d45a4d; border-top:0; }
+      .hall:before,.hall:after { content:''; position:absolute; top:0; bottom:0; width:4px; background:#d45a4d; }
+      .hall:before { left:70px; transform:skewY(-18deg); } .hall:after { right:70px; transform:skewY(18deg); }
+      .snow { width:390px; height:300px; right:90px; bottom:500px; border:4px dashed #d45a4d; transform:rotate(-7deg); }
+      .snow:before { content:'?'; position:absolute; font:220px Anton,sans-serif; color:#d45a4d; left:135px; top:20px; }
+      .lamp { right:140px; bottom:480px; width:260px; height:360px; border-left:5px solid #d45a4d; border-right:5px solid #d45a4d; border-radius:50%; }
+      .lamp:before { content:''; position:absolute; width:340px; height:6px; background:#d45a4d; top:58px; left:-45px; transform:rotate(-18deg); }
+      .lamp:after { content:''; position:absolute; width:130px; height:130px; background:#d45a4d; opacity:.2; border-radius:50%; top:110px; left:60px; box-shadow:0 0 90px 40px #d45a4d; }
+      .footer { position:absolute; bottom:140px; left:116px; width:420px; font:28px 'JetBrains Mono',monospace; line-height:1.15; color:#8e8278; letter-spacing:1px; }
+      .intro .motif { bottom:430px; right:160px; } .outro h1 { max-width:860px; } .outro .blurb { bottom:390px; }
+    </style>
+  </head>
+  <body>
+    <div id="horror" data-composition-id="horror" data-width="1080" data-height="1920">
+      <div class="grain"></div>
+      <section class="scene intro"><div class="eyebrow">HOLLYWOOD HORROR / A QUICK COUNTDOWN</div><div class="rule"></div><h1>Five movies that still get under your skin.</h1><div class="motif face"></div><div class="footer">NO SPOILERS · JUST THE FEAR</div></section>
+      <section class="scene"><div class="rank">05</div><div class="eyebrow">THE RULEBOOK WITH A KNIFE</div><div class="rule"></div><h2>SCREAM</h2><div class="year">1996 · WES CRAVEN</div><div class="blurb">It turned slasher rules into the joke — then made the joke terrifying.</div><div class="motif face"></div><div class="footer">META-HORROR / SLASHER</div></section>
+      <section class="scene"><div class="rank">04</div><div class="eyebrow">THE SMILE THAT DOESN'T REACH THE EYES</div><div class="rule"></div><h2>GET OUT</h2><div class="year">2017 · JORDAN PEELE</div><div class="blurb">A razor-sharp nightmare about racism, control, and the feeling that something is wrong.</div><div class="motif hall"></div><div class="footer">SOCIAL HORROR / SATIRE</div></section>
+      <section class="scene"><div class="rank">03</div><div class="eyebrow">TRUST NO ONE</div><div class="rule"></div><h2>THE THING</h2><div class="year">1982 · JOHN CARPENTER</div><div class="blurb">Paranoia, isolation, and practical effects that remain disgusting in the best way.</div><div class="motif snow"></div><div class="footer">BODY HORROR / PARANOIA</div></section>
+      <section class="scene"><div class="rank">02</div><div class="eyebrow">THE HOTEL IS WATCHING</div><div class="rule"></div><h2>THE SHINING</h2><div class="year">1980 · STANLEY KUBRICK</div><div class="blurb">An empty hotel becomes a machine that slowly breaks a family apart.</div><div class="motif lamp"></div><div class="footer">PSYCHOLOGICAL HORROR</div></section>
+      <section class="scene"><div class="rank">01</div><div class="eyebrow">THE FEAR THAT MOVED IN</div><div class="rule"></div><h2>THE EXORCIST</h2><div class="year">1973 · WILLIAM FRIEDKIN</div><div class="blurb">It made possession feel intimate, physical, and almost impossible to shake.</div><div class="motif face"></div><div class="footer">POSSESSION / SUPERNATURAL</div></section>
+      <section class="scene outro"><div class="eyebrow">THE LIGHTS ARE STILL ON</div><div class="rule"></div><h1>Different decades. Different fears. Same result.</h1><div class="blurb">You check the hallway before turning out the light. Which one belongs at number one for you?</div><div class="motif hall"></div><div class="footer">SAVE THIS LIST · WATCH RESPONSIBLY</div></section>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused:true }); const scenes = gsap.utils.toArray('.scene'); const times = [0,4.4,9.3,14.5,20.0,25.7,32.2,38.0];
+      scenes.forEach((scene,i) => { tl.to(scene,{opacity:1,duration:.35,ease:'power2.out'},times[i]); if(i<scenes.length-1) tl.to(scene,{opacity:0,duration:.28,ease:'power2.in'},times[i+1]-.28); });
+      window.__timelines=window.__timelines||{}; window.__timelines['horror']=tl; tl.seek(0);
+    </script>
+  </body>
+</html>

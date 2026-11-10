@@ -1,0 +1,51 @@
+[
+  {
+    "id": "intro",
+    "cut": 0,
+    "title": 0,
+    "speech": 0.24,
+    "end": 6.015000000000001
+  },
+  {
+    "id": "grandbudapest",
+    "cut": 6.255,
+    "title": 6.255,
+    "speech": 6.415,
+    "end": 17.59
+  },
+  {
+    "id": "superbad",
+    "cut": 17.83,
+    "title": 17.83,
+    "speech": 17.99,
+    "end": 27.765
+  },
+  {
+    "id": "groundhog",
+    "cut": 28.005,
+    "title": 28.005,
+    "speech": 28.165,
+    "end": 38.915
+  },
+  {
+    "id": "airplane",
+    "cut": 39.155,
+    "title": 39.155,
+    "speech": 39.315,
+    "end": 49.364999999999995
+  },
+  {
+    "id": "somelike",
+    "cut": 49.605,
+    "title": 49.605,
+    "speech": 49.765,
+    "end": 60.24
+  },
+  {
+    "id": "outro",
+    "cut": 60.48,
+    "title": 60.48,
+    "speech": 60.64,
+    "end": 65.39
+  }
+]
