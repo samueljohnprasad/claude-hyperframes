@@ -1,0 +1,95 @@
+{
+  "duration": 67.20833333333333,
+  "sampleRate": 48000,
+  "exportTrimDb": -0.7,
+  "voiceEngine": "Kokoro bm_george local",
+  "music": "Spy Glass / Kevin MacLeod / CC BY 4.0",
+  "mix": {
+    "input_i": "-16.79",
+    "input_tp": "-5.20",
+    "input_lra": "3.30",
+    "input_thresh": "-27.42",
+    "output_i": "-16.06",
+    "output_tp": "-4.50",
+    "output_lra": "3.10",
+    "output_thresh": "-26.65",
+    "normalization_type": "dynamic",
+    "target_offset": "0.06"
+  },
+  "voice": {
+    "input_i": "-16.59",
+    "input_tp": "-5.28",
+    "input_lra": "3.30",
+    "input_thresh": "-26.92",
+    "output_i": "-15.99",
+    "output_tp": "-4.50",
+    "output_lra": "3.20",
+    "output_thresh": "-26.32",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.01"
+  },
+  "musicRmsDb": -36.790505488430355,
+  "sfxCues": [
+    {
+      "id": "intro-ticket",
+      "time": 0.42,
+      "voiceRmsDb": -21.22,
+      "sfxRmsDb": -41.7,
+      "voiceAboveSfxDb": 20.48,
+      "sfxPeakDb": -22.0
+    },
+    {
+      "id": "grandbudapest",
+      "time": 6.315,
+      "voiceRmsDb": -23.46,
+      "sfxRmsDb": -40.26,
+      "voiceAboveSfxDb": 16.8,
+      "sfxPeakDb": -22.0
+    },
+    {
+      "id": "superbad",
+      "time": 19.03,
+      "voiceRmsDb": -18.85,
+      "sfxRmsDb": -36.64,
+      "voiceAboveSfxDb": 17.79,
+      "sfxPeakDb": -22.0
+    },
+    {
+      "id": "groundhog",
+      "time": 29.225,
+      "voiceRmsDb": -18.49,
+      "sfxRmsDb": -41.7,
+      "voiceAboveSfxDb": 23.22,
+      "sfxPeakDb": -22.0
+    },
+    {
+      "id": "airplane",
+      "time": 40.495,
+      "voiceRmsDb": -21.12,
+      "sfxRmsDb": -40.26,
+      "voiceAboveSfxDb": 19.14,
+      "sfxPeakDb": -22.0
+    },
+    {
+      "id": "somelike",
+      "time": 50.885,
+      "voiceRmsDb": -19.46,
+      "sfxRmsDb": -36.64,
+      "voiceAboveSfxDb": 17.18,
+      "sfxPeakDb": -22.0
+    },
+    {
+      "id": "outro",
+      "time": 60.54,
+      "voiceRmsDb": -24.66,
+      "sfxRmsDb": -41.7,
+      "voiceAboveSfxDb": 17.05,
+      "sfxPeakDb": -22.0
+    }
+  ],
+  "checks": {
+    "source": "all music and Foley from recordings",
+    "sfxSpeechMarginDb": 16.8,
+    "dialogueUnshifted": true
+  }
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "intro",
+    "cut": 0,
+    "title": 0,
+    "speech": 0.24,
+    "end": 5.215
+  },
+  {
+    "id": "forrest",
+    "cut": 5.455,
+    "title": 6.735,
+    "speech": 5.615,
+    "end": 14.165000000000001
+  },
+  {
+    "id": "jury",
+    "cut": 14.405,
+    "title": 15.665,
+    "speech": 14.565,
+    "end": 23.79
+  },
+  {
+    "id": "schindler",
+    "cut": 24.03,
+    "title": 25.19,
+    "speech": 24.19,
+    "end": 32.815
+  },
+  {
+    "id": "shawshank",
+    "cut": 33.055,
+    "title": 34.23500000000001,
+    "speech": 33.215,
+    "end": 42.565000000000005
+  },
+  {
+    "id": "godfather",
+    "cut": 42.805,
+    "title": 44.145,
+    "speech": 42.965,
+    "end": 52.49
+  },
+  {
+    "id": "outro",
+    "cut": 52.73,
+    "title": 52.73,
+    "speech": 52.89,
+    "end": 56.74
+  }
+]

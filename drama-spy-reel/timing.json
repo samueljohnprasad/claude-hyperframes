@@ -1,0 +1,671 @@
+{
+  "duration": 58.541666666666664,
+  "fps": 24,
+  "scenes": [
+    {
+      "id": "intro",
+      "text": "Five Hollywood dramas you should see at least once. Here's my countdown.",
+      "start": 0,
+      "voiceStart": 0.24,
+      "speechDuration": 4.975,
+      "words": [
+        {
+          "word": "Five",
+          "start": 0.0,
+          "end": 0.54
+        },
+        {
+          "word": "Hollywood",
+          "start": 0.54,
+          "end": 0.92
+        },
+        {
+          "word": "dramas",
+          "start": 0.92,
+          "end": 1.36
+        },
+        {
+          "word": "you",
+          "start": 1.36,
+          "end": 1.68
+        },
+        {
+          "word": "should",
+          "start": 1.68,
+          "end": 1.84
+        },
+        {
+          "word": "see",
+          "start": 1.84,
+          "end": 2.1
+        },
+        {
+          "word": "at",
+          "start": 2.1,
+          "end": 2.28
+        },
+        {
+          "word": "least",
+          "start": 2.28,
+          "end": 2.42
+        },
+        {
+          "word": "once.",
+          "start": 2.42,
+          "end": 2.9
+        },
+        {
+          "word": "Here's",
+          "start": 3.26,
+          "end": 3.64
+        },
+        {
+          "word": "my",
+          "start": 3.64,
+          "end": 3.8
+        },
+        {
+          "word": "countdown.",
+          "start": 3.8,
+          "end": 4.24
+        }
+      ],
+      "duration": 5.455
+    },
+    {
+      "id": "forrest",
+      "text": "Number five: Forrest Gump. A gentle outsider moves through American history. Watch it for the warmth, heartbreak, and Tom Hanks.",
+      "start": 5.455,
+      "voiceStart": 5.615,
+      "speechDuration": 8.55,
+      "words": [
+        {
+          "word": "Number",
+          "start": 0.0,
+          "end": 0.42
+        },
+        {
+          "word": "five,",
+          "start": 0.42,
+          "end": 0.92
+        },
+        {
+          "word": "Forrest",
+          "start": 1.12,
+          "end": 1.52
+        },
+        {
+          "word": "Gump.",
+          "start": 1.52,
+          "end": 1.88
+        },
+        {
+          "word": "A",
+          "start": 2.28,
+          "end": 2.46
+        },
+        {
+          "word": "gentle",
+          "start": 2.46,
+          "end": 2.78
+        },
+        {
+          "word": "outsider",
+          "start": 2.78,
+          "end": 3.26
+        },
+        {
+          "word": "moves",
+          "start": 3.26,
+          "end": 3.58
+        },
+        {
+          "word": "through",
+          "start": 3.58,
+          "end": 3.96
+        },
+        {
+          "word": "American",
+          "start": 3.96,
+          "end": 4.36
+        },
+        {
+          "word": "history.",
+          "start": 4.36,
+          "end": 4.98
+        },
+        {
+          "word": "Watch",
+          "start": 5.4,
+          "end": 5.58
+        },
+        {
+          "word": "it",
+          "start": 5.58,
+          "end": 5.76
+        },
+        {
+          "word": "for",
+          "start": 5.76,
+          "end": 5.88
+        },
+        {
+          "word": "the",
+          "start": 5.88,
+          "end": 6.0
+        },
+        {
+          "word": "warmth,",
+          "start": 6.0,
+          "end": 6.28
+        },
+        {
+          "word": "heartbreak,",
+          "start": 6.6,
+          "end": 7.0
+        },
+        {
+          "word": "and",
+          "start": 7.2,
+          "end": 7.3
+        },
+        {
+          "word": "Tom",
+          "start": 7.3,
+          "end": 7.52
+        },
+        {
+          "word": "Hanks.",
+          "start": 7.52,
+          "end": 7.86
+        }
+      ],
+      "duration": 8.95
+    },
+    {
+      "id": "jury",
+      "text": "Number four: Twelve Angry Men. One juror challenges eleven others. A single room becomes a pressure cooker of prejudice and doubt.",
+      "start": 14.405,
+      "voiceStart": 14.565,
+      "speechDuration": 9.225,
+      "words": [
+        {
+          "word": "Number",
+          "start": 0.0,
+          "end": 0.42
+        },
+        {
+          "word": "four,",
+          "start": 0.42,
+          "end": 0.84
+        },
+        {
+          "word": "twelve",
+          "start": 1.1,
+          "end": 1.28
+        },
+        {
+          "word": "angry",
+          "start": 1.28,
+          "end": 1.74
+        },
+        {
+          "word": "men.",
+          "start": 1.74,
+          "end": 2.12
+        },
+        {
+          "word": "One",
+          "start": 2.6,
+          "end": 2.74
+        },
+        {
+          "word": "juror",
+          "start": 2.74,
+          "end": 3.16
+        },
+        {
+          "word": "challenges",
+          "start": 3.16,
+          "end": 3.5
+        },
+        {
+          "word": "eleven",
+          "start": 3.5,
+          "end": 4.06
+        },
+        {
+          "word": "others.",
+          "start": 4.06,
+          "end": 4.5
+        },
+        {
+          "word": "A",
+          "start": 4.98,
+          "end": 5.14
+        },
+        {
+          "word": "single",
+          "start": 5.14,
+          "end": 5.44
+        },
+        {
+          "word": "room",
+          "start": 5.44,
+          "end": 5.74
+        },
+        {
+          "word": "becomes",
+          "start": 5.74,
+          "end": 6.12
+        },
+        {
+          "word": "a",
+          "start": 6.12,
+          "end": 6.34
+        },
+        {
+          "word": "pressure",
+          "start": 6.34,
+          "end": 6.64
+        },
+        {
+          "word": "cooker",
+          "start": 6.64,
+          "end": 6.98
+        },
+        {
+          "word": "of",
+          "start": 6.98,
+          "end": 7.44
+        },
+        {
+          "word": "prejudice",
+          "start": 7.44,
+          "end": 7.86
+        },
+        {
+          "word": "and",
+          "start": 7.86,
+          "end": 8.3
+        },
+        {
+          "word": "doubt.",
+          "start": 8.3,
+          "end": 8.54
+        }
+      ],
+      "duration": 9.625
+    },
+    {
+      "id": "schindler",
+      "text": "Number three: Schindler's List. A businessman saves Jewish lives during the Holocaust. Devastating, humane, and essential.",
+      "start": 24.03,
+      "voiceStart": 24.19,
+      "speechDuration": 8.625,
+      "words": [
+        {
+          "word": "Number",
+          "start": 0.0,
+          "end": 0.42
+        },
+        {
+          "word": "three,",
+          "start": 0.42,
+          "end": 0.78
+        },
+        {
+          "word": "Schindler's",
+          "start": 1.0,
+          "end": 1.56
+        },
+        {
+          "word": "List.",
+          "start": 1.56,
+          "end": 1.82
+        },
+        {
+          "word": "A",
+          "start": 2.26,
+          "end": 2.34
+        },
+        {
+          "word": "businessman",
+          "start": 2.34,
+          "end": 2.66
+        },
+        {
+          "word": "saves",
+          "start": 2.66,
+          "end": 3.26
+        },
+        {
+          "word": "Jewish",
+          "start": 3.26,
+          "end": 3.58
+        },
+        {
+          "word": "lives",
+          "start": 3.58,
+          "end": 4.06
+        },
+        {
+          "word": "during",
+          "start": 4.06,
+          "end": 4.38
+        },
+        {
+          "word": "the",
+          "start": 4.38,
+          "end": 4.56
+        },
+        {
+          "word": "Holocaust.",
+          "start": 4.56,
+          "end": 4.96
+        },
+        {
+          "word": "Devastating,",
+          "start": 5.64,
+          "end": 6.32
+        },
+        {
+          "word": "humane,",
+          "start": 6.54,
+          "end": 7.02
+        },
+        {
+          "word": "and",
+          "start": 7.36,
+          "end": 7.44
+        },
+        {
+          "word": "essential.",
+          "start": 7.44,
+          "end": 7.94
+        },
+        {
+          "word": "You",
+          "start": 7.94,
+          "end": 8.6
+        }
+      ],
+      "duration": 9.025
+    },
+    {
+      "id": "shawshank",
+      "text": "Number two: The Shawshank Redemption. Friendship and hope survive decades behind bars. Its emotional payoff makes the journey worth it.",
+      "start": 33.055,
+      "voiceStart": 33.215,
+      "speechDuration": 9.35,
+      "words": [
+        {
+          "word": "Number",
+          "start": 0.0,
+          "end": 0.42
+        },
+        {
+          "word": "two,",
+          "start": 0.42,
+          "end": 0.78
+        },
+        {
+          "word": "The",
+          "start": 1.02,
+          "end": 1.1
+        },
+        {
+          "word": "Shawshank",
+          "start": 1.1,
+          "end": 1.6
+        },
+        {
+          "word": "Redemption.",
+          "start": 1.6,
+          "end": 2.12
+        },
+        {
+          "word": "Friendship",
+          "start": 2.74,
+          "end": 3.14
+        },
+        {
+          "word": "and",
+          "start": 3.14,
+          "end": 3.32
+        },
+        {
+          "word": "hope",
+          "start": 3.32,
+          "end": 3.52
+        },
+        {
+          "word": "survive",
+          "start": 3.52,
+          "end": 4.02
+        },
+        {
+          "word": "decades",
+          "start": 4.02,
+          "end": 4.52
+        },
+        {
+          "word": "behind",
+          "start": 4.52,
+          "end": 5.0
+        },
+        {
+          "word": "bars.",
+          "start": 5.0,
+          "end": 5.5
+        },
+        {
+          "word": "Its",
+          "start": 5.98,
+          "end": 6.24
+        },
+        {
+          "word": "emotional",
+          "start": 6.24,
+          "end": 6.7
+        },
+        {
+          "word": "payoff",
+          "start": 6.7,
+          "end": 7.16
+        },
+        {
+          "word": "makes",
+          "start": 7.16,
+          "end": 7.6
+        },
+        {
+          "word": "the",
+          "start": 7.6,
+          "end": 7.82
+        },
+        {
+          "word": "journey",
+          "start": 7.82,
+          "end": 8.14
+        },
+        {
+          "word": "worth",
+          "start": 8.14,
+          "end": 8.52
+        },
+        {
+          "word": "it.",
+          "start": 8.52,
+          "end": 8.74
+        }
+      ],
+      "duration": 9.75
+    },
+    {
+      "id": "godfather",
+      "text": "Number one: The Godfather. Michael Corleone's transformation turns a crime story into a tragedy about family, loyalty, and power.",
+      "start": 42.805,
+      "voiceStart": 42.965,
+      "speechDuration": 9.525,
+      "words": [
+        {
+          "word": "Number",
+          "start": 0.0,
+          "end": 0.48
+        },
+        {
+          "word": "one,",
+          "start": 0.48,
+          "end": 0.9
+        },
+        {
+          "word": "The",
+          "start": 1.18,
+          "end": 1.26
+        },
+        {
+          "word": "Godfather.",
+          "start": 1.26,
+          "end": 1.82
+        },
+        {
+          "word": "Michael",
+          "start": 2.42,
+          "end": 2.62
+        },
+        {
+          "word": "Corleone's",
+          "start": 2.62,
+          "end": 3.32
+        },
+        {
+          "word": "transformation",
+          "start": 3.32,
+          "end": 4.0
+        },
+        {
+          "word": "turns",
+          "start": 4.0,
+          "end": 4.64
+        },
+        {
+          "word": "a",
+          "start": 4.64,
+          "end": 4.72
+        },
+        {
+          "word": "crime",
+          "start": 4.72,
+          "end": 4.98
+        },
+        {
+          "word": "story",
+          "start": 4.98,
+          "end": 5.4
+        },
+        {
+          "word": "into",
+          "start": 5.4,
+          "end": 5.74
+        },
+        {
+          "word": "a",
+          "start": 5.74,
+          "end": 5.84
+        },
+        {
+          "word": "tragedy",
+          "start": 5.84,
+          "end": 6.2
+        },
+        {
+          "word": "about",
+          "start": 6.2,
+          "end": 6.66
+        },
+        {
+          "word": "family,",
+          "start": 6.66,
+          "end": 7.16
+        },
+        {
+          "word": "loyalty,",
+          "start": 7.64,
+          "end": 8.02
+        },
+        {
+          "word": "and",
+          "start": 8.38,
+          "end": 8.46
+        },
+        {
+          "word": "power.",
+          "start": 8.46,
+          "end": 8.88
+        }
+      ],
+      "duration": 9.925
+    },
+    {
+      "id": "outro",
+      "text": "Save this watchlist. Which drama would you put first?",
+      "start": 52.73,
+      "voiceStart": 52.89,
+      "speechDuration": 3.85,
+      "words": [
+        {
+          "word": "Save",
+          "start": 0.0,
+          "end": 0.48
+        },
+        {
+          "word": "this",
+          "start": 0.48,
+          "end": 0.78
+        },
+        {
+          "word": "watchlist.",
+          "start": 0.78,
+          "end": 1.32
+        },
+        {
+          "word": "Which",
+          "start": 1.68,
+          "end": 1.84
+        },
+        {
+          "word": "drama",
+          "start": 1.84,
+          "end": 2.2
+        },
+        {
+          "word": "would",
+          "start": 2.2,
+          "end": 2.42
+        },
+        {
+          "word": "you",
+          "start": 2.42,
+          "end": 2.54
+        },
+        {
+          "word": "put",
+          "start": 2.54,
+          "end": 2.72
+        },
+        {
+          "word": "first?",
+          "start": 2.72,
+          "end": 3.2
+        },
+        {
+          "word": "You",
+          "start": 3.2,
+          "end": 3.82
+        }
+      ],
+      "duration": 5.8117
+    }
+  ]
+}

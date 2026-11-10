@@ -1,0 +1,95 @@
+{
+  "duration": 58.541666666666664,
+  "sampleRate": 48000,
+  "exportTrimDb": -0.7,
+  "voiceEngine": "Kokoro bm_george local",
+  "music": "Spy Glass / Kevin MacLeod / CC BY 4.0",
+  "mix": {
+    "input_i": "-16.76",
+    "input_tp": "-5.20",
+    "input_lra": "3.10",
+    "input_thresh": "-27.58",
+    "output_i": "-16.04",
+    "output_tp": "-4.50",
+    "output_lra": "3.00",
+    "output_thresh": "-26.74",
+    "normalization_type": "dynamic",
+    "target_offset": "0.04"
+  },
+  "voice": {
+    "input_i": "-16.63",
+    "input_tp": "-5.29",
+    "input_lra": "3.20",
+    "input_thresh": "-26.97",
+    "output_i": "-15.99",
+    "output_tp": "-4.57",
+    "output_lra": "3.00",
+    "output_thresh": "-26.31",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.01"
+  },
+  "musicRmsDb": -37.743620062705155,
+  "sfxCues": [
+    {
+      "id": "intro-ticket",
+      "time": 0.42,
+      "voiceRmsDb": -21.15,
+      "sfxRmsDb": -41.7,
+      "voiceAboveSfxDb": 20.55,
+      "sfxPeakDb": -22.0
+    },
+    {
+      "id": "forrest",
+      "time": 6.795,
+      "voiceRmsDb": -18.09,
+      "sfxRmsDb": -40.26,
+      "voiceAboveSfxDb": 22.18,
+      "sfxPeakDb": -22.0
+    },
+    {
+      "id": "jury",
+      "time": 15.725,
+      "voiceRmsDb": -18.21,
+      "sfxRmsDb": -36.64,
+      "voiceAboveSfxDb": 18.43,
+      "sfxPeakDb": -22.0
+    },
+    {
+      "id": "schindler",
+      "time": 25.25,
+      "voiceRmsDb": -18.65,
+      "sfxRmsDb": -41.7,
+      "voiceAboveSfxDb": 23.05,
+      "sfxPeakDb": -22.0
+    },
+    {
+      "id": "shawshank",
+      "time": 34.295,
+      "voiceRmsDb": -17.96,
+      "sfxRmsDb": -40.26,
+      "voiceAboveSfxDb": 22.3,
+      "sfxPeakDb": -22.0
+    },
+    {
+      "id": "godfather",
+      "time": 44.205,
+      "voiceRmsDb": -19.51,
+      "sfxRmsDb": -36.64,
+      "voiceAboveSfxDb": 17.13,
+      "sfxPeakDb": -22.0
+    },
+    {
+      "id": "outro",
+      "time": 52.79,
+      "voiceRmsDb": -25.19,
+      "sfxRmsDb": -41.7,
+      "voiceAboveSfxDb": 16.51,
+      "sfxPeakDb": -22.0
+    }
+  ],
+  "checks": {
+    "source": "all music and Foley from recordings",
+    "sfxSpeechMarginDb": 16.51,
+    "dialogueUnshifted": true
+  }
+}

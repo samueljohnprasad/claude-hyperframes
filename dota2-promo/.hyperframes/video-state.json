@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "historyId": "42edefec-9160-4b78-ae77-3fc505ebe07a",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "ANNOUNCEMENT.md": {
+      "hash": "d536d65260815e1f73e4d7c7a1f7cfb34ca4b6cc19460eea3a08f90949e7bbf8",
+      "content": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\d5\\d536d65260815e1f73e4d7c7a1f7cfb34ca4b6cc19460eea3a08f90949e7bbf8"
+    },
+    "REVIEW.md": {
+      "hash": "2e98d384de6b1843b158573f20725c971040f4d8c65d1c601ed87f13698389b7",
+      "content": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\2e\\2e98d384de6b1843b158573f20725c971040f4d8c65d1c601ed87f13698389b7"
+    },
+    "SPEC.md": {
+      "hash": "d999d50d2467f400f72f2531c4bf24353ebb48cf93192006127bab5587ab36b8",
+      "content": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\d9\\d999d50d2467f400f72f2531c4bf24353ebb48cf93192006127bab5587ab36b8"
+    },
+    "STORYLINES.md": {
+      "hash": "ebcf6065bf7a6b745f4d56bce33884ddf6fc63d0a532d208b09e33340bec2ad3",
+      "content": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\eb\\ebcf6065bf7a6b745f4d56bce33884ddf6fc63d0a532d208b09e33340bec2ad3"
+    },
+    "credits.txt": {
+      "hash": "9018e83376938306df6c5d13b8325d474072dcf41219ed5c85d9f97317375641",
+      "content": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\90\\9018e83376938306df6c5d13b8325d474072dcf41219ed5c85d9f97317375641"
+    },
+    "hyperframes.json": {
+      "hash": "7760693dcdca6a31fffd9ed53b7fe9b4d7877089b1778edc5a5de0cb4bac517d",
+      "content": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\77\\7760693dcdca6a31fffd9ed53b7fe9b4d7877089b1778edc5a5de0cb4bac517d"
+    },
+    "index.html": {
+      "hash": "2d4c8d699293c33b8f48170da4d4b8cb0d310a2ec4e444c380e0310b8ea1d90b",
+      "content": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\2d\\2d4c8d699293c33b8f48170da4d4b8cb0d310a2ec4e444c380e0310b8ea1d90b"
+    },
+    "meta.json": {
+      "hash": "6fa47e5139c6c851ab32598f8b9f2f6c95cb5563a649aad197720f9d0f8fb2f6",
+      "content": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\6f\\6fa47e5139c6c851ab32598f8b9f2f6c95cb5563a649aad197720f9d0f8fb2f6"
+    },
+    "package.json": {
+      "hash": "d832f7f6aaad3caa0214db50778fa0c5e39d6d73c8a65320e337d94010b82d32",
+      "content": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\d8\\d832f7f6aaad3caa0214db50778fa0c5e39d6d73c8a65320e337d94010b82d32"
+    },
+    "assets/music.wav": {
+      "hash": "53969aefc98505faa545468bd56502b5820eb0daa8987831be5252ca694db9ee",
+      "content": "C:\\Users\\NISHNATH\\.cache\\hyperframes\\history\\42edefec-9160-4b78-ae77-3fc505ebe07a\\blobs\\53\\53969aefc98505faa545468bd56502b5820eb0daa8987831be5252ca694db9ee"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "a7e84fe0-c611-4b16-a96d-a6e173c7aa1b"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "a7e84fe0-c611-4b16-a96d-a6e173c7aa1b",
+        "scope": "project",
+        "report": "C:\\Users\\NISHNATH\\Desktop\\calude code\\claude-hyperframes\\dota2-promo\\.hyperframes\\artifacts\\checks\\a7e84fe0-c611-4b16-a96d-a6e173c7aa1b.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1794288600302,
+        "contentHash": "bbf4e9893ab806dce2e2efa5b7e42d1723248abecd53582cbf4590cacdcb299f",
+        "revision": null,
+        "inputFingerprint": "d0a1cc943d58fd0bac44ea2e763b24b9169dec19e5426c49628041de4c775b61",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  }
+}
